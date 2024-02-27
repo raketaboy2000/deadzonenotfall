@@ -1,0 +1,16 @@
+characters = {
+	SSD_Spartacus = { #SSD
+		name = SSD_Spartacus
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_SSD_Spartacus"
+			}
+		}
+		country_leader = {
+			ideology = stalkers
+			traits={  }
+			expire = "2014.1.1.1"
+			id = -1
+		}
+	}
+}

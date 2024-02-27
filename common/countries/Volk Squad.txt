@@ -1,0 +1,4 @@
+graphical_culture = stalkers_gfx
+graphical_culture_2d = stalkers_2d
+
+color = rgb { 172  98  18 }

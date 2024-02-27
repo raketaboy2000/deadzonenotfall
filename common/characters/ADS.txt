@@ -1,0 +1,16 @@
+characters = {
+	ADS_Volkodav = { #ADS
+		name = ADS_Volkodav
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_ADS_Volkodav"
+			}
+		}
+		country_leader = {
+			ideology = mercenaries
+			traits={  }
+			expire = "2014.1.1.1"
+			id = -1
+		}
+	}
+}

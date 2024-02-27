@@ -1,0 +1,16 @@
+characters = {
+	REN_Kosoy = { #REN
+		name = REN_Kosoy
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_REN_Kosoy"
+			}
+		}
+		country_leader = {
+			ideology = banditry
+			traits={  }
+			expire = "2014.1.1.1"
+			id = -1
+		}
+	}
+}

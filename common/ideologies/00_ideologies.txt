@@ -1,0 +1,229 @@
+ideologies = {
+	
+	order = {
+
+		types = {
+
+			militarygroup = {
+			}
+
+			statemilitary = {
+			}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_ORDER_1"
+			"FACTION_NAME_ORDER_2"
+			"FACTION_NAME_ORDER_3"
+			"FACTION_NAME_ORDER_4"
+			"FACTION_NAME_ORDER_5"
+		}
+
+		color = { 255 0 0 }
+
+		war_impact_on_world_tension = 0.75		#Commie less threatening
+		faction_impact_on_world_tension = 0.5
+
+		ai_communist = yes # uses the commie AI behaviour
+		ai_ideology_wanted_units_factor = 1.20
+
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+
+		can_collaborate = yes
+
+		modifiers = {
+			# puppet_cost_factor = -0.3 # Deprecated, use common\peace_conference\00_generic_peace.txt instead
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+			hidden_modifier = { join_faction_tension = -0.1 }
+			embargo_threshold_factor = 0.5
+	
+	}
+}	
+	
+	anarchism = {
+
+		types = {
+
+			banditry = {
+			}
+			
+			freedom = {
+			}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_ANARCHISM_1"
+			"FACTION_NAME_ANARCHISM_2"
+			"FACTION_NAME_ANARCHISM_3"
+			"FACTION_NAME_ANARCHISM_4"
+			"FACTION_NAME_ANARCHISM_5"
+		}
+
+		color = { 0 0 0 }
+
+		war_impact_on_world_tension = 0.25		#Commie less threatening
+		faction_impact_on_world_tension = 0.5
+
+		ai_communist = yes # uses the commie AI behaviour
+		ai_ideology_wanted_units_factor = 1.20
+
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+
+		can_collaborate = yes
+
+		modifiers = {
+			# puppet_cost_factor = -0.3 # Deprecated, use common\peace_conference\00_generic_peace.txt instead
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+			hidden_modifier = { join_faction_tension = -0.1 }
+			embargo_threshold_factor = 0.5
+	}
+}
+		
+	individualism = {
+
+		types = {
+
+			mercenaries  = {
+			}
+
+			stalkers  = {
+			}
+			
+			neutrals = {
+			}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_INDIVIDUALISM_1"
+			"FACTION_NAME_INDIVIDUALISM_2"
+			"FACTION_NAME_INDIVIDUALISM_3"
+			"FACTION_NAME_INDIVIDUALISM_4"
+			"FACTION_NAME_INDIVIDUALISM_5"
+		}
+
+		color = { 124 124 124 }
+
+
+		war_impact_on_world_tension = 0.25		#no major danger
+		faction_impact_on_world_tension = 0.1
+
+		rules = {
+			can_force_government = yes
+			can_puppet = yes
+			can_send_volunteers = no
+		}
+		
+		can_collaborate = yes
+
+		modifiers = {
+			# puppet_cost_factor = -0.3 # Deprecated, use common\peace_conference\00_generic_peace.txt instead
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+			hidden_modifier = { join_faction_tension = -0.1 }
+			embargo_threshold_factor = 0.5
+	}
+}
+	
+	science = {
+
+		types = {
+
+			research  = {
+			}
+
+			clrsky  = {
+			}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_SCIENCE_1"
+			"FACTION_NAME_SCIENCE_2"
+			"FACTION_NAME_SCIENCE_3"
+			"FACTION_NAME_SCIENCE_4"
+			"FACTION_NAME_SCIENCE_5"
+		}
+
+		color = { 0 0 255 }
+
+
+		war_impact_on_world_tension = 0.25		#no major danger
+		faction_impact_on_world_tension = 0.1
+
+		rules = {
+			can_force_government = yes
+			can_puppet = yes
+			can_send_volunteers = no
+		}
+		
+		can_collaborate = yes
+
+		modifiers = {
+			# puppet_cost_factor = -0.3 # Deprecated, use common\peace_conference\00_generic_peace.txt instead
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.0
+			hidden_modifier = { join_faction_tension = -0.1 }
+			embargo_threshold_factor = 0.5
+	}
+}
+
+	fanaticism = {
+
+		types = {
+
+			monolit  = {
+			}
+
+			greh  = {
+			}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_FANATICISM_1"
+			"FACTION_NAME_FANATICISM_2"
+			"FACTION_NAME_FANATICISM_3"
+			"FACTION_NAME_FANATICISM_4"
+			"FACTION_NAME_FANATICISM_5"
+		}
+
+		color = { 255 255 255 }
+
+
+		war_impact_on_world_tension = 0.25		#no major danger
+		faction_impact_on_world_tension = 0.1
+
+		rules = {
+			can_force_government = yes
+			can_puppet = yes
+			can_send_volunteers = no
+		}
+		
+		can_collaborate = yes
+
+		modifiers = {
+			# puppet_cost_factor = -0.3 # Deprecated, use common\peace_conference\00_generic_peace.txt instead
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.0
+			hidden_modifier = { join_faction_tension = -0.1 }
+			embargo_threshold_factor = 0.5
+	}
+}

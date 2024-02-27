@@ -1,0 +1,16 @@
+characters = {
+	APC_Berger = { #APC
+		name = APC_Berger
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_APC_Berger"
+			}
+		}
+		country_leader = {
+			ideology = monolit
+			traits={  }
+			expire = "2014.1.1.1"
+			id = -1
+		}
+	}
+}

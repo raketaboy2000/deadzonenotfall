@@ -1,0 +1,9 @@
+state={
+	id=184
+	name="STATE_184"
+	provinces={
+		133 1727 1761 1806 2085 2600 
+	}
+	manpower = 10
+	state_category = transshipment
+}

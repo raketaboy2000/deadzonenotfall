@@ -1,0 +1,16 @@
+characters = {
+	BSD_Black = { #BSD
+		name = BSD_Black
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_BSD_Black"
+			}
+		}
+		country_leader = {
+			ideology = mercenaries
+			traits={  }
+			expire = "2014.1.1.1"
+			id = -1
+		}
+	}
+}

@@ -1,0 +1,16 @@
+characters = {
+	VRG_Bronislav = { #VRG
+		name = VRG_Bronislav
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_VRG_Bronislav"
+			}
+		}
+		country_leader = {
+			ideology = banditry
+			traits={  }
+			expire = "2014.1.1.1"
+			id = -1
+		}
+	}
+}

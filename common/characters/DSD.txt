@@ -1,0 +1,16 @@
+characters = {
+	DSD_Dismal = { #DSD
+		name = DSD_Dismal
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_DSD_Dismal"
+			}
+		}
+		country_leader = {
+			ideology = militarygroup
+			traits={  }
+			expire = "2014.1.1.1"
+			id = -1
+		}
+	}
+}

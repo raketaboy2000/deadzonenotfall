@@ -1,0 +1,4 @@
+graphical_culture = mercenaries_gfx
+graphical_culture_2d = mercenaries_2d
+
+color = rgb { 5 5 250 }

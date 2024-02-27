@@ -1,0 +1,13 @@
+state={
+	id=436
+	name="STATE_436"
+	provinces={
+		162 274 914 2090 2802 
+	}
+	manpower = 14
+	state_category = outpost
+	history={
+		owner = REN
+		victory_points = { 2802 10 }
+		add_core_of = REN
+}

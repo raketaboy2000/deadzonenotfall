@@ -1,0 +1,16 @@
+characters = {
+	MSE_Dushman = { #MSE
+		name = MSE_Dushman
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_MSE_Dushman"
+			}
+		}
+		country_leader = {
+			ideology = mercenaries
+			traits={  }
+			expire = "2014.1.1.1"
+			id = -1
+		}
+	}
+}

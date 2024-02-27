@@ -1,0 +1,16 @@
+characters = {
+	VRT_Alexander_Korshunov = { #VRT
+		name = VRT_Alexander_Korshunov
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_VRT_Alexander_Korshunov"
+			}
+		}
+		country_leader = {
+			ideology = militarygroup
+			traits={  }
+			expire = "2014.1.1.1"
+			id = -1
+		}
+	}
+}

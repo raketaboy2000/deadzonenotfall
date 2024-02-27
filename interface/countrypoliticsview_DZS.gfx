@@ -1,0 +1,28 @@
+spriteTypes = {
+	
+	
+	spriteType = {
+		name = "GFX_ideology_order_group"
+		texturefile = "gfx/interface/ideologies/order_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_anarchism_group"
+		texturefile = "gfx/interface/ideologies/anarchism_group.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_individualism_group"
+		texturefile = "gfx/interface/ideologies/individualism_group.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_science_group"
+		texturefile = "gfx/interface/ideologies/science_group.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_fanaticism_group"
+		texturefile = "gfx/interface/ideologies/fanaticism_group.dds"
+	}
+}

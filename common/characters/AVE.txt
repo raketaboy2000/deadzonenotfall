@@ -1,0 +1,16 @@
+characters = {
+	AVE_Zver = { #AVE
+		name = AVE_Zver
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_AVE_Zver"
+			}
+		}
+		country_leader = {
+			ideology = banditry
+			traits={  }
+			expire = "2014.1.1.1"
+			id = -1
+		}
+	}
+}

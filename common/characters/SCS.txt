@@ -1,0 +1,16 @@
+characters = {
+	SCS_German = { #SCS
+		name = SCS_German
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_SCS_German"
+			}
+		}
+		country_leader = {
+			ideology = research
+			traits={  }
+			expire = "2014.1.1.1"
+			id = -1
+		}
+	}
+}

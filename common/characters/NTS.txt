@@ -1,0 +1,16 @@
+characters = {
+	NTS_Father_Valerian = { #NTS
+		name = NTS_Father_Valerian
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_NTS_Father_Valerian"
+			}
+		}
+		country_leader = {
+			ideology = neutrals
+			traits={  }
+			expire = "2014.1.1.1"
+			id = -1
+		}
+	}
+}

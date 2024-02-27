@@ -1,0 +1,16 @@
+characters = {
+	NBT_Captain_Kuznetsov = { #NBT
+		name = NBT_Captain_Kuznetsov
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_NBT_Captain_Kuznetsov"
+			}
+		}
+		country_leader = {
+			ideology = stalkers
+			traits={  }
+			expire = "2014.1.1.1"
+			id = -1
+		}
+	}
+}

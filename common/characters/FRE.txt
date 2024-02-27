@@ -1,0 +1,16 @@
+characters = {
+	FRE_Chekhov = { #FRE
+		name = FRE_Chekhov
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_FRE_Chekhov"
+			}
+		}
+		country_leader = {
+			ideology = freedom
+			traits={  }
+			expire = "2014.1.1.1"
+			id = -1
+		}
+	}
+}

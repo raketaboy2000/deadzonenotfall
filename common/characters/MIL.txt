@@ -1,0 +1,16 @@
+characters = {
+	MIL_Captain_Tikhonov = { #MIL
+		name = MIL_Captain_Tikhonov
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_MIL_Captain_Tikhonov"
+			}
+		}
+		country_leader = {
+			ideology = statemilitary
+			traits={  }
+			expire = "2014.1.1.1"
+			id = -1
+		}
+	}
+}

@@ -1,0 +1,16 @@
+characters = {
+	FES_Patriot = { #FES
+		name = FES_Patriot
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_FES_Patriot"
+			}
+		}
+		country_leader = {
+			ideology = stalkers
+			traits={  }
+			expire = "2014.1.1.1"
+			id = -1
+		}
+	}
+}

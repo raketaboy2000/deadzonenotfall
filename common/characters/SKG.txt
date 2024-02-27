@@ -1,0 +1,16 @@
+characters = {
+	SKG_Shishak = { #SKG
+		name = SKG_Shishak
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_SKG_Shishak"
+			}
+		}
+		country_leader = {
+			ideology = banditry
+			traits={  }
+			expire = "2014.1.1.1"
+			id = -1
+		}
+	}
+}

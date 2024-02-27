@@ -1,0 +1,16 @@
+characters = {
+	SBE_Foreman = { #SBE
+		name = SBE_Foreman
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_SBE_Foreman"
+			}
+		}
+		country_leader = {
+			ideology = banditry
+			traits={  }
+			expire = "2014.1.1.1"
+			id = -1
+		}
+	}
+}

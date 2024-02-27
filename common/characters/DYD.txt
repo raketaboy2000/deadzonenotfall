@@ -1,0 +1,16 @@
+characters = {
+	DYD_Shulga = { #DYD
+		name = DYD_Shulga
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_DYD_Shulga"
+			}
+		}
+		country_leader = {
+			ideology = militarygroup
+			traits={  }
+			expire = "2014.1.1.1"
+			id = -1
+		}
+	}
+}

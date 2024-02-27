@@ -1,0 +1,16 @@
+characters = {
+	CSS_Representative = { #CSS
+		name = CSS_Representative
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_CSS_Representative"
+			}
+		}
+		country_leader = {
+			ideology = monolit
+			traits={  }
+			expire = "2014.1.1.1"
+			id = -1
+		}
+	}
+}

@@ -1,0 +1,16 @@
+characters = {
+	MRS_Miner = { #MRS
+		name = MRS_Miner
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_MRS_Miner"
+			}
+		}
+		country_leader = {
+			ideology = monolit
+			traits={  }
+			expire = "2014.1.1.1"
+			id = -1
+		}
+	}
+}

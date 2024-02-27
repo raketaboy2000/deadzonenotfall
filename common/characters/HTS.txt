@@ -1,0 +1,16 @@
+characters = {
+	HTS_Garmata = { #HTS
+		name = HTS_Garmata
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_HTS_Garmata"
+			}
+		}
+		country_leader = {
+			ideology = stalkers
+			traits={  }
+			expire = "2014.1.1.1"
+			id = -1
+		}
+	}
+}

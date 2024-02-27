@@ -1,0 +1,16 @@
+characters = {
+	WIN_Zheka_Lord = { #WIN
+		name = WIN_Zheka_Lord
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_WIN_Zheka_Lord"
+			}
+		}
+		country_leader = {
+			ideology = stalkers
+			traits={  }
+			expire = "2014.1.1.1"
+			id = -1
+		}
+	}
+}

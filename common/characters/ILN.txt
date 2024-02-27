@@ -1,0 +1,16 @@
+characters = {
+	ILN_Inquisitor = { #ILN
+		name = ILN_Inquisitor
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_ILN_Inquisitor"
+			}
+		}
+		country_leader = {
+			ideology = monolit
+			traits={  }
+			expire = "2014.1.1.1"
+			id = -1
+		}
+	}
+}

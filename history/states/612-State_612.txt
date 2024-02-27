@@ -1,0 +1,12 @@
+state={
+	id=612
+	name="STATE_612"
+	provinces={
+		590 1933 3003 3016 
+	}
+	manpower = 8
+	state_category = transshipment
+	history={
+		owner = CRS
+		add_core_of = CRS
+}

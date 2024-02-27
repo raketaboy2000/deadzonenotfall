@@ -1,0 +1,16 @@
+characters = {
+	DUT_General_Krylov = { #DUT
+		name = DUT_General_Krylov
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_DUT_General_Krylov"
+			}
+		}
+		country_leader = {
+			ideology = militarygroup
+			traits={  }
+			expire = "2014.1.1.1"
+			id = -1
+		}
+	}
+}

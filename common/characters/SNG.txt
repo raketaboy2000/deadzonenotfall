@@ -1,0 +1,16 @@
+characters = {
+	SNG_Sultan = { #SNG
+		name = SNG_Sultan
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_SNG_Sultan"
+			}
+		}
+		country_leader = {
+			ideology = banditry
+			traits={  }
+			expire = "2014.1.1.1"
+			id = -1
+		}
+	}
+}

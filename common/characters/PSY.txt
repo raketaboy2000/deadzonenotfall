@@ -1,0 +1,16 @@
+characters = {
+	PSY_Major_Khaletsky = { #PSY
+		name = PSY_Major_Khaletsky
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_PSY_Major_Khaletsky"
+			}
+		}
+		country_leader = {
+			ideology = statemilitary
+			traits={  }
+			expire = "2014.1.1.1"
+			id = -1
+		}
+	}
+}

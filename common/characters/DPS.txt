@@ -1,0 +1,16 @@
+characters = {
+	DPS_Dikiy_Napr = { #DPS
+		name = DPS_Dikiy_Napr
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_DPS_Dikiy_Napr"
+			}
+		}
+		country_leader = {
+			ideology = stalkers
+			traits={  }
+			expire = "2014.1.1.1"
+			id = -1
+		}
+	}
+}

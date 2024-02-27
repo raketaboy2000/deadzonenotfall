@@ -1,0 +1,16 @@
+characters = {
+	FLM_Father_Ignatius = { #FLM
+		name = FLM_Father_Ignatius
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_FLM_Father_Ignatius"
+			}
+		}
+		country_leader = {
+			ideology = monolit
+			traits={  }
+			expire = "2014.1.1.1"
+			id = -1
+		}
+	}
+}

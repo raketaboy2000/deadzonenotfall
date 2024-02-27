@@ -1,0 +1,16 @@
+characters = {
+	IRG_Major_Hernandez = { #IRG
+		name = IRG_Major_Hernandez
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_IRG_Major_Hernandez"
+			}
+		}
+		country_leader = {
+			ideology = research
+			traits={  }
+			expire = "2014.1.1.1"
+			id = -1
+		}
+	}
+}

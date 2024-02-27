@@ -1,0 +1,13 @@
+state={
+	id=623
+	name="STATE_623"
+	provinces={
+		529 2285 3024 3025 3029 
+	}
+	manpower = 8
+	state_category = camp
+	history={
+		owner = REN
+		victory_points = { 623 5 }
+		add_core_of = REN
+}

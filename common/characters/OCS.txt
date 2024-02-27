@@ -1,0 +1,16 @@
+characters = {
+	OCS_Bosyak = { #OCS
+		name = OCS_Bosyak
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_OCS_Bosyak"
+			}
+		}
+		country_leader = {
+			ideology = banditry
+			traits={  }
+			expire = "2014.1.1.1"
+			id = -1
+		}
+	}
+}

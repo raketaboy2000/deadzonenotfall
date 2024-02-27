@@ -1,0 +1,16 @@
+characters = {
+	NCU_Professor_Belozerov = { #NCU
+		name = NCU_Professor_Belozerov
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_NCU_Professor_Belozerov"
+			}
+		}
+		country_leader = {
+			ideology = research
+			traits={  }
+			expire = "2014.1.1.1"
+			id = -1
+		}
+	}
+}

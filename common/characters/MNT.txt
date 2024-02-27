@@ -1,0 +1,16 @@
+characters = {
+	MNT_Haron = { #MNT
+		name = MNT_Haron
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_MNT_Haron"
+			}
+		}
+		country_leader = {
+			ideology = monolit
+			traits={  }
+			expire = "2014.1.1.1"
+			id = -1
+		}
+	}
+}

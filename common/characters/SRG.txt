@@ -1,0 +1,16 @@
+characters = {
+	SRG_Death = { #SRG
+		name = SRG_Death
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_SRG_Death"
+			}
+		}
+		country_leader = {
+			ideology = banditry
+			traits={  }
+			expire = "2014.1.1.1"
+			id = -1
+		}
+	}
+}

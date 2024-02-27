@@ -1,0 +1,157 @@
+spriteTypes = {	
+
+
+	SpriteType = {
+	name = "GFX_goal_continuous_air_production"
+	texturefile = "gfx/interface/goals/goal_continuous_air_production.dds"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_continuous_non_factory_construct"
+	texturefile = "gfx/interface/goals/goal_continuous_non_factory_construct.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_Icon_CoP_mp_award_achilles_heel"
+	texturefile = "gfx/interface/goals/Icon_CoP_mp_award_achilles_heel.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_Icon_CoP_mp_award_avenger"
+	texturefile = "gfx/interface/goals/Icon_CoP_mp_award_avenger.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_Icon_CoP_mp_award_black_list"
+	texturefile = "gfx/interface/goals/Icon_CoP_mp_award_black_list.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_Icon_CoP_mp_award_blitzkrieg"
+	texturefile = "gfx/interface/goals/Icon_CoP_mp_award_blitzkrieg.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_Icon_CoP_mp_award_cherub"
+	texturefile = "gfx/interface/goals/Icon_CoP_mp_award_cherub.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_Icon_CoP_mp_award_climber"
+	texturefile = "gfx/interface/goals/Icon_CoP_mp_award_climber.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_Icon_CoP_mp_award_deadly_accuracyr"
+	texturefile = "gfx/interface/goals/Icon_CoP_mp_award_deadly_accuracy.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_Icon_CoP_mp_award_dignity"
+	texturefile = "gfx/interface/goals/Icon_CoP_mp_award_dignity.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_Icon_CoP_mp_award_double_shot_double_kill"
+	texturefile = "gfx/interface/goals/Icon_CoP_mp_award_double_shot_double_kill.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_Icon_CoP_mp_award_fater_than_bullets"
+	texturefile = "gfx/interface/goals/Icon_CoP_mp_award_fater_than_bullets.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_Icon_CoP_mp_award_harvest_time"
+	texturefile = "gfx/interface/goals/Icon_CoP_mp_award_harvest_time.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_Icon_CoP_mp_award_invincible_fury"
+	texturefile = "gfx/interface/goals/Icon_CoP_mp_award_invincible_fury.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_Icon_CoP_mp_award_lightning_reflexes"
+	texturefile = "gfx/interface/goals/Icon_CoP_mp_award_lightning_reflexes.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_Icon_CoP_mp_award_lucky"
+	texturefile = "gfx/interface/goals/Icon_CoP_mp_award_lucky.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_Icon_CoP_mp_award_mad"
+	texturefile = "gfx/interface/goals/Icon_CoP_mp_award_mad.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_Icon_CoP_mp_award_marksman"
+	texturefile = "gfx/interface/goals/Icon_CoP_mp_award_marksman.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_Icon_CoP_mp_award_massacre"
+	texturefile = "gfx/interface/goals/Icon_CoP_mp_award_massacre.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_Icon_CoP_mp_award_multichampion"
+	texturefile = "gfx/interface/goals/Icon_CoP_mp_award_multichampion.dds"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_Icon_CoP_mp_award_opener"
+	texturefile = "gfx/interface/goals/Icon_CoP_mp_award_opener.dds"			
+	}
+		
+	SpriteType = {
+	name = "GFX_Icon_CoP_mp_award_overwhelming_superiority"
+	texturefile = "gfx/interface/goals/Icon_CoP_mp_award_overwhelming_superiority.dds"			
+	}
+		
+	SpriteType = {
+	name = "GFX_Icon_CoP_mp_award_paranoia"
+	texturefile = "gfx/interface/goals/Icon_CoP_mp_award_paranoia.dds"			
+	}
+		
+	SpriteType = {
+	name = "GFX_Icon_CoP_mp_award_peace_ambassador"
+	texturefile = "gfx/interface/goals/Icon_CoP_mp_award_peace_ambassador.dds"			
+	}
+		
+	SpriteType = {
+	name = "GFX_Icon_CoP_mp_award_silent_death"
+	texturefile = "gfx/interface/goals/Icon_CoP_mp_award_silent_death.dds"			
+	}
+		
+	SpriteType = {
+	name = "GFX_Icon_CoP_mp_award_skewer"
+	texturefile = "gfx/interface/goals/Icon_CoP_mp_award_skewer.dds"			
+	}
+		
+	SpriteType = {
+	name = "GFX_Icon_CoP_mp_award_sprinter_stopper"
+	texturefile = "gfx/interface/goals/Icon_CoP_mp_award_sprinter_stopper.dds"			
+	}
+		
+	SpriteType = {
+	name = "GFX_Icon_CoP_mp_award_stalker_flair"
+	texturefile = "gfx/interface/goals/Icon_CoP_mp_award_stalker_flair.dds"			
+	}
+		
+	SpriteType = {
+	name = "GFX_Icon_CoP_mp_award_toughy"
+	texturefile = "gfx/interface/goals/Icon_CoP_mp_award_toughy.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_Icon_CoP_mp_award_unknown"
+	texturefile = "gfx/interface/goals/Icon_CoP_mp_award_unknown.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_Icon_CoP_mp_award_remembrance"
+	texturefile = "gfx/interface/goals/Icon_CoP_mp_award_remembrance.dds"			
+	}

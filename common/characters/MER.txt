@@ -1,0 +1,16 @@
+characters = {
+	MER_Leshii = { #MER
+		name = MER_Leshii
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_MER_Leshii"
+			}
+		}
+		country_leader = {
+			ideology = mercenaries
+			traits={  }
+			expire = "2014.1.1.1"
+			id = -1
+		}
+	}
+}

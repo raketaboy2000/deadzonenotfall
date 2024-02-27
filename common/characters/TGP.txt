@@ -1,0 +1,16 @@
+characters = {
+	TGP_Tango = { #TGP
+		name = TGP_Tango
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_TGP_Tango"
+			}
+		}
+		country_leader = {
+			ideology = stalkers
+			traits={  }
+			expire = "2014.1.1.1"
+			id = -1
+		}
+	}
+}

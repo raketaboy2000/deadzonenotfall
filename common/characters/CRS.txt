@@ -1,0 +1,16 @@
+characters = {
+	CRS_Lebedev = { #CRS
+		name = CRS_Lebedev
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_CRS_Lebedev"
+			}
+		}
+		country_leader = {
+			ideology = clrsky
+			traits={  }
+			expire = "2014.1.1.1"
+			id = -1
+		}
+	}
+}

@@ -1,0 +1,13 @@
+state={
+	id=590
+	name="STATE_590"
+	provinces={
+		1449 1826 
+	}
+	manpower = 11
+	state_category = fortifying
+	history={
+		owner = REN
+		victory_points = { 1826 10 }
+		add_core_of = REN
+}

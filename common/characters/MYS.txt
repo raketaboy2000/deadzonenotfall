@@ -1,0 +1,16 @@
+characters = {
+	MYS_Alexander_Degtyarev = { #MYS
+		name = MYS_Alexander_Degtyarev
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_MYS_Alexander_Degtyarev"
+			}
+		}
+		country_leader = {
+			ideology = statemilitary
+			traits={  }
+			expire = "2014.1.1.1"
+			id = -1
+		}
+	}
+}

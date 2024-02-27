@@ -1,0 +1,16 @@
+characters = {
+	LON_Gluhar = { #LON
+		name = LON_Gluhar
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_LON_Gluhar"
+			}
+		}
+		country_leader = {
+			ideology = stalkers
+			traits={  }
+			expire = "2014.1.1.1"
+			id = -1
+		}
+	}
+}

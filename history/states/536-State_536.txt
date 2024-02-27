@@ -1,0 +1,12 @@
+state={
+	id=536
+	name="STATE_536"
+	provinces={
+		227 2921 2930 
+	}
+	manpower = 3
+	state_category = transshipment
+	history={
+		owner = REN
+		add_core_of = REN
+}

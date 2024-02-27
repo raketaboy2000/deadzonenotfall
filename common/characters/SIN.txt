@@ -1,0 +1,17 @@
+characters = {
+	SIN_Raven = { #SIN
+		name = SIN_Raven
+
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_SIN_Raven"
+			}
+		}
+		country_leader = {
+			ideology = monolit
+			traits={  }
+			expire = "2014.1.1.1"
+			id = -1
+		}
+	}
+}

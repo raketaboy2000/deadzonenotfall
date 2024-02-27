@@ -1,0 +1,16 @@
+characters = {
+	OGP_Orest = { #OGP
+		name = OGP_Orest
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_OGP_Orest"
+			}
+		}
+		country_leader = {
+			ideology = stalkers
+			traits={  }
+			expire = "2014.1.1.1"
+			id = -1
+		}
+	}
+}

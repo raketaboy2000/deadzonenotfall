@@ -1,0 +1,16 @@
+characters = {
+	FSD_Loki = { #FSD
+		name = FSD_Loki
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_FSD_Loki"
+			}
+		}
+		country_leader = {
+			ideology = freedom
+			traits={  }
+			expire = "2014.1.1.1"
+			id = -1
+		}
+	}
+}
