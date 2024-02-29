@@ -4,6 +4,18 @@ state={
 	provinces={
 		238 587 2691 2710 
 	}
-	manpower = 10
-	state_category = transshipment
+	manpower = 23
+	state_category = main_base
+	history={
+		owner = YAG
+		victory_points = { 2691 20 }
+		add_core_of = YAG
+}
+	resources={
+		steel = 4
+	}
+	buildings = {
+		infrastructure = 5
+		arms_factory = 2
+		industrial_complex = 1
 }

@@ -1,10 +1,10 @@
-capital = 466
+capital = 189
 
-oob = "AVE_2005"
+oob = "BDC_2005"
 
 set_research_slots = 2
 
-recruit_character = AVE_Zver
+recruit_character = BDC_Fraer
 
 set_technology = {
 	infantry_weapons = 1

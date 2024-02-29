@@ -1,0 +1,16 @@
+characters = {
+	BDC_Fraer = { #BDC
+		name = BDC_Fraer
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_BDC_Fraer"
+			}
+		}
+		country_leader = {
+			ideology = banditry
+			traits={  }
+			expire = "2014.1.1.1"
+			id = -1
+		}
+	}
+}

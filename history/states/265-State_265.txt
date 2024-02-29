@@ -4,6 +4,9 @@ state={
 	provinces={
 		7 15 524 1193 1530 2661 2676 2697 
 	}
-	manpower = 10
-	state_category = transshipment
+	manpower = 2
+	state_category = impassable_mountains
+	history={
+		owner = YAG
+		add_core_of = YAG
 }

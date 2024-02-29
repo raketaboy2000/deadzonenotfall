@@ -176,3 +176,6 @@
  DED_anarchism:0 "Мертвецы"
  DED_anarchism_DEF:0 "Мертвецы"
  DED_ADJ:0 "Мертвецы."
+ BDC_anarchism:0 "Бандиты Кордона"
+ BDC_anarchism_DEF:0 "Бандиты Кордона"
+ BDC_ADJ:0 "Бандитск."
