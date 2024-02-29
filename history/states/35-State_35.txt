@@ -1,9 +1,0 @@
-state={
-	id=35
-	name="STATE_35"
-	provinces={
-		792 
-	}
-	manpower = 10
-	state_category = transshipment
-}

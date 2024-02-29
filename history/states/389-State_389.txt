@@ -4,6 +4,9 @@ state={
 	provinces={
 		973 1322 1461 1534 2119 
 	}
-	manpower = 10
+	manpower = 26
 	state_category = transshipment
+	history={
+		owner = VRT
+		add_core_of = VRT
 }

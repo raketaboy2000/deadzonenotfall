@@ -4,6 +4,9 @@ state={
 	provinces={
 		1266 1716 2896 2900 
 	}
-	manpower = 10
+	manpower = 3
 	state_category = transshipment
+	history={
+		owner = OGP
+		add_core_of = OGP
 }
