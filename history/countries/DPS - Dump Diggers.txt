@@ -1,4 +1,4 @@
-capital = 337
+capital = 213
 
 oob = "DPS_2005"
 

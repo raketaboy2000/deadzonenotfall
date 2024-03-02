@@ -2,7 +2,7 @@ state={
 	id=506
 	name="STATE_506"
 	provinces={
-		244 887 2089 
+		244 2089 
 	}
 	manpower = 24
 	state_category = main_base

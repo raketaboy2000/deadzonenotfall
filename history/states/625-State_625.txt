@@ -1,0 +1,13 @@
+state={
+	id=625
+	name="STATE_625"
+	provinces={
+		887
+	}
+	manpower = 1
+	state_category = main_base
+	history={
+		owner = HMT
+		victory_points = { 887 10 }
+		add_core_of = HMT
+}

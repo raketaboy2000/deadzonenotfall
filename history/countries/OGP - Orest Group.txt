@@ -1,4 +1,4 @@
-capital = 708
+capital = 506
 
 oob = "OGP_2005"
 

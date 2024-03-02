@@ -1,0 +1,13 @@
+state={
+	id=35
+	name="STATE_35"
+	provinces={
+		792 
+	}
+	manpower = 12
+	state_category = outpost
+	history={
+		owner = DED
+		victory_points = { 792 10 }
+		add_core_of = DED
+}

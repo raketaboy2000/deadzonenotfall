@@ -1,4 +1,4 @@
-capital = 443
+capital = 293
 
 oob = "PSY_2005"
 

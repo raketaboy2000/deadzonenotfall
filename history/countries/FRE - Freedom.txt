@@ -1,4 +1,4 @@
-capital = 42
+capital = 39
 
 oob = "FRE_2005"
 

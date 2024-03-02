@@ -1,4 +1,4 @@
-capital = 134
+capital = 526
 
 oob = "MYS_2005"
 

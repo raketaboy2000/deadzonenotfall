@@ -1,4 +1,4 @@
-capital = 673
+capital = 58
 
 oob = "MER_2005"
 
