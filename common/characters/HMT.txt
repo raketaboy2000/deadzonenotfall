@@ -1,0 +1,16 @@
+characters = {
+	HMT_Hermit = { #HMT
+		name = HMT_Hermit
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_HMT_hermit"
+			}
+		}
+		country_leader = {
+			ideology = fanaticism
+			traits={  }
+			expire = "2014.1.1.1"
+			id = -1
+		}
+	}
+}
