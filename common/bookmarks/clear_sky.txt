@@ -1,0 +1,49 @@
+bookmarks = {
+	bookmark = {
+		name = "CLEAR_SKY_NAME"
+		desc = "CLEAR_SKY_DESC"
+		date = 2005.1.1.12
+		picture = "gfx_select_date_2005"
+		default_country = "DUT"
+		default = yes
+		
+		"DUT" ={
+		history = "DUT_CLEAR_SKY_DESC"
+		ideology = order
+		}
+		
+	    "FRE" ={
+		history = "FRE_CLEAR_SKY_DESC"
+		ideology = anarchism
+		}
+		
+		"MNT" ={
+		history = "MNT_CLEAR_SKY_DESC"
+		ideology = fanaticism
+		}
+		
+		"PSY" ={
+		history = "PSY_CLEAR_SKY_DESC"
+		ideology = order
+		}
+		
+		"CRS" = {
+		history = "CRS_CLEAR_SKY_DESC"
+		ideology = science
+		}
+		
+		"MSE" = {
+		history = "MSE_CLEAR_SKY_DESC"
+		ideology = individualism
+		}
+		
+		"NTS" = {
+		history = "NTS_CLEAR_SKY_DESC"
+		ideology = individualism
+		}
+		
+		"---"={
+			history = "OTHER_CLEAR_SKY_DESC"
+		}
+	  }
+}

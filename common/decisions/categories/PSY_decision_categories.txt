@@ -1,0 +1,9 @@
+PSY_reinforcements_category = {
+
+allowed = {
+original_tag = PSY 
+}
+
+priority = 100
+
+}

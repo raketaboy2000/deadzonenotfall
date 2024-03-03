@@ -1,0 +1,17 @@
+PSY_reinforcements_category = {
+
+PSY_monthly_reinforcement = {
+priority = 100
+
+allowed = {
+original_tag = PSY
+}
+
+days_mission_timeout = 90
+activation = {
+always = yes 
+}
+
+activation_effect = { #to be filled
+}
+}
