@@ -1,0 +1,24 @@
+﻿MSE_INF_01 = {
+	name = "Syndicate Squad"
+
+	for_countries = { MSE }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d Syndicate Squad"
+
+	ordered = {
+		1 = { "Syndicate Squad" }
+		2 = { "Syndicate Squad" }
+		3 = { "Syndicate Squad" }
+		4 = { "Syndicate Squad" }
+		5 = { "Syndicate Squad" }
+		6 = { "Syndicate Squad" }
+		7 = { "Syndicate Squad" }
+		8 = { "Syndicate Squad" }
+		9 = { "Syndicate Squad" }
+		10 = { "Syndicate Squad" }
+	}
+}

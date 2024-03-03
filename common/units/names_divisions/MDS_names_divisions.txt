@@ -1,0 +1,24 @@
+﻿MDS_INF_01 = {
+	name = "Murderers Squad"
+
+	for_countries = { MDS }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d Murderers Squad"
+
+	ordered = {
+		1 = { "Murderers Squad" }
+		2 = { "Murderers Squad" }
+		3 = { "Murderers Squad" }
+		4 = { "Murderers Squad" }
+		5 = { "Murderers Squad" }
+		6 = { "Murderers Squad" }
+		7 = { "Murderers Squad" }
+		8 = { "Murderers Squad" }
+		9 = { "Murderers Squad" }
+		10 = { "Murderers Squad" }
+	}
+}

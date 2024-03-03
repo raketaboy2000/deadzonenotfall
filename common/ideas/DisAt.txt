@@ -1,0 +1,7 @@
+ideas = {
+    country = {
+        DisAt = {
+            modifier = {offence = 0.2}
+        }
+    }    
+}

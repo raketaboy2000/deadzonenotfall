@@ -1,0 +1,24 @@
+﻿OGP_INF_01 = {
+	name = "Orest Group Squad"
+
+	for_countries = { OGP }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d Orest Group Squad"
+
+	ordered = {
+		1 = { "Orest Group Squad" }
+		2 = { "Orest Group Squad" }
+		3 = { "Orest Group Squad" }
+		4 = { "Orest Group Squad" }
+		5 = { "Orest Group Squad" }
+		6 = { "Orest Group Squad" }
+		7 = { "Orest Group Squad" }
+		8 = { "Orest Group Squad" }
+		9 = { "Orest Group Squad" }
+		10 = { "Orest Group Squad" }
+	}
+}

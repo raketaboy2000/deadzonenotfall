@@ -1,0 +1,24 @@
+﻿MRS_INF_01 = {
+	name = "Miners Squad"
+
+	for_countries = { MRS }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d Miners Squad"
+
+	ordered = {
+		1 = { "Miners Squad" }
+		2 = { "Miners Squad" }
+		3 = { "Miners Squad" }
+		4 = { "Miners Squad" }
+		5 = { "Miners Squad" }
+		6 = { "Miners Squad" }
+		7 = { "Miners Squad" }
+		8 = { "Miners Squad" }
+		9 = { "Miners Squad" }
+		10 = { "Miners Squad" }
+	}
+}

@@ -1,0 +1,24 @@
+﻿FRE_INF_01 = {
+	name = "Freedom Squad"
+
+	for_countries = { FRE }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d Freedom Squad"
+
+	ordered = {
+		1 = { "Freedom Squad" }
+		2 = { "Freedom Squad" }
+		3 = { "Freedom Squad" }
+		4 = { "Freedom Squad" }
+		5 = { "Freedom Squad" }
+		6 = { "Freedom Squad" }
+		7 = { "Freedom Squad" }
+		8 = { "Freedom Squad" }
+		9 = { "Freedom Squad" }
+		10 = { "Freedom Squad" }
+	}
+}
