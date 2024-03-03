@@ -26,6 +26,11 @@ set_politics = {
 	elections_allowed = no
 }
 
+add_ideas = {
+PSY_led_outside 
+PSY_useless_fodder
+}
+
 set_popularities = {
 	order = 100
 }
