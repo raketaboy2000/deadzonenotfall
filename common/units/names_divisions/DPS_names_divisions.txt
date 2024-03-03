@@ -1,0 +1,24 @@
+﻿DPS_INF_01 = {
+	name = "Digger Squad"
+
+	for_countries = { DPS }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d Digger Squad"
+
+	ordered = {
+		1 = { "Digger Squad" }
+		2 = { "Digger Squad" }
+		3 = { "Digger Squad" }
+		4 = { "Digger Squad" }
+		5 = { "Digger Squad" }
+		6 = { "Digger Squad" }
+		7 = { "Digger Squad" }
+		8 = { "Digger Squad" }
+		9 = { "Digger Squad" }
+		10 = { "Digger Squad" }
+	}
+}

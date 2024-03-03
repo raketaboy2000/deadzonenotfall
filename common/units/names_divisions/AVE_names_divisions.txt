@@ -1,0 +1,24 @@
+﻿AVE_INF_01 = {
+	name = "Bandit Squad"
+
+	for_countries = { AVE }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d Bandit Squad"
+
+	ordered = {
+		1 = { "Bandit Squad" }
+		2 = { "Bandit Squad" }
+		3 = { "Bandit Squad" }
+		4 = { "Bandit Squad" }
+		5 = { "Bandit Squad" }
+		6 = { "Bandit Squad" }
+		7 = { "Bandit Squad" }
+		8 = { "Bandit Squad" }
+		9 = { "Bandit Squad" }
+		10 = { "Bandit Squad" }
+	}
+}

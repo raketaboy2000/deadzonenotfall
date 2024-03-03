@@ -1,0 +1,24 @@
+﻿FLM_INF_01 = {
+	name = "Flame Squad"
+
+	for_countries = { FLM }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d Flame Squad"
+
+	ordered = {
+		1 = { "Flame Squad" }
+		2 = { "Flame Squad" }
+		3 = { "Flame Squad" }
+		4 = { "Flame Squad" }
+		5 = { "Flame Squad" }
+		6 = { "Flame Squad" }
+		7 = { "Flame Squad" }
+		8 = { "Flame Squad" }
+		9 = { "Flame Squad" }
+		10 = { "Flame Squad" }
+	}
+}

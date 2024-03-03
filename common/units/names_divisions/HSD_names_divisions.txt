@@ -1,0 +1,24 @@
+﻿HSD_INF_01 = {
+	name = "Mercenaries Squad"
+
+	for_countries = { HSD }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d Mercenaries Squad"
+
+	ordered = {
+		1 = { "Mercenaries Squad" }
+		2 = { "Mercenaries Squad" }
+		3 = { "Mercenaries Squad" }
+		4 = { "Mercenaries Squad" }
+		5 = { "Mercenaries Squad" }
+		6 = { "Mercenaries Squad" }
+		7 = { "Mercenaries Squad" }
+		8 = { "Mercenaries Squad" }
+		9 = { "Mercenaries Squad" }
+		10 = { "Mercenaries Squad" }
+	}
+}

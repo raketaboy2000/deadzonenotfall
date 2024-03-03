@@ -1,0 +1,24 @@
+﻿ADS_INF_01 = {
+	name = "Alphaps Squad"
+
+	for_countries = { ADS }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d Alphaps Squad"
+
+	ordered = {
+		1 = { "Alphaps Squad" }
+		2 = { "Alphaps Squad" }
+		3 = { "Alphaps Squad" }
+		4 = { "Alphaps Squad" }
+		5 = { "Alphaps Squad" }
+		6 = { "Alphaps Squad" }
+		7 = { "Alphaps Squad" }
+		8 = { "Alphaps Squad" }
+		9 = { "Alphaps Squad" }
+		10 = { "Alphaps Squad" }
+	}
+}

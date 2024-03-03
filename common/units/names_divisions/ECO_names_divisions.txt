@@ -1,0 +1,24 @@
+﻿ECO_INF_01 = {
+	name = "Ecologists Squad"
+
+	for_countries = { ECO }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d Ecologists Squad"
+
+	ordered = {
+		1 = { "Ecologists Squad" }
+		2 = { "Ecologists Squad" }
+		3 = { "Ecologists Squad" }
+		4 = { "Ecologists Squad" }
+		5 = { "Ecologists Squad" }
+		6 = { "Ecologists Squad" }
+		7 = { "Ecologists Squad" }
+		8 = { "Ecologists Squad" }
+		9 = { "Ecologists Squad" }
+		10 = { "Ecologists Squad" }
+	}
+}

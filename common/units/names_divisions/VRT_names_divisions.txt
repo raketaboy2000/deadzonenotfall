@@ -1,0 +1,24 @@
+﻿VRT_INF_01 = {
+	name = "Varta Squad"
+
+	for_countries = { VRT }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d Varta Squad"
+
+	ordered = {
+		1 = { "Varta Squad" }
+		2 = { "Varta Squad" }
+		3 = { "Varta Squad" }
+		4 = { "Varta Squad" }
+		5 = { "Varta Squad" }
+		6 = { "Varta Squad" }
+		7 = { "Varta Squad" }
+		8 = { "Varta Squad" }
+		9 = { "Varta Squad" }
+		10 = { "Varta Squad" }
+	}
+}

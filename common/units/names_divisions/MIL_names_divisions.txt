@@ -1,0 +1,24 @@
+﻿MIL_INF_01 = {
+	name = "Military Units"
+
+	for_countries = { MIL }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d Military Units"
+
+	ordered = {
+		1 = { "Military Units" }
+		2 = { "Military Units" }
+		3 = { "Military Units" }
+		4 = { "Military Units" }
+		5 = { "Military Units" }
+		6 = { "Military Units" }
+		7 = { "Military Units" }
+		8 = { "Military Units" }
+		9 = { "Military Units" }
+		10 = { "Military Units" }
+	}
+}

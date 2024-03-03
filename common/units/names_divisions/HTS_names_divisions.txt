@@ -1,0 +1,24 @@
+﻿HTS_INF_01 = {
+	name = "Hunters Squad"
+
+	for_countries = { HTS }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d Hunters Squad"
+
+	ordered = {
+		1 = { "Hunters Squad" }
+		2 = { "Hunters Squad" }
+		3 = { "Hunters Squad" }
+		4 = { "Hunters Squad" }
+		5 = { "Hunters Squad" }
+		6 = { "Hunters Squad" }
+		7 = { "Hunters Squad" }
+		8 = { "Hunters Squad" }
+		9 = { "Hunters Squad" }
+		10 = { "Hunters Squad" }
+	}
+}
