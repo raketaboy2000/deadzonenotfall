@@ -1,6 +1,0 @@
-objectTypes = {
-	pdxmesh = {
-		name = "mp5_mesh"
-		file = "gfx/models/weapons/MP5/mp5.mesh"
-	}
-}

@@ -1,9 +1,0 @@
-ideas = {
-    country = {
-        TheMostDefence = {
-            modifier = {defence = 0.75}
-			modifier = {stability_factor = 0.25}
-			modifier = {war_support_factor = 0.10}
-        }
-    }    
-}

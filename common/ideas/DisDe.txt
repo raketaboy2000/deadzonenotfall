@@ -1,7 +1,0 @@
-ideas = {
-    country = {
-        DisDe = {
-            modifier = {defence = 0.4}
-        }
-    }    
-}

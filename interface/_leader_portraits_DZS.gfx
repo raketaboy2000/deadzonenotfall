@@ -146,6 +146,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_portrait_NCU_Professor_Belozerov"
+		texturefile = "gfx/leaders/NCU/NCU_Professor_Belozerov.dds"
+	}
+
+	spriteType = {
 		name = "GFX_portrait_NTS_Father_Valerian"
 		texturefile = "gfx/leaders/NTS/NTS_Father_Valerian.dds"
 	}

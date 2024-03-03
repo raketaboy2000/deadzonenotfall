@@ -1,6 +1,0 @@
-objectTypes = {
-	pdxmesh = {
-		name = "dbrl_mesh"
-		file = "gfx/models/weapons/DBRL/dbrl.mesh"
-	}
-}

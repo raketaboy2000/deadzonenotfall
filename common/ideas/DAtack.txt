@@ -1,8 +1,0 @@
-ideas = {
-    country = {
-        DAtack = {
-            modifier = {offence = 0.1}
-			modifier = {war_support_factor = 0.1}
-        }
-    }    
-}

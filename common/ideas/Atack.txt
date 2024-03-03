@@ -1,7 +1,0 @@
-ideas = {
-    country = {
-        Atack = {
-            modifier = {offence = 0.15}
-        }
-    }    
-}
