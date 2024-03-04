@@ -6,7 +6,4 @@ state={
 	}
 	manpower = 4
 	state_category = transshipment
-	history={
-		owner = SIN
-		add_core_of = SIN
 }
