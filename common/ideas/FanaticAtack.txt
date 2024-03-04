@@ -1,0 +1,11 @@
+ideas = {
+    country = {
+        FanaticAtack = {
+            modifier = {offence = 0.7}
+			modifier = {defence = -0.1}
+			modifier = {stability_factor = -0.3}
+			modifier = {war_support_factor = 0.25}
+			modifier = {army_org = 10}
+        }
+    }    
+}
