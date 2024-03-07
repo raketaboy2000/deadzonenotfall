@@ -4,6 +4,10 @@ state={
 	provinces={
 		548 1349 2976 2982 2990 
 	}
-	manpower = 10
+	manpower = 3
 	state_category = transshipment
+	history={
+		owner = ZMB
+		add_core_of = ZMB
 }
+
