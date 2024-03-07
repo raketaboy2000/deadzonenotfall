@@ -19,6 +19,15 @@
 		y = 0
 		completion_reward = {
 			custom_effect_tooltip = VSD_father_of_village_tt
+			if = {
+				limit = {
+					has_country_flag = VSD_father_of_village_flag
+				}
+				hidden_effect = {
+					clr_country_flag = VSD_father_of_village_flag
+					country_event = { id = Wolf_future.1 days = 35 }
+				}
+			}
 		}
 
 	}
@@ -31,6 +40,12 @@
 		}
 		x = 3
 		y = 1
+		completion_reward = {
+			add_stability = 0.1
+			add_political_power = 25
+			army_experience = 5
+			add_ideas = VSD_noobs_safety
+		}
 
 	}
 	focus = {
