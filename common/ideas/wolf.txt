@@ -1,0 +1,111 @@
+ideas = {
+
+	country = {
+	
+		VSD_hard_traning = {
+		
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			picture = idea_FIN_lone_wolf
+			
+			modifier = {
+				drift_defence_factor = 0.25
+				army_org_factor = 0.05
+				mobilization_speed = -0.50
+			}
+		}
+		
+		VSD_sidorovich = {
+		
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				stability_factor = 0.05
+				party_popularity_stability_factor = 0.1
+				defensive_war_stability_factor = 0.25
+				custom_modifier_tooltip = VSD_sidorovich_tt
+			}
+		}
+		
+		VSD_sidorovich1 = {
+		
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				stability_factor = 0.1
+				party_popularity_stability_factor = 0.15
+				defensive_war_stability_factor = 0.3
+				production_lack_of_resource_penalty_factor = -0.05
+			}
+		}
+
+		VSD_sidorovich2 = {
+		
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			picture = generic_economic_increase
+			
+			modifier = {
+				stability_factor = 0.15
+				party_popularity_stability_factor = 0.2
+				defensive_war_stability_factor = 0.35
+				production_lack_of_resource_penalty_factor = -0.1
+				consumer_goods_factor = -0.05
+			}
+		}
+		
+		VSD_home_for_noobs = {
+		
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			picture = generic_pp_unity_bonus
+			
+			modifier = {
+				weekly_manpower = 10
+			}
+		}
+		#далее идут НЕ стартовые идеи!
+		
+		VSD_idea_noobs_safety = {
+		
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			picture = idea_ger_bulwark_against_bolshevism
+			
+			modifier = {
+				out_of_supply_factor = -0.1
+				enemy_army_bonus_air_superiority_factor = -0.1
+				command_power_gain_mult = -0.25
+				command_abilities_cost_factor = 0.15
+			}
+		}
+	}
+}

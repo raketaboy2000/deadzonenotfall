@@ -1,3 +1,10 @@
 debug_decisions = {
 	icon = generic_research
 }
+war_groups = {
+	icon = border_conflicts	
+
+	allowed = {
+		always = yes
+	}
+}

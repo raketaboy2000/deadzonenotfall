@@ -1,0 +1,671 @@
+﻿focus_tree = {
+	id = wolf
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = VSD
+		}
+	}
+	
+	continuous_focus_position = { x = 100 y = 2100 }
+	
+	default = no
+	focus = {
+		id = VSD_father_of_village
+		icon = GFX_focus_LIT_new_kind_of_iron_wolf
+		cost = 5
+		x = 8
+		y = 0
+		completion_reward = {
+			custom_effect_tooltip = VSD_father_of_village_tt
+		}
+
+	}
+	focus = {
+		id = VSD_noobs_safety
+		icon = GFX_focus_generic_manpower
+		cost = 5
+		prerequisite = {
+			focus = VSD_father_of_village
+		}
+		x = 3
+		y = 1
+
+	}
+	focus = {
+		id = VSD_training
+		icon = GFX_focus_chi_army_reform
+		cost = 5
+		prerequisite = {
+			focus = VSD_noobs_safety
+		}
+		x = 2
+		y = 2
+
+	}
+	focus = {
+		id = VSD_art_hunters
+		icon = GFX_focus_generic_annex_country_2
+		cost = 5
+		prerequisite = {
+			focus = VSD_training
+		}
+		x = 2
+		y = 3
+
+	}
+	focus = {
+		id = VSD_petruha
+		icon = GFX_focus_POL_consolidate_sanation_government
+		cost = 5
+		prerequisite = {
+			focus = VSD_art_hunters
+		}
+		x = 2
+		y = 6
+
+	}
+	focus = {
+		id = VSD_safe_sidor_bisness
+		icon = GFX_focus_hol_abandon_the_gold_standard
+		cost = 10
+		prerequisite = {
+			focus = VSD_father_of_village
+		}
+		mutually_exclusive = {
+			focus = VSD_priority_of_scouting
+		}
+		x = 5
+		y = 1
+		completion_reward = {
+			custom_effect_tooltip = VSD_safe_sidor_bisness_tt
+		}
+
+	}
+	focus = {
+		id = VSD_prepare_village_defence
+		icon = GFX_focus_FIN_weapon_caches
+		cost = 10
+		prerequisite = {
+			focus = VSD_noobs_safety
+		}
+		prerequisite = {
+			focus = VSD_safe_sidor_bisness
+		}
+		x = 4
+		y = 3
+
+	}
+	focus = {
+		id = VSD_work_with_sidorovich
+		icon = GFX_focus_mex_privatisation
+		cost = 5
+		prerequisite = {
+			focus = VSD_prepare_village_defence
+		}
+		x = 4
+		y = 4
+
+	}
+	focus = {
+		id = VSD_shustri
+		icon = GFX_focus_prc_infiltration
+		cost = 10
+		prerequisite = {
+			focus = VSD_work_with_sidorovich
+		}
+		x = 4
+		y = 6
+		completion_reward = {
+			custom_effect_tooltip = VSD_shustri_tt
+		}
+
+
+	}
+	focus = {
+		id = VSD_priority_of_scouting
+		icon = GFX_focus_SWI_issue_war_bonds
+		cost = 10
+		prerequisite = {
+			focus = VSD_father_of_village
+		}
+		mutually_exclusive = {
+			focus = VSD_safe_sidor_bisness
+		}
+		x = 11
+		y = 1
+		completion_reward = {
+			custom_effect_tooltip = VSD_priority_of_scouting_tt
+		}
+	}
+	focus = {
+		id = VSD_contact_with_valerian
+		icon = GFX_focus_NOR_approach_kretsen
+		cost = 5
+		prerequisite = {
+			focus = VSD_priority_of_scouting
+			focus = VSD_safe_sidor_bisness
+		}
+		x = 8
+		y = 2
+	}
+	focus = {
+		id = VSD_take_road
+		icon = GFX_focus_generic_provoke_border_clashes
+		cost = 10
+		prerequisite = {
+			focus = VSD_contact_with_valerian
+		}
+		x = 8
+		y = 3
+		completion_reward = {
+			custom_effect_tooltip = VSD_take_road_tt
+		}
+
+	}
+	focus = {
+		id = VSD_compensation
+		icon = GFX_focus_ITA_devaluate_the_lire
+		cost = 5
+		prerequisite = {
+			focus = VSD_take_road
+		}
+		mutually_exclusive = {
+			focus = VSD_our_next_attack
+			focus = VSD_take_breake
+		}
+		x = 6
+		y = 4
+
+	}
+	focus = {
+		id = VSD_take_breake
+		icon = GFX_goal_anschluss
+		cost = 5
+		prerequisite = {
+			focus = VSD_take_road
+		}
+		mutually_exclusive = {
+			focus = VSD_compensation
+			focus = VSD_our_next_attack
+		}
+		x = 8
+		y = 4
+
+	}
+	focus = {
+		id = VSD_our_next_attack
+		icon = GFX_goal_generic_major_war
+		cost = 10
+		prerequisite = {
+			focus = VSD_take_road
+		}
+		mutually_exclusive = {
+			focus = VSD_compensation
+			focus = VSD_take_breake
+		}
+		x = 10
+		y = 4
+
+	}
+	focus = {
+		id = VSD_help_pressure_on_haletski
+		icon = GFX_focus_cze_german_puppet
+		cost = 5
+		prerequisite = {
+			focus = VSD_our_next_attack
+			focus = VSD_take_breake
+		}
+		mutually_exclusive = {
+			focus = VSD_stiling_haletski
+		}
+		x = 8
+		y = 6
+
+	}
+	focus = {
+		id = VSD_stiling_haletski
+		icon = GFX_focus_generic_annex_country
+		cost = 5
+		prerequisite = {
+			focus = VSD_take_breake
+			focus = VSD_our_next_attack
+		}
+		mutually_exclusive = {
+			focus = VSD_help_pressure_on_haletski
+		}
+		x = 10
+		y = 6
+		completion_reward = {
+			custom_effect_tooltip = VSD_stiling_haletski_tt
+		}
+	}
+	focus = {
+		id = VSD_stalkerstvo
+		icon = GFX_focus_eng_expose_the_belly_of_the_bear
+		cost = 5
+		prerequisite = {
+			focus = VSD_father_of_village
+		}
+		x = 13
+		y = 1
+
+	}
+	focus = {
+		id = VSD_deal_with_merc
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 10
+		prerequisite = {
+			focus = VSD_stalkerstvo
+		}
+		prerequisite = {
+			focus = VSD_priority_of_scouting
+		}
+		x = 12
+		y = 3
+		completion_reward = {
+            custom_effect_tooltip = VSD_deal_with_merc_tt
+        }
+	}
+	focus = {
+		id = VSD_send_partisans
+		icon = GFX_focus_FIN_motti_tactics
+		cost = 5
+		prerequisite = {
+			focus = VSD_deal_with_merc
+		}
+		x = 12
+		y = 4
+
+	}
+	focus = {
+		id = VSD_beat_cordon_bandits
+		icon = GFX_focus_generic_total_war
+		cost = 10
+		prerequisite = {
+			focus = VSD_send_partisans
+		}
+		x = 12
+		y = 5
+
+	}
+	focus = {
+		id = VSD_unite_loners_of_cordon
+		icon = GFX_goal_generic_alliance
+		cost = 5
+		prerequisite = {
+			focus = VSD_stiling_haletski
+		}
+		prerequisite = {
+			focus = VSD_beat_cordon_bandits
+		}
+		x = 11
+		y = 7
+
+	}
+	focus = {
+		id = VSD_free_territory
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 5
+		prerequisite = {
+			focus = VSD_unite_loners_of_cordon
+		}
+		x = 8
+		y = 8
+		completion_reward = {
+            custom_effect_tooltip = VSD_free_territory_tt
+        }
+
+	}
+	focus = {
+		id = VSD_take_east_road
+		icon = GFX_goal_generic_military_deal
+		cost = 5
+		prerequisite = {
+			focus = VSD_unite_loners_of_cordon
+		}
+		mutually_exclusive = {
+			focus = VSD_contact_with_clear_sky
+		}
+		x = 10
+		y = 8
+
+	}
+	focus = {
+		id = VSD_contact_with_clear_sky
+		icon = GFX_goal_tripartite_pact
+		cost = 5
+		prerequisite = {
+			focus = VSD_unite_loners_of_cordon
+		}
+		mutually_exclusive = {
+			focus = VSD_take_east_road
+		}
+		x = 13
+		y = 8
+		completion_reward = {
+            custom_effect_tooltip = VSD_contact_with_clear_sky_tt
+        }
+
+	}
+	focus = {
+		id = VSD_territory_for_help
+		icon = GFX_goal_generic_position_armies
+		cost = 10
+		prerequisite = {
+			focus = VSD_contact_with_clear_sky
+		}
+		x = 13
+		y = 9
+
+	}
+	focus = {
+		id = VSD_unite_research_programm
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 5
+		prerequisite = {
+			focus = VSD_territory_for_help
+		}
+		x = 13
+		y = 10
+
+	}
+	focus = {
+		id = VSD_contact_with_duty
+		icon = GFX_focus_prc_agrarian_socialism
+		cost = 1
+		prerequisite = {
+			focus = VSD_unite_research_programm
+		}
+		x = 13
+		y = 11
+
+	}
+	focus = {
+		id = VSD_prepare_to_conflict
+		icon = GFX_focus_secret_rearmament
+		cost = 5
+		prerequisite = {
+			focus = VSD_stalkerstvo
+		}
+		x = 14
+		y = 2
+
+	}
+	focus = {
+		id = VSD_buy_guns
+		icon = GFX_focus_ETH_freedom_at_gunpoint
+		cost = 5
+		prerequisite = {
+			focus = VSD_prepare_to_conflict
+		}
+		x = 14
+		y = 4
+
+	}
+	focus = {
+		id = VSD_battle_in_the_forest
+		icon = GFX_focus_SWE_beneath_sticks_and_stone
+		cost = 10
+		prerequisite = {
+			focus = VSD_take_east_road
+		}
+		x = 10
+		y = 9
+
+	}
+	focus = {
+		id = VSD_dangerous_deal
+		icon = GFX_goal_generic_dangerous_deal
+		cost = 10
+		prerequisite = {
+			focus = VSD_compensation
+		}
+		x = 6
+		y = 5
+		completion_reward = {
+            custom_effect_tooltip = VSD_dangerous_deal_tt
+        }
+
+	}
+	focus = {
+		id = VSD_ally_with_army
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 10
+		prerequisite = {
+			focus = VSD_dangerous_deal
+		}
+		x = 6
+		y = 6
+		completion_reward = {
+            custom_effect_tooltip = VSD_ally_with_army_tt
+        }
+
+	}
+	focus = {
+		id = VSD_global_stalker_camp
+		icon = GFX_focus_generic_self_management
+		cost = 5
+		prerequisite = {
+			focus = VSD_battle_in_the_forest
+		}
+		x = 10
+		y = 10
+
+	}
+	focus = {
+		id = VSD_contact_with_dreedom
+		icon = GFX_focus_BUL_support_macedonian_organizations
+		cost = 1
+		prerequisite = {
+			focus = VSD_global_stalker_camp
+		}
+		mutually_exclusive = {
+			focus = VSD_contact_with_merc
+		}
+		x = 9
+		y = 11
+
+	}
+	focus = {
+		id = VSD_contact_with_merc
+		icon = GFX_focus_SWI_embrace_rote_drei
+		cost = 10
+		prerequisite = {
+			focus = VSD_global_stalker_camp
+		}
+		mutually_exclusive = {
+			focus = VSD_contact_with_dreedom
+		}
+		x = 11
+		y = 11
+
+	}
+	focus = {
+		id = VSD_war_of_valerian
+		icon = GFX_focus_ITA_banda_carita
+		cost = 5
+		prerequisite = {
+			focus = VSD_help_pressure_on_haletski
+		}
+		x = 6
+		y = 7
+
+	}
+	focus = {
+		id = VSD_support_diggers_of_svalka
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 5
+		prerequisite = {
+			focus = VSD_war_of_valerian
+			focus = VSD_shustri
+		}
+		x = 4
+		y = 8
+
+	}
+	focus = {
+		id = VSD_send_volonters
+		icon = GFX_focus_POL_beck_ribbentrop
+		cost = 5
+		prerequisite = {
+			focus = VSD_support_diggers_of_svalka
+		}
+		x = 4
+		y = 9
+
+	}
+	focus = {
+		id = VSD_victory
+		icon = GFX_goal_generic_demand_territory
+		cost = 5
+		prerequisite = {
+			focus = VSD_send_volonters
+		}
+		x = 4
+		y = 10
+
+	}
+	focus = {
+		id = VSD_deal_with_loners_on_farm
+		icon = GFX_goal_generic_improve_relations
+		cost = 5
+		prerequisite = {
+			focus = VSD_victory
+		}
+		x = 4
+		y = 11
+
+	}
+	focus = {
+		id = VSD_lis
+		icon = GFX_focus_LIT_free_voldemaras
+		cost = 5
+		prerequisite = {
+			focus = VSD_deal_with_loners_on_farm
+		}
+		x = 3
+		y = 12
+
+	}
+	focus = {
+		id = VSD_support_seryi_group
+		icon = GFX_focus_SOV_ally_bukharinists
+		cost = 5
+		prerequisite = {
+			focus = VSD_victory
+		}
+		x = 2
+		y = 11
+		completion_reward = {
+            custom_effect_tooltip = VSD_support_seryi_group_tt
+        }
+
+	}
+	focus = {
+		id = VSD_new_work_for_shustri
+		icon = GFX_focus_BUL_condemn_macedonian_organizations
+		cost = 15
+		prerequisite = {
+			focus = VSD_deal_with_loners_on_farm
+		}
+		x = 5
+		y = 12
+		completion_reward = {
+            custom_effect_tooltip = VSD_new_work_for_shustri_tt
+        }
+
+	}
+	focus = {
+		id = VSD_mecheni_helping
+		icon = GFX_focus_SOV_ally_zinovyevists
+		cost = 5
+		prerequisite = {
+			focus = VSD_new_work_for_shustri
+		}
+		mutually_exclusive = {
+			focus = VSD_mecheni_not_helping
+		}
+		x = 4
+		y = 13
+
+	}
+	focus = {
+		id = VSD_mecheni_not_helping
+		icon = GFX_focus_SOV_purge_zinovyevists
+		cost = 5
+		prerequisite = {
+			focus = VSD_new_work_for_shustri
+		}
+		mutually_exclusive = {
+			focus = VSD_mecheni_helping
+		}
+		x = 6
+		y = 13
+
+	}
+	focus = {
+		id = VSD_call_of_north
+		icon = GFX_goal_generic_radar
+		cost = 5
+		prerequisite = {
+			focus = VSD_support_of_krot_group
+		}
+		x = 4
+		y = 15
+
+	}
+	focus = {
+		id = VSD_support_of_krot_group
+		icon = GFX_focus_SWI_guisans_coup
+		cost = 5
+		prerequisite = {
+			focus = VSD_mecheni_helping
+			focus = VSD_mecheni_not_helping
+		}
+		x = 4
+		y = 14
+
+	}
+	focus = {
+		id = VSD_focus_on_revenge
+		icon = GFX_goal_generic_occypy_states_ongoing_war
+		cost = 10
+		prerequisite = {
+			focus = VSD_mecheni_not_helping
+		}
+		mutually_exclusive = {
+			focus = VSD_focus_on_defence
+		}
+		x = 8
+		y = 14
+
+	}
+	focus = {
+		id = VSD_still_military_doc
+		icon = GFX_focus_DEN_heavy_regulations
+		cost = 10
+		prerequisite = {
+			focus = VSD_mecheni_helping
+		}
+		x = 2
+		y = 14
+
+	}
+	focus = {
+		id = VSD_focus_on_defence
+		icon = GFX_goal_generic_military_sphere
+		cost = 5
+		prerequisite = {
+			focus = VSD_mecheni_not_helping
+			focus = VSD_mecheni_helping
+		}
+		mutually_exclusive = {
+			focus = VSD_focus_on_revenge
+		}
+		x = 6
+		y = 14
+
+	}
+}

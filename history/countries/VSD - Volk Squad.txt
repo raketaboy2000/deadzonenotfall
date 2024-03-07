@@ -26,6 +26,12 @@ set_politics = {
 	elections_allowed = no
 }
 
+add_ideas = {
+	VSD_hard_traning
+	VSD_sidorovich
+	VSD_home_for_noobs
+}
+
 set_popularities = {
 	individualism = 100
 }

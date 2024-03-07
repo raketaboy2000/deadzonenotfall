@@ -8,7 +8,10 @@ characters = {
 		}
 		country_leader = {
 			ideology = stalkers
-			traits={  }
+			traits={ 
+				skillful_leader
+				respects_sidorovich
+			}
 			expire = "2014.1.1.1"
 			id = -1
 		}

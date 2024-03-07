@@ -1,0 +1,52 @@
+@tier1 = 30
+@tier2 = 20
+@tier3 = 10
+
+@experience_gain_low = 0.03
+@experience_gain_medium = 0.06
+@experience_gain_high = 0.08
+
+@chief_experience_gain_low = 0.20
+@chief_experience_gain_medium = 0.30
+@chief_experience_gain_high = 0.40
+
+###Todo remove commented advisor experience gains
+
+leader_traits = {
+
+	skillful_leader
+		random = no
+		experience_gain_army_factor = 0.1
+		political_power_factor = 0.05
+		max_command_power = 50
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	respects_sidorovich
+		random = no
+		individualism_acceptance = 50 #Здесь должно быть согласие с индивидуалистами
+		science_acceptance = 25#Здесь должно быть согласие с наукой
+		custom_modifier_tooltip = respects_sidorovich_tt
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	scout_and_hunter
+		random = no
+		local_resources_factor = 0.15
+		subversive_activites_upkeep = -0.1
+		civilian_intel_to_others = -15
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	last_stand_of_loners
+		random = no
+		stability_factor = 0.1
+		army_defence_factor = 0.1
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
