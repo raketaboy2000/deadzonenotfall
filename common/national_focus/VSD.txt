@@ -57,6 +57,11 @@
 		}
 		x = 2
 		y = 2
+		completion_reward = {
+			add_command_power = 20
+			army_experience = 25
+			#нужно создать три дивизии слабого шаблона
+		}
 
 	}
 	focus = {
@@ -68,7 +73,54 @@
 		}
 		x = 2
 		y = 3
-
+		available = {
+			has_completed_focus = VSD_stalkerstvo
+			is_subject = no
+		}
+		completion_reward = {
+			random_owned_controlled_state = { #Здесь рандомная провинция, но желательно вставить ту, в которой уже есть аномальное поле и где по лору действительно можно найти артефакты
+				limit = {
+					ROOT = { has_full_control_of_state = PREV } 
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_resource = {
+					type = steel  #Сюда нужно будет вместо стали вставить какой-то артефакт (они же в моде через ресурсы сделаны?)
+					amount = 10
+				}
+				
+			}
+			random_owned_controlled_state = { #Здесь рандомная провинция, но желательно вставить ту, в которой уже есть аномальное поле и где по лору действительно можно найти артефакты
+				limit = {
+					ROOT = { has_full_control_of_state = PREV } 
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_resource = {
+					type = steel  #Сюда нужно будет вместо стали вставить какой-то артефакт (они же в моде через ресурсы сделаны?)
+					amount = 10
+				}
+			}
+		}
+		custom_effect_tooltip = VSD_art_hunters_tt
 	}
 	focus = {
 		id = VSD_petruha
@@ -79,6 +131,10 @@
 		}
 		x = 2
 		y = 6
+		completion_reward = {
+			custom_effect_tooltip = VSD_petruha_tt
+			#помимо этого нужно будет создать опытную снаряжённую жирную дивизию с полевым госпиталем и разведчиками в поддержке.
+		}
 
 	}
 	focus = {
@@ -94,7 +150,11 @@
 		x = 5
 		y = 1
 		completion_reward = {
-			custom_effect_tooltip = VSD_safe_sidor_bisness_tt
+			swap_ideas = {
+				remove_idea = VSD_sidorovich
+				add_idea = VSD_sidorovich1
+			}
+			add_war_support = -0.1
 		}
 
 	}
@@ -110,6 +170,10 @@
 		}
 		x = 4
 		y = 3
+		completion_reward = {
+			unlock_decision_category_tooltip = VSD_prepare_village_defence_category #Фокус делает доступным категорию с решениями на манер финских схронов с оружием. В регионе с деревней новичков и соседних с ней появятися возможность за определённое количество ПВ сделать схрон с припасами, который даст снаряжение в случае вторжения в регион  врага
+			#Как переводить тултип? хз вроде он должен сам переводиться, отсылаясь к названию категории
+		}
 
 	}
 	focus = {
@@ -121,6 +185,32 @@
 		}
 		x = 4
 		y = 4
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = VSD_sidorovich1
+				add_idea = VSD_sidorovich2
+			}
+			add_political_power = 100
+			add_popularity = { ideology =  science popularity = 0.20 } #Здесь должна прибавляться идеология науки
+			add_popularity = { ideology = anarchism popularity = 0.10 } #Здесь должна прибавляться идеология анархии
+			add_popularity = { ideology = order popularity = 0.05 } #Здесь должна прибавляться идеология порядка
+			random_owned_controlled_state = { 
+				limit = {
+					ROOT = { has_full_control_of_state = PREV } 
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 
 	}
 	focus = {
@@ -134,6 +224,8 @@
 		y = 6
 		completion_reward = {
 			custom_effect_tooltip = VSD_shustri_tt
+			unlock_decision_category_tooltip = VSD_shustri_category #Фокус должен открывать в категории решений "сталкерство" решение на закупку снаряжения у шустрого
+			#Как переводить тултип? хз вроде он должен сам переводиться, отсылаясь к названию категории
 		}
 
 
@@ -151,7 +243,10 @@
 		x = 11
 		y = 1
 		completion_reward = {
-			custom_effect_tooltip = VSD_priority_of_scouting_tt
+			remove_idea = VSD_sidorovich
+			add_war_support = 0.05
+			army_experience = 10
+			country_event = { id = VSD_priority_of_scouting.1 } #нужно создать событие, по итогам которого  к группе волка присодеинится случайный чужой приграничный регион, не принадлежащий одиночкам и не являющийся важной сюжетной точкой/столицей
 		}
 	}
 	focus = {
@@ -164,6 +259,15 @@
 		}
 		x = 8
 		y = 2
+		completion_reward = {
+			add_political_power = 50
+			add_offsite_building = { type = industrial_complex level = 1 }
+			add_offsite_building = { type = arms_factory level = 1 }
+			NTS = {
+				add_offsite_building = { type = industrial_complex level = 1 }
+				add_offsite_building = { type = arms_factory level = 1 }
+			}
+		}
 	}
 	focus = {
 		id = VSD_take_road
@@ -176,6 +280,17 @@
 		y = 3
 		completion_reward = {
 			custom_effect_tooltip = VSD_take_road_tt
+			if = {
+				limit = {
+					not = {
+						has_country_flag = haletski_poiman_flag
+					}
+				}
+				country_event = { id = VSD_take_road_bad.1 }
+			}
+			else = {
+				country_event = { id = VSD_take_road_good.1 }
+			}
 		}
 
 	}
@@ -192,6 +307,39 @@
 		}
 		x = 6
 		y = 4
+		completion_reward = {
+			add_political_power = -25
+			add_offsite_building = { type = industrial_complex level = -1 }
+			add_stalibity = -0.05
+			add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 100 producer = PSY }
+			add_equipment_to_stockpile = { type = support_equipment amount = 35 producer = PSY }
+			PSY = {
+				add_offsite_building = { type = industrial_complex level = 1 }
+				add_stability = 0.05
+				add_political_power = 25
+			}
+			random_owned_controlled_state = { 
+				limit = {
+					AND = {
+						any_neighbor_state = {
+							owner = { 
+								OR = {
+									tag = PSY 
+									original_tag = SPY
+								}
+							}
+						}
+						NOT = {
+							316
+						}
+						NOT = {
+							228
+						}
+					}	
+				}
+				transfer_state = PSY
+			}
+		}
 
 	}
 	focus = {
