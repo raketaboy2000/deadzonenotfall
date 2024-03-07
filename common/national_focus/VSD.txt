@@ -325,7 +325,7 @@
 							owner = { 
 								OR = {
 									tag = PSY 
-									original_tag = SPY
+									original_tag = PSY
 								}
 							}
 						}
@@ -355,6 +355,14 @@
 		}
 		x = 8
 		y = 4
+		completion_reward = {
+			add_stability = 0.25
+			diplomatic_relation = {
+				country = PSY
+				relation = non_aggression_pact
+				active = yes
+			}
+		}
 
 	}
 	focus = {
@@ -370,6 +378,21 @@
 		}
 		x = 10
 		y = 4
+		completion_reward = {
+			add_stability = - 0.10
+			220 = {
+				transfer_state = VSD
+			}
+			225 = {
+				transfer_state = VSD
+			}
+			PSY = {
+				#add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 55 producer = PSY }
+				#add_equipment_to_stockpile = { type = support_equipment amount = 25 producer = PSY }
+				#add_manpower = 55
+				country_event = { id = PSY_next_attack_loners.1 }	 #ивент должен будет дать людей и снаряжение из комментариеев выше, как добровольцев для восстановления справедливости после такого беспредела
+			}
+		}
 
 	}
 	focus = {
@@ -385,6 +408,13 @@
 		}
 		x = 8
 		y = 6
+		completion_reward = {
+			add_command_power 15
+			army_experience = 5
+			NTS = {
+				country_event = { id = VSD_help_pressure_on_haletski.1 } #В этом ивенте валерьян получит политку, поддержку войны и командный ресурс
+			}
+		}
 
 	}
 	focus = {
@@ -402,6 +432,7 @@
 		y = 6
 		completion_reward = {
 			custom_effect_tooltip = VSD_stiling_haletski_tt
+			unlock_decision_category_tooltip = VSD_stiling_haletski_category #категория решений, с помощью которых предстоит выкрать халецкого и спровоцировать военных кордона на необдуманную атаку
 		}
 	}
 	focus = {
