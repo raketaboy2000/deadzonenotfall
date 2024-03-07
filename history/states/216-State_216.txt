@@ -10,5 +10,3 @@ state={
 		owner = MNT
 		add_core_of = MNT
 }
-
-}

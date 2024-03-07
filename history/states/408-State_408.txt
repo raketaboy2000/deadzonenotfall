@@ -4,6 +4,11 @@ state={
 	provinces={
 		77 499 1728 2774 2796 2809 
 	}
-	manpower = 10
-	state_category = transshipment
+	manpower = 18
+	state_category = main_base
+	history={
+		owner = CSD
+		victory_points = { 2796 20 }
+		add_core_of = CSD
 }
+

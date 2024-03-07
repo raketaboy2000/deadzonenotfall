@@ -4,6 +4,9 @@ state={
 	provinces={
 		64 206 442 579 616 660 750 766 993 1207 1248 1264 1395 1479 1586 1808 1990 2067 2138 2178 2447 2478 2510 2529 
 	}
-	manpower = 10
+	manpower = 3
 	state_category = transshipment
+	history={
+		owner = PTM
+		add_core_of = PTM
 }

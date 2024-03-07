@@ -4,6 +4,10 @@ state={
 	provinces={
 		464 900 1133 1283 1810 2377 
 	}
-	manpower = 10
-	state_category = transshipment
+	manpower = 15
+	state_category = fortifying
+	history={
+		owner = PTM
+		victory_points = { 1283 10 }
+		add_core_of = PTM
 }
