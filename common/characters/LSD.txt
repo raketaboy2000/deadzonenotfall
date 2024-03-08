@@ -1,9 +1,9 @@
 characters = {
-	MER_Leader = { #MER
-		name = MER_Leader
+	LSD_Leshii = { #LSD
+		name = LSD_Leshii
 		portraits = {
 			civilian = {
-				large = "GFX_portrait_MER_Leader"
+				large = "GFX_portrait_LSD_Leshii"
 			}
 		}
 		country_leader = {

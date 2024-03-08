@@ -1,4 +1,4 @@
-capital = 721
+capital = 527
 
 oob = "WIN_2005"
 

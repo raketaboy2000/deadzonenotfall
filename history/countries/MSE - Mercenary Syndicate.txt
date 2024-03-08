@@ -1,4 +1,4 @@
-capital = 839
+capital = 597
 
 oob = "MSE_2005"
 

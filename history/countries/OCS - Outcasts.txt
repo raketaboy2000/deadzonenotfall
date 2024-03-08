@@ -1,4 +1,4 @@
-capital = 713
+capital = 507
 
 oob = "OCS_2005"
 

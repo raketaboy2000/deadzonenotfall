@@ -1,4 +1,4 @@
-capital = 248
+capital = 174
 
 oob = "MIL_2005"
 

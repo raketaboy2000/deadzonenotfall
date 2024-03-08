@@ -1,4 +1,4 @@
-capital = 435
+capital = 274
 
 oob = "BSD_2005"
 

@@ -1,5 +1,4 @@
-capital = 246
-
+capital = 142
 oob = "MNT_2005"
 
 set_research_slots = 2

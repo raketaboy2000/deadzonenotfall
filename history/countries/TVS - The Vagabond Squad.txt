@@ -1,10 +1,10 @@
-capital = 509
+capital = 523
 
-oob = "APC_2005"
+oob = "TVS_2005"
 
 set_research_slots = 2
 
-recruit_character = APC_Berger
+recruit_character = TVS_Vagabond
 
 set_technology = {
 	infantry_weapons = 1

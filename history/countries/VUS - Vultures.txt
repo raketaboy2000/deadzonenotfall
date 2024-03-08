@@ -1,4 +1,4 @@
-capital = 401
+capital = 250
 
 oob = "VUS_2005"
 

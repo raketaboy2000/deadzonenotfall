@@ -1,4 +1,4 @@
-capital = 510
+capital = 567
 
 oob = "ZMB_2005"
 

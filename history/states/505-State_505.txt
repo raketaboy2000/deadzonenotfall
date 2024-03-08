@@ -4,6 +4,9 @@ state={
 	provinces={
 		8 114 241 829 1900 1969 2055 2252 2892 
 	}
-	manpower = 10
+	manpower = 6
 	state_category = transshipment
+	history={
+		owner = APC
+		add_core_of = APC
 }

@@ -1,4 +1,4 @@
-capital = 394
+capital = 632
 
 oob = "STS_2005"
 
