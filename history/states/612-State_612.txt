@@ -9,4 +9,6 @@ state={
 	history={
 		owner = CRS
 		add_core_of = CRS
+	}
+	local_supplies=11.0 
 }
