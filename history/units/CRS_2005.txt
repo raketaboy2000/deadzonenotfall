@@ -3,10 +3,10 @@ division_template = {
 	name = "Clear Sky Squad"
 	division_names_group = CRS_INF_01
 	regiments = {
-		irregular_infantry = { x = 0 y = 0 }
-		irregular_infantry = { x = 0 y = 1 }
-		irregular_infantry = { x = 1 y = 0 }
-		irregular_infantry = { x = 1 y = 1 }
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
 	}
 	support = {
 	}
@@ -23,4 +23,48 @@ units = {
 		division_template = "Clear Sky Squad"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1
+
+	}
+}
+
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 2275
+		division_template = "Clear Sky Squad"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.00
+
+	}
+}
+
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 267
+		division_template = "Clear Sky Squad"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.00
+
+	}
+}
+
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 590
+		division_template = "Clear Sky Squad"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.00
+
+	}
 }
