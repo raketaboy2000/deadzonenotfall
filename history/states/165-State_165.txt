@@ -4,6 +4,6 @@ state={
 	provinces={
 		231 1016 1368 1676 1935 2564 2565 
 	}
-	manpower = 10
+	manpower = 3
 	state_category = transshipment
 }
