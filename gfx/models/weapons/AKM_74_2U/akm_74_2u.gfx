@@ -1,0 +1,6 @@
+objectTypes = {
+	pdxmesh = {
+		name = "akm_74_2u_mesh"
+		file = "gfx/models/weapons/AKM_74_2U/akm_74_2u.mesh"
+	}
+}

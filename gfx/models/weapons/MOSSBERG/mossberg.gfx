@@ -1,0 +1,6 @@
+objectTypes = {
+	pdxmesh = {
+		name = "mossberg_mesh"
+		file = "gfx/models/weapons/MOSSBERG/mossberg.mesh"
+	}
+}
