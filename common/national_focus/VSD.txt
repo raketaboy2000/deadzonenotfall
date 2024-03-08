@@ -330,10 +330,10 @@
 							}
 						}
 						NOT = {
-							316
+							state = 316
 						}
 						NOT = {
-							228
+							state = 228
 						}
 					}	
 				}
@@ -495,7 +495,7 @@
 		}
 		x = 12
 		y = 3
-		completion_reward = {
+		completion_reward = { #фокус должен вызывать ивент у группы наёмников (ещё не решил какой) с просьбой поддержать сталкеров снаряжением и 
             custom_effect_tooltip = VSD_deal_with_merc_tt
 			if = {
 				limit = {
@@ -517,6 +517,47 @@
 		}
 		x = 12
 		y = 4
+		completion_reward = {
+			YAG = {
+				every_owned_state = {
+					limit = {
+						any_neighbor_state = {
+							owner = { 
+								OR = {
+									tag = VSD 
+									original_tag = VSD
+								}
+							}
+						}
+					}
+					add_dynamic_modifier = {
+						modifier = VSD_send_partisans
+						days = 547
+						scope = YAG
+					}
+				}
+			}
+			PSY = {
+				every_owned_state = {
+					limit = {
+						any_neighbor_state = {
+							owner = { 
+								OR = {
+									tag = VSD 
+									original_tag = VSD
+								}
+							}
+						}
+					}
+					add_dynamic_modifier = {
+						modifier = VSD_send_partisans
+						days = 150
+						scope = PSY
+					}
+				}
+			}
+		}
+		}
 
 	}
 	focus = {
@@ -528,6 +569,19 @@
 		}
 		x = 12
 		y = 5
+		completion_reward = {
+			add_stability = -0.05
+			create_wargoal = {
+				type = annex_everything
+				target = YAG
+				expire = 0
+			}
+			YAG = {
+				every_owned_state = {
+					add_state_core = VSD
+				}
+			}
+		}
 
 	}
 	focus = {
