@@ -9,6 +9,9 @@ state={
 	history={
 		owner = CRS
 		victory_points = { 267 5 }
+		buildings = {
+			supply_hub = 1
 		}
 		add_core_of = CRS
+		}
 }
