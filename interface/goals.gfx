@@ -155,3 +155,8 @@ spriteTypes = {
 	name = "GFX_Icon_CoP_mp_award_remembrance"
 	texturefile = "gfx/interface/goals/Icon_CoP_mp_award_remembrance.dds"			
 	}
+	
+	SpriteType = {
+	name = "GFX_goal_generic_trade"
+	texturefile = "gfx/interface/goals/goal_generic_trade.dds"			
+	}
