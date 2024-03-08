@@ -2,7 +2,7 @@ state={
 	id=307
 	name="STATE_307"
 	provinces={
-		992 2686 
+		992 
 	}
 	manpower = 4
 	state_category = transshipment

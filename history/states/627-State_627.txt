@@ -1,0 +1,12 @@
+state={
+	id=627
+	name="STATE_627"
+	provinces={
+		2686
+	}
+	manpower = 6
+	state_category = outpost
+	history={
+		owner = ADS
+		add_core_of = ADS
+}

@@ -4,6 +4,9 @@ state={
 	provinces={
 		188 300 1646 2040 2206 2584 2588 2602 
 	}
-	manpower = 10
+	manpower = 3
 	state_category = transshipment
+	history={
+		owner = STS
+		add_core_of = STS
 }

@@ -1,0 +1,13 @@
+state={
+	id=630
+	name="STATE_630"
+	provinces={
+		2703
+	}
+	manpower = 8
+	state_category = transshipment
+	history={
+		owner = STS
+		add_core_of = STS
+}
+
