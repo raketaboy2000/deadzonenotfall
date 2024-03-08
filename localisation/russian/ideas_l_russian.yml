@@ -1,4 +1,12 @@
 ﻿l_russian:
+ POL:0 "Подготовка к войне"
+ TheBestArmy:0 "Лучшая армия"
+ Atack_1:0 "Упор на атаку"
+ Atack_2:0 "Упор на атаку"
+ Atack_3:0 "Упор на атаку"
+ Defence_1:0 "Упор на защиту"
+ Defence_2:0 "Упор на защиту"
+ Defence_3:0 "Упор на защиту"
  isolation:0 "Изоляция"
  civilian_economy:0 "Гражданская экономика"
  low_economic_mobilisation:0 "Ранняя мобилизация"

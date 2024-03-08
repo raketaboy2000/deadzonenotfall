@@ -1,0 +1,1 @@
+NDefines.NDiplomacy.MIN_WARGOAL_JUSTIFY_COST = 0

@@ -1,0 +1,12 @@
+ideas = {
+    country = {
+        TheBestArmy = {
+            modifier = {
+				offence = 0.2
+				defence = 0.2
+				army_org_factor = 0.1
+				experience_gain_army = 0.05
+			}
+        }
+    }    
+}

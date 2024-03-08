@@ -1,5 +1,6 @@
-﻿CRS_INF_01 = {
-	name = "Squad of Chistonebovtsev"
+﻿
+CRS_INF_01 = {
+	name = "Clear Sky Squad"
 
 	for_countries = { CRS }
 
@@ -7,18 +8,18 @@
 
 	division_types = { "infantry" }
 
-	fallback_name = "%d Squad of Chistonebovtsev"
+	fallback_name = "%d Clear Sky Squad"
 
 	ordered = {
-		1 = { "Squad of Chistonebovtsev" }
-		2 = { "Squad of Chistonebovtsev" }
-		3 = { "Squad of Chistonebovtsev" }
-		4 = { "Squad of Chistonebovtsev" }
-		5 = { "Squad of Chistonebovtsev" }
-		6 = { "Squad of Chistonebovtsev" }
-		7 = { "Squad of Chistonebovtsev" }
-		8 = { "Squad of Chistonebovtsev" }
-		9 = { "Squad of Chistonebovtsev" }
-		10 = { "Squad of Chistonebovtsev" }
+		1 = { "1 Clear Sky Squad" }
+		2 = { "2 Clear Sky Squad" }
+		3 = { "3 Clear Sky Squad" }
+		4 = { "4 Clear Sky Squad" }
+		5 = { "5 Clear Sky Squad" }
+		6 = { "6 Clear Sky Squad" }
+		7 = { "7 Clear Sky Squad" }
+		8 = { "8 Clear Sky Squad" }
+		9 = { "9 Clear Sky Squad" }
+		10 = { "10 Clear Sky Squad" }
 	}
 }

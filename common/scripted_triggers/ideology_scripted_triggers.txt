@@ -2,29 +2,50 @@
 is_enemy_ideology = {
 	OR = {
 		AND = {
-			has_government = communism
+			has_government = order
 			ROOT = {
 				OR = {
-					has_government = fascism
-					has_government = democratic
+					has_government = anarchism
+					has_government = fanaticism
 				}
 			}
 		}
 		AND = {
-			has_government = democratic
+			has_government = anarchism
 			ROOT = {
 				OR = {
-					has_government = communism
-					has_government = fascism
+					has_government = order
+					has_government = science
+					has_government = fanaticism
 				}
 			}
 		}
 		AND = {
-			has_government = fascism
+			has_government = individualism
 			ROOT = {
 				OR = {
-					has_government = democratic
-					has_government = communism
+					has_government = fanaticism
+				}
+			}
+		}
+		AND = {
+			has_government = science
+			ROOT = {
+				OR = {
+					has_government = anarchism
+					has_government = fanaticism
+				}
+			}
+		}
+		AND = {
+			has_government = fanaticism
+			ROOT = {
+				OR = {
+					has_government = order
+					has_government = anarchism
+					has_government = individualism
+					has_government = science
+					has_government = fanaticism
 				}
 			}
 		}

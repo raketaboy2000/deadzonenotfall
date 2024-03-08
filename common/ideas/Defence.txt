@@ -1,7 +1,26 @@
 ideas = {
     country = {
-        Defence = {
-            modifier = {defence = 0.3}
+		Defence_1 = {
+            modifier = {
+				defence = 0.1
+			}
+        }
+		Defence_2 = {
+            modifier = {
+				defence = 0.2
+				army_morale_factor = 0.1
+				stability_factor = 0.05
+				war_support_factor = 0.05
+			}
+        }
+		Defence_3 = {
+            modifier = {
+				defence = 0.3
+				army_morale_factor = 0.2
+				max_dig_in = 2
+				stability_factor = 0.1
+				war_support_factor = 0.1
+			}
         }
     }    
 }

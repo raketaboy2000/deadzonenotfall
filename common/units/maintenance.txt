@@ -1,5 +1,6 @@
 sub_units = {
 	maintenance_company = {
+		abbreviation = "MAIN"
 		sprite = infantry
 		map_icon_category = infantry
 		priority = 0
@@ -23,9 +24,9 @@ sub_units = {
 	
 		#Size Definitions
 		max_strength = 1
-		max_organisation = 15	
+		max_organisation = 20	
 		default_morale = 0.3
-		manpower = 3
+		manpower = 500
 		training_time = 120
 
 		#Misc Abilities
@@ -42,7 +43,7 @@ sub_units = {
 		}
 		
 		need = {
-			support_equipment = 3
+			support_equipment = 25
 		}
 
 	}

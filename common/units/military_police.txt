@@ -1,5 +1,6 @@
 sub_units = {
 	military_police = {
+		abbreviation = "MP"
 		sprite = infantry
 		map_icon_category = infantry
 		priority = 0
@@ -18,15 +19,19 @@ sub_units = {
 			category_support_battalions
 			category_army
 		}
-
+		
+		battalion_mult = {
+			category = category_all_infantry
+			default_morale = 0.20
+		}
 	
 		combat_width = 0
 	
 		#Size Definitions
-		max_strength = 0.5
+		max_strength = 1
 		max_organisation = 0	
 		default_morale = 0.3
-		manpower = 2
+		manpower = 500
 		training_time = 180
 
 		#Misc Abilities
@@ -43,8 +48,8 @@ sub_units = {
 		}
 		
 		need = {
-			support_equipment = 2
-			infantry_equipment = 2
+			support_equipment = 10
+			infantry_equipment = 40
 		}
 
 	}

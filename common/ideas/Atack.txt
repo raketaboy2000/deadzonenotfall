@@ -1,7 +1,26 @@
 ideas = {
     country = {
-        Atack = {
-            modifier = {offence = 0.15}
+        Atack_1 = {
+            modifier = {
+				offence = 0.1
+			}
+        }
+		Atack_2 = {
+            modifier = {
+				offence = 0.2
+				training_time_army_factor = -0.1
+				stability_factor = 0.05
+				war_support_factor = 0.05
+			}
+        }
+		Atack_3 = {
+            modifier = {
+				offence = 0.3
+				training_time_army_factor = -0.2
+				army_org_factor = 0.1
+				stability_factor = 0.1
+				war_support_factor = 0.1
+			}
         }
     }    
 }
