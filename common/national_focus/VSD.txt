@@ -567,6 +567,7 @@
 		y = 8
 		completion_reward = {
             custom_effect_tooltip = VSD_free_territory_tt
+			add_idea = { VSD_free_territory_of_stalkers }
 			hidden_effect = {
 				set_country_flag = VSD_free_territory_flag
 			}
@@ -577,12 +578,29 @@
 		id = VSD_take_east_road
 		icon = GFX_goal_generic_military_deal
 		cost = 5
+		available = {
+			is_subject = no
+			has_war = no
+		}
 		prerequisite = {
 			focus = VSD_unite_loners_of_cordon
 		}
 		mutually_exclusive = {
 			focus = VSD_contact_with_clear_sky
 		}
+		bypass = {
+			NOT = { country_exists = PSY }
+		}
+		completion_reward = {
+			159 = {
+				transfer_state = VSD
+				add_core_of = VSD
+			}
+			PSY = {
+				add_war_support = 0.15
+				country_event = { id = PSY_east_road.1 } #в этом событии военным предложат сопротивляться, но они с большей вероятностью откажутся.
+			}
+        }
 		x = 10
 		y = 8
 
