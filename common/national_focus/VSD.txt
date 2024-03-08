@@ -513,8 +513,6 @@
 			}
 		}
 		}
-
-	}
 	focus = {
 		id = VSD_beat_cordon_bandits
 		icon = GFX_focus_generic_total_war
@@ -528,12 +526,12 @@
 			add_stability = -0.05
 			create_wargoal = {
 				type = annex_everything
-				target = YAG
+				target = BDC
 				expire = 0
 			}
-			YAG = {
+			BDC = {
 				every_owned_state = {
-					add_state_core = VSD
+					add_core_of = VSD
 				}
 			}
 		}
