@@ -446,6 +446,40 @@
 		y = 1
 		completion_reward = {
 			unlock_decision_category_tooltip = VSD_stalkerstvo_category #категория решений, с помощью которых будет проводится разведка территории, защита от мутантов
+			division_template = {
+				name = "stalkers"
+				priority = 1
+				division_names_group = LIT_INF_01 #временное название заглушка
+				regiments = {
+					infantry = { x = 0 y = 0 }
+					infantry = { x = 0 y = 1 }
+					infantry = { x = 0 y = 2 }
+		
+					infantry = { x = 1 y = 0 }
+					infantry = { x = 1 y = 1 }
+					infantry = { x = 1 y = 2 }
+		
+					infantry = { x = 2 y = 0 }
+					infantry = { x = 2 y = 1 }
+				}
+				support = {
+					engineer = { x = 0 y = 0 }
+				}
+			}
+			random_owned_controlled_state = {
+				limit = { PREV = { has_full_control_of_state = PREV } }
+				create_unit = {
+					division = "name = \"stalkers\" division_template = \"stalkers\" start_experience_factor = 0.6" 
+					owner = PREV
+				}
+			}
+			random_owned_controlled_state = {
+				limit = { PREV = { has_full_control_of_state = PREV } }
+				create_unit = {
+					division = "name = \"stalkers\" division_template = \"stalkers\" start_experience_factor = 0.8" 
+					owner = PREV
+				}
+			}
 		}
 
 	}
@@ -463,6 +497,15 @@
 		y = 3
 		completion_reward = {
             custom_effect_tooltip = VSD_deal_with_merc_tt
+			if = {
+				limit = {
+					has_country_leader = { ruling_only = yes character = VSD_Volk }
+				}
+				country_event = { id = VSD_deal_with_merc_has_wolf.1 }
+			{
+			else = {
+				country_event = { id = VSD_deal_with_merc_not_wolf.1 }
+			}
         }
 	}
 	focus = {
