@@ -178,5 +178,26 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 2943;31;impassable;-1;-1;-1;-1;-1;;Marsh
 2943;929;impassable;-1;-1;-1;-1;-1;;Marsh
 
-755;561;impassable;-1;-1;-1;-1;-1;;Marsh
+755;763;impassable;-1;-1;-1;-1;-1;;Marsh
 755;929;impassable;-1;-1;-1;-1;-1;;Marsh
+
+948;468;impassable;-1;-1;-1;-1;-1;;Yantar
+
+1053;2237;impassable;-1;-1;-1;-1;-1;;Yantar
+1053;1052;impassable;-1;-1;-1;-1;-1;;Yantar
+1053;1481;impassable;-1;-1;-1;-1;-1;;Yantar
+1053;2123;impassable;-1;-1;-1;-1;-1;;Yantar
+
+565;2143;impassable;-1;-1;-1;-1;-1;;Yantar
+565;2123;impassable;-1;-1;-1;-1;-1;;Yantar
+
+189;2143;impassable;-1;-1;-1;-1;-1;;Yantar
+189;2111;impassable;-1;-1;-1;-1;-1;;Yantar
+
+2857;844;impassable;-1;-1;-1;-1;-1;;Yantar
+2857;1148;impassable;-1;-1;-1;-1;-1;;Yantar
+2857;2867;impassable;-1;-1;-1;-1;-1;;Yantar
+
+2879;2867;impassable;-1;-1;-1;-1;-1;;Yantar
+
+607;2867;impassable;-1;-1;-1;-1;-1;;Yantar
