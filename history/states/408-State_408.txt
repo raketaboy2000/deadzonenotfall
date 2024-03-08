@@ -7,8 +7,8 @@ state={
 	manpower = 18
 	state_category = main_base
 	history={
-		owner = CSD
+		owner = TCS
 		victory_points = { 2796 20 }
-		add_core_of = CSD
+		add_core_of = TCS
 }
 

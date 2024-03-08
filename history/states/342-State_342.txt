@@ -7,6 +7,7 @@ state={
 	manpower = 5
 	state_category = transshipment
 	history={
-		owner = CSD
-		add_core_of = CSD
+		owner = TCS
+		add_core_of = TCS
 }
+

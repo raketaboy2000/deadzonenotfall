@@ -1,9 +1,9 @@
 characters = {
-	CSD_Cleaver = { #CSD
-		name = CSD_Cleaver
+	TCS_Cleaver = { #TCS
+		name = TCS_Cleaver
 		portraits = {
 			civilian = {
-				large = "GFX_portrait_CSD_Cleaver"
+				large = "GFX_portrait_TCS_Cleaver"
 			}
 		}
 		country_leader = {

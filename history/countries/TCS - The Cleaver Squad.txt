@@ -1,10 +1,10 @@
 capital = 549
 
-oob = "CSD_2005"
+oob = "TCS_2005"
 
 set_research_slots = 2
 
-recruit_character = CSD_Cleaver
+recruit_character = TCS_Cleaver
 
 set_technology = {
 	infantry_weapons = 1
