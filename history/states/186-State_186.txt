@@ -4,6 +4,9 @@ state={
 	provinces={
 		2578 2595 
 	}
-	manpower = 10
+	manpower = 6
 	state_category = transshipment
+	history={
+		owner = MIL
+		add_core_of = MIL
 }
