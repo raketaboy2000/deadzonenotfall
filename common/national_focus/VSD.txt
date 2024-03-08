@@ -238,7 +238,7 @@
 			remove_idea = VSD_sidorovich
 			add_war_support = 0.05
 			army_experience = 10
-			country_event = { id = VSD_priority_of_scouting.1 } #нужно создать событие, по итогам которого  к группе волка присодеинится случайный чужой приграничный регион, не принадлежащий одиночкам и не являющийся важной сюжетной точкой/столицей
+			country_event = vsd.1 #нужно создать событие, по итогам которого  к группе волка присодеинится случайный чужой приграничный регион, не принадлежащий одиночкам и не являющийся важной сюжетной точкой/столицей
 		}
 	}
 	focus = {
@@ -251,6 +251,9 @@
 		}
 		x = 8
 		y = 2
+		bypass = {
+			NOT = { country_exists = NTS }
+		}
 		completion_reward = {
 			add_political_power = 50
 			add_offsite_building = { type = industrial_complex level = 1 }
@@ -278,10 +281,10 @@
 						has_country_flag = haletski_poiman_flag
 					}
 				}
-				country_event = { id = VSD_take_road_bad.1 }
+				country_event = vsd.1
 			}
 			else = {
-				country_event = { id = VSD_take_road_good.1 }
+				country_event = vsd.1
 			}
 		}
 
@@ -299,6 +302,9 @@
 		}
 		x = 6
 		y = 4
+		bypass = {
+			NOT = { country_exists = PSY }
+		}
 		completion_reward = {
 			add_political_power = -25
 			add_offsite_building = { type = industrial_complex level = -1 }
@@ -370,25 +376,30 @@
 		}
 		x = 10
 		y = 4
+		bypass = {
+			NOT = { country_exists = PSY } #нужно заменить условие скипа на "220 и 225 владеет группа волка"
+		}
 		completion_reward = {
 			add_stability = - 0.10
 			220 = {
 				transfer_state = VSD
+				add_core_of = VSD
 			}
 			225 = {
 				transfer_state = VSD
+				add_core_of = VSD
 			}
 			PSY = {
 				#add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 55 producer = PSY }
 				#add_equipment_to_stockpile = { type = support_equipment amount = 25 producer = PSY }
 				#add_manpower = 55
-				country_event = { id = PSY_next_attack_loners.1 }	 #ивент должен будет дать людей и снаряжение из комментариеев выше, как добровольцев для восстановления справедливости после такого беспредела
+				country_event = vsd.1	 #ивент должен будет дать людей и снаряжение из комментариеев выше, как добровольцев для восстановления справедливости после такого беспредела
 			}
 		}
 
 	}
 	focus = {
-		id = VSD_help_pressure_on_haletski
+		id = VSD_help_pressure_on_haletski #Фокусу нужно добавить условие прожатия "халецкий был пойман"
 		icon = GFX_focus_cze_german_puppet
 		cost = 5
 		prerequisite = {
@@ -398,19 +409,22 @@
 		mutually_exclusive = {
 			focus = VSD_stiling_haletski
 		}
+		bypass = {
+			NOT = { country_exists = NTS }
+		}
 		x = 8
 		y = 6
 		completion_reward = {
 			add_command_power 15
 			army_experience = 5
 			NTS = {
-				country_event = { id = VSD_help_pressure_on_haletski.1 } #В этом ивенте валерьян получит политку, поддержку войны и командный ресурс
+				country_event = vsd.1 #В этом ивенте валерьян получит политку, поддержку войны и командный ресурс
 			}
 		}
 
 	}
 	focus = {
-		id = VSD_stiling_haletski
+		id = VSD_stiling_haletski         #фокусу нужно поставить условие "халецкий был пойман"
 		icon = GFX_focus_generic_annex_country
 		cost = 5
 		prerequisite = {
@@ -419,6 +433,9 @@
 		}
 		mutually_exclusive = {
 			focus = VSD_help_pressure_on_haletski
+		}
+		bypass = {
+			NOT = { country_exists = NTS }
 		}
 		x = 10
 		y = 6
@@ -451,6 +468,9 @@
 		prerequisite = {
 			focus = VSD_priority_of_scouting
 		}
+		bypass = {
+			NOT = { country_exists = PSY } #тег вояк тут заглушка. Нужно создать условие скипа при отсутствии ВСЕХ стран наёмников
+		}
 		x = 12
 		y = 3
 		completion_reward = { #фокус должен вызывать ивент у группы наёмников (ещё не решил какой) с просьбой поддержать сталкеров снаряжением и 
@@ -466,8 +486,14 @@
 		}
 		x = 12
 		y = 4
+		bypass = {
+			AND = {
+				NOT = { country_exists = BDC }
+			    NOT = { country_exists = PSY }
+			}
+		}
 		completion_reward = {
-			YAG = {
+			BDC = {
 				every_owned_state = {
 					limit = {
 						any_neighbor_state = {
@@ -480,9 +506,9 @@
 						}
 					}
 					add_dynamic_modifier = {
-						modifier = VSD_send_partisans
+						modifier = VSD_send_partisans #этот модификатор ещё предстоит создать
 						days = 150
-						scope = YAG
+						scope = BDC
 					}
 				}
 			}
@@ -499,7 +525,7 @@
 						}
 					}
 					add_dynamic_modifier = {
-						modifier = VSD_send_partisans
+						modifier = VSD_send_partisans #этот модификатор ещё предстоит создать
 						days = 150
 						scope = PSY
 					}
@@ -516,6 +542,9 @@
 		}
 		x = 12
 		y = 5
+		bypass = {
+			NOT = { country_exists = BDC }
+		}
 		completion_reward = {
 			add_stability = -0.05
 			create_wargoal = {
@@ -543,9 +572,12 @@
 		}
 		x = 11
 		y = 7
+		bypass = {
+			NOT = { country_exists = NTS }
+		}
 		completion_reward = {
 			NTS = {
-				country_event = { id = VSD_unite_loners_of_cordon.1 } #В этом ивенте валерьян получит предложение войти в состав группы волка
+				country_event = vsd.1 #В этом ивенте валерьян получит предложение войти в состав группы волка
 			}
 		}
 
@@ -592,7 +624,7 @@
 			}
 			PSY = {
 				add_war_support = 0.15
-				country_event = { id = PSY_east_road.1 } #в этом событии военным предложат сопротивляться, но они с большей вероятностью откажутся.
+				country_event = vsd.1  #в этом событии военным предложат сопротивляться, но они с большей вероятностью откажутся.
 			}
         }
 		x = 10
@@ -613,6 +645,9 @@
 		y = 8
 		completion_reward = {
             custom_effect_tooltip = VSD_contact_with_clear_sky_tt
+			hidden_effect = {
+				country_event = vsd.1
+			}
         }
 
 	}
