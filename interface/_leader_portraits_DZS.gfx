@@ -241,6 +241,11 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_portrait_VSD_fanat"
+		texturefile = "gfx/leaders/VSD/VSD_fanat.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_portrait_VUS_Hoag"
 		texturefile = "gfx/leaders/VUS/VUS_Hoag.dds"
 	}

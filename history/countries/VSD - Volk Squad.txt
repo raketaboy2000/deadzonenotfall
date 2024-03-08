@@ -5,6 +5,7 @@ oob = "VSD_2005"
 set_research_slots = 2
 
 recruit_character = VSD_Volk
+recruit_character = VSD_fanat
 
 set_technology = {
 	infantry_weapons = 1

@@ -16,4 +16,21 @@ characters = {
 			id = -1
 		}
 	}
+	
+	VSD_fanat = {
+		name = VSD_fanat
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_VSD_fanat"
+			}
+		}
+		country_leader = {
+			ideology = stalkers
+			traits={ 
+				last_stand_of_loners
+			}
+			expire = "2014.1.1.1"
+			id = -1
+		}
+	}
 }

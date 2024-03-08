@@ -1,0 +1,33 @@
+add_namespace = vsd
+
+country_event = {
+    id = vsd.1
+    title = vsd.1.t
+    desc = vsd.1.d
+    picture = GFX_report_event_VSD_wolf_future
+    
+    fire_only_once = yes
+	
+	is_triggered_only = yes
+    
+    option = {
+        name = vsd.1.a
+		retire_ideology_leader = individualism
+		set_country_leader_name = {
+			ideology = individualism
+			name = VSD_fanat
+		}
+		add_stability = -0.05
+		add_popularity = {
+			ideology = anarchism
+			popularity = 0.05
+		}
+        hidden_effect = { set_cosmetic_tag = VSD_fanat_group }
+    }
+	
+	option = {
+        name = vsd.1.b
+        add_war_support = 0.05
+		add_political_power = 50
+    }
+}
