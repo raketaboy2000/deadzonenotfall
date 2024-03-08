@@ -1,0 +1,24 @@
+﻿NBT_INF_01 = {
+	name = "Nabats Squad"
+
+	for_countries = { NBT }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d Nabats Squad"
+
+	ordered = {
+		1 = { "Nabats Squad" }
+		2 = { "Nabats Squad" }
+		3 = { "Nabats Squad" }
+		4 = { "Nabats Squad" }
+		5 = { "Nabats Squad" }
+		6 = { "Nabats Squad" }
+		7 = { "Nabats Squad" }
+		8 = { "Nabats Squad" }
+		9 = { "Nabats Squad" }
+		10 = { "Nabats Squad" }
+	}
+}

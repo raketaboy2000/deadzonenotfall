@@ -1,0 +1,24 @@
+﻿SCS_INF_01 = {
+	name = "Sciences Squad"
+
+	for_countries = { SCS }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d Sciences Squad"
+
+	ordered = {
+		1 = { "Sciences Squad" }
+		2 = { "Sciences Squad" }
+		3 = { "Sciences Squad" }
+		4 = { "Sciences Squad" }
+		5 = { "Sciences Squad" }
+		6 = { "Sciences Squad" }
+		7 = { "Sciences Squad" }
+		8 = { "Sciences Squad" }
+		9 = { "Sciences Squad" }
+		10 = { "Sciences Squad" }
+	}
+}

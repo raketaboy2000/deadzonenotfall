@@ -1,0 +1,24 @@
+﻿PTM_INF_01 = {
+	name = "Phantoms Squad"
+
+	for_countries = { PTM }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d Phantoms Squad"
+
+	ordered = {
+		1 = { "Phantoms Squad" }
+		2 = { "Phantoms Squad" }
+		3 = { "Phantoms Squad" }
+		4 = { "Phantoms Squad" }
+		5 = { "Phantoms Squad" }
+		6 = { "Phantoms Squad" }
+		7 = { "Phantoms Squad" }
+		8 = { "Phantoms Squad" }
+		9 = { "Phantoms Squad" }
+		10 = { "Phantoms Squad" }
+	}
+}

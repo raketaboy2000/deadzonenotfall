@@ -1,0 +1,24 @@
+﻿SRG_INF_01 = {
+	name = "Black Slugs Squad"
+
+	for_countries = { SRG }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d Black Slugs Squad"
+
+	ordered = {
+		1 = { "Black Slugs Squad" }
+		2 = { "Black Slugs Squad" }
+		3 = { "Black Slugs Squad" }
+		4 = { "Black Slugs Squad" }
+		5 = { "Black Slugs Squad" }
+		6 = { "Black Slugs Squad" }
+		7 = { "Black Slugs Squad" }
+		8 = { "Black Slugs Squad" }
+		9 = { "Black Slugs Squad" }
+		10 = { "Black Slugs Squad" }
+	}
+}

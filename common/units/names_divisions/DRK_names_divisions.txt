@@ -1,0 +1,24 @@
+﻿DRK_INF_01 = {
+	name = "Dark Stalkers Squad"
+
+	for_countries = { DRK }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d Dark Stalkers Squad"
+
+	ordered = {
+		1 = { "Dark Stalkers Squad" }
+		2 = { "Dark Stalkers Squad" }
+		3 = { "Dark Stalkers Squad" }
+		4 = { "Dark Stalkers Squad" }
+		5 = { "Dark Stalkers Squad" }
+		6 = { "Dark Stalkers Squad" }
+		7 = { "Dark Stalkers Squad" }
+		8 = { "Dark Stalkers Squad" }
+		9 = { "Dark Stalkers Squad" }
+		10 = { "Dark Stalkers Squad" }
+	}
+}
