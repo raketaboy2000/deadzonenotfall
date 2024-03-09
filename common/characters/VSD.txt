@@ -33,4 +33,103 @@ characters = {
 			id = -1
 		}
 	}
+	VSD_fanat_feildmarchal={
+		instance = {
+			name=VSD_fanat_fld
+			portraits={
+				army={
+					large="GFX_portrait_VSD_fanat"
+					small=GFX_portrait_VSD_fanat_sovetnik
+				}
+			}
+			corps_commander={
+				traits={ infantry_officer trickster }
+				skill=4
+				attack_skill=1
+				defense_skill=4
+				planning_skill=3
+				logistics_skill=2
+				id-1
+			}
+		}
+	}
+	VSD_petruha_politik={
+		instance = {
+			name=VSD_petruha_politik
+			portraits={
+				civilian={
+					small="idea_VSD_petruha_politik"
+				}
+			}
+			advisor={
+				slot = political_advisor
+				idea_token = VSD_petruha_politik
+				name = GRE_petruha_politik
+				available = {
+					has_completed_focus = VSD_petruha
+				}
+				traits = {
+					scout_and_hunter
+				}
+				cost = 150
+				ai_will_do = {
+					factor = 1.000
+				}
+			}
+		}
+	}
+	VSD_fanat_sovetnik={
+		instance = {
+			name=VSD_fanat_sovetnik
+			portraits={
+				civilian={
+					small="idea_VSD_fanat_sovetnik"
+				}
+			}
+			advisor={
+				slot = high_command
+				idea_token = VSD_fanat_sovetnik
+				ledger = army
+				name = VSD_fanat_sovetnik
+				available = {
+					NOT = {
+						has_country_leader = {
+							character = VSD_fanat
+							ruling_only = yes
+						}
+					}
+				}
+				traits = {
+					army_infantry_2
+				}
+				cost = 75
+				ai_will_do = {
+					factor = 1.000
+				}
+			}
+		}
+	}
+	VSD_petruha_general={
+		instance = {
+			name=VSD_petruha_general
+			portraits={
+				army={
+					large="GFX_portrait_VSD_petruha_general"
+					small=GFX_portrait_VSD_petruha_politik
+				}
+			}
+			visible = {
+				has_completed_focus = VSD_petruha
+			}
+			corps_commander={
+				traits={ inflexible_strategist trait_cautious }
+				skill=3
+				attack_skill=1
+				defense_skill=1
+				planning_skill=3
+				logistics_skill=3
+				id-1
+			}
+		}
+	}
 }

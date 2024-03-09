@@ -102,8 +102,8 @@
 					instant_build = yes
 				}
 				add_resource = {
-					type = steel  #Сюда нужно будет вместо стали вставить какой-то артефакт (они же в моде через ресурсы сделаны?)
-					amount = 10
+					type = steel  #Сюда нужно будет вместо стали вставить какой-то артефакт
+					amount = 2
 				}
 				
 			}
@@ -123,8 +123,8 @@
 					instant_build = yes
 				}
 				add_resource = {
-					type = steel  #Сюда нужно будет вместо стали вставить какой-то артефакт (они же в моде через ресурсы сделаны?)
-					amount = 10
+					type = steel  #Сюда нужно будет вместо стали вставить какой-то артефакт 
+					amount = 3
 				}
 			}
 		}
@@ -141,7 +141,12 @@
 		y = 6
 		completion_reward = {
 			custom_effect_tooltip = VSD_petruha_tt
-			#помимо этого нужно будет создать опытную снаряжённую жирную дивизию с полевым госпиталем и разведчиками в поддержке.
+			random_owned_controlled_state = {
+                limit = { PREV = { has_full_control_of_state = PREV } }
+                create_unit = {
+                    division = "name = \"Petruha_squad\" division_template = \"skilled\" start_experience_factor = 1" 
+                    owner = PREV
+                }
 		}
 
 	}
