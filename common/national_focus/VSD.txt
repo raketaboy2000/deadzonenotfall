@@ -129,6 +129,7 @@
 			}
 		}
 		custom_effect_tooltip = VSD_art_hunters_tt
+		
 	}
 	focus = {
 		id = VSD_petruha
@@ -147,8 +148,9 @@
                     division = "name = \"Petruha_squad\" division_template = \"skilled\" start_experience_factor = 1" 
                     owner = PREV
                 }
-		}
+			}
 
+		}
 	}
 	focus = {
 		id = VSD_safe_sidor_bisness
@@ -497,7 +499,7 @@
 		x = 13
 		y = 1
 		completion_reward = {
-			unlock_decision_category_tooltip = VSD_stalkerstvop #категория решений, с помощью которых будет проводится разведка территории, защита от мутантов
+			unlock_decision_category_tooltip = VSD_artefacrs = yes #категория решений, с помощью которых будет проводится разведка территории, защита от мутантов
 		}
 
 	}
@@ -913,7 +915,7 @@
 		x = 4
 		y = 11
 		completion_reward = {
-			country_event
+			country_event = 
         }
 
 	}

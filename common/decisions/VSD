@@ -1,14 +1,16 @@
-VSD_stalkerstvop = {
-    hunt_for_artefacts = {
-        icon = decision_SWE_paid_holidays_policy
-
-        available = {
-            has_completed_focus = VSD_art_hunters
-        }
-
-        cost = 50
-        days_remove = 15
-
+VSD_artefacrs = {
+    
+    VSD_hunt_for_artefacts = {
+        icon = GFX_decision_SWE_paid_holidays_policy
+		cost = 50
+		days_re_enable = 50
+		#days_remove = 50
+		available = {
+			has_completed_focus = VSD_art_hunters
+		}   
+        allowed = {
+            original_tag = VSD
+        }	
         complete_effect = {
             random_list = {
                 50 = {
@@ -21,6 +23,7 @@ VSD_stalkerstvop = {
                     country_event = vsd.4
                 }
             }
+            add_manpower = 100
         }
     }
 }
