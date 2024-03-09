@@ -7,6 +7,8 @@
  Defence_1:0 "Упор на защиту"
  Defence_2:0 "Упор на защиту"
  Defence_3:0 "Упор на защиту"
+ DisAt:0 "Попытка прорыва"
+ DisDe:0 "Экстренная защита"
  isolation:0 "Изоляция"
  civilian_economy:0 "Гражданская экономика"
  low_economic_mobilisation:0 "Ранняя мобилизация"
