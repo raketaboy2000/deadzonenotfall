@@ -6,6 +6,10 @@ set_research_slots = 2
 
 recruit_character = VSD_Volk
 recruit_character = VSD_fanat
+recruit_character = VSD_petruha_politik
+recruit_character = VSD_petruha_general
+recruit_character = VSD_fanat_feildmarchal
+recruit_character = VSD_fanat_sovetnik
 
 set_technology = {
 	infantry_weapons = 1

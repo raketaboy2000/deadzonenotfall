@@ -277,9 +277,19 @@
 			add_political_power = 50
 			add_offsite_building = { type = industrial_complex level = 1 }
 			add_offsite_building = { type = arms_factory level = 1 }
+			diplomatic_relation = {
+				target = NTS
+				relation = military_access
+				active = yes
+			}
 			NTS = {
 				add_offsite_building = { type = industrial_complex level = 1 }
 				add_offsite_building = { type = arms_factory level = 1 }
+				diplomatic_relation = {
+					target = VSD
+					relation = military_access
+					active = yes
+				}
 			}
 		}
 	}
@@ -293,17 +303,26 @@
 		x = 8
 		y = 3
 		completion_reward = {
+			228 = {
+				transfer_state = VSD
+			}
 			custom_effect_tooltip = VSD_take_road_tt
 			if = {
 				limit = {
-					not = {
-						has_country_flag = haletski_poiman_flag
+					NOT = {
+						NTS = {
+							has_country_flag = haletski_poiman_flag
+						}
 					}
 				}
-				country_event = vsd.1
+				PSY = {
+					country_event = vsd.13
+				}
 			}
 			else = {
-				country_event = vsd.1
+				PSY = {
+					country_event = vsd.14
+				}
 			}
 		}
 
@@ -379,6 +398,10 @@
 				relation = non_aggression_pact
 				active = yes
 			}
+			PSY = {
+				add_stability = 0.1
+				add_political_power = 75
+			}
 		}
 
 	}
@@ -386,6 +409,10 @@
 		id = VSD_our_next_attack
 		icon = GFX_goal_generic_major_war
 		cost = 10
+		available = {
+			is_subject = no
+			has_war = no
+		}
 		prerequisite = {
 			focus = VSD_take_road
 		}
@@ -409,10 +436,7 @@
 				add_core_of = VSD
 			}
 			PSY = {
-				#add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 55 producer = PSY }
-				#add_equipment_to_stockpile = { type = support_equipment amount = 25 producer = PSY }
-				#add_manpower = 55
-				country_event = vsd.1	 #ивент должен будет дать людей и снаряжение из комментариеев выше, как добровольцев для восстановления справедливости после такого беспредела
+				country_event = vsd.15
 			}
 		}
 
@@ -437,7 +461,7 @@
 			add_command_power 15
 			army_experience = 5
 			NTS = {
-				country_event = vsd.1 #В этом ивенте валерьян получит политку, поддержку войны и командный ресурс
+				country_event = vsd.9
 			}
 		}
 
@@ -596,7 +620,7 @@
 		}
 		completion_reward = {
 			NTS = {
-				country_event = vsd.1 #В этом ивенте валерьян получит предложение войти в состав группы волка
+				country_event = vsd.10
 			}
 		}
 
@@ -634,7 +658,7 @@
 			focus = VSD_contact_with_clear_sky
 		}
 		bypass = {
-			NOT = { country_exists = PSY }
+			NOT = { country_exists = PSY } #здесь нужно условие скипа - если игрок уже контролирует провинцию 159
 		}
 		completion_reward = {
 			159 = {
@@ -642,8 +666,7 @@
 				add_core_of = VSD
 			}
 			PSY = {
-				add_war_support = 0.15
-				country_event = vsd.1  #в этом событии военным предложат сопротивляться, но они с большей вероятностью откажутся.
+				country_event = vsd.6
 			}
         }
 		x = 10
@@ -654,6 +677,10 @@
 		id = VSD_contact_with_clear_sky
 		icon = GFX_goal_tripartite_pact
 		cost = 5
+		available = {
+			is_subject = no #Здесь нужно создать условие - под контролем имеется хотя бы один регион на территории больших болот и хотя бы один граничащий с ЧН регион
+			has_war = no
+		}
 		prerequisite = {
 			focus = VSD_unite_loners_of_cordon
 		}
@@ -665,7 +692,7 @@
 		completion_reward = {
             custom_effect_tooltip = VSD_contact_with_clear_sky_tt
 			hidden_effect = {
-				country_event = vsd.1
+				country_event = vsd.7
 			}
         }
 
@@ -723,6 +750,9 @@
 		}
 		x = 14
 		y = 4
+		completion_reward = {
+			add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 175 producer = VSD }
+		}
 
 	}
 	focus = {
@@ -768,6 +798,10 @@
 		id = VSD_global_stalker_camp
 		icon = GFX_focus_generic_self_management
 		cost = 5
+		available = {
+			is_subject = no
+			has_war = no
+		}
 		prerequisite = {
 			focus = VSD_battle_in_the_forest
 		}
@@ -822,6 +856,11 @@
 			focus = VSD_war_of_valerian
 			focus = VSD_shustri
 		}
+		completion_reward = {
+			DPS = {
+				country_event = vsd.5
+			}
+        }
 		x = 4
 		y = 8
 
@@ -835,12 +874,20 @@
 		}
 		x = 4
 		y = 9
+		completion_reward = {
+			add_idea = { VSD_volonters }
+			set_rule = { can_send_volunteers = yes }
+        }
 
 	}
 	focus = {
-		id = VSD_victory
+		id = VSD_victory #Условием прожатия этого фокуса будет "контроль депо под группой серого"
 		icon = GFX_goal_generic_demand_territory
 		cost = 5
+		available = {
+			is_subject = no
+			has_war = no
+		}
 		prerequisite = {
 			focus = VSD_send_volonters
 		}
@@ -852,11 +899,22 @@
 		id = VSD_deal_with_loners_on_farm
 		icon = GFX_goal_generic_improve_relations
 		cost = 5
+		available = {
+			is_subject = no
+			has_war = no
+			NTS = {
+				is_subject = no
+				has_war = no
+			}
+		}
 		prerequisite = {
 			focus = VSD_victory
 		}
 		x = 4
 		y = 11
+		completion_reward = {
+			country_event
+        }
 
 	}
 	focus = {
