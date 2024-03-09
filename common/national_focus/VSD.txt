@@ -54,7 +54,21 @@
 		completion_reward = {
 			add_command_power = 20
 			army_experience = 25
-			#нужно создать три дивизии слабого шаблона
+			random_owned_controlled_state = {
+                limit = { PREV = { has_full_control_of_state = PREV } }
+                create_unit = {
+                    division = "name = \"newcomers\" division_template = \"newcomers\" start_experience_factor = 0.6" 
+                    owner = PREV
+                }
+				create_unit = {
+                    division = "name = \"newcomers\" division_template = \"newcomers\" start_experience_factor = 0.6" 
+                    owner = PREV
+                }
+				create_unit = {
+                    division = "name = \"newcomers\" division_template = \"newcomers\" start_experience_factor = 0.6" 
+                    owner = PREV
+                }
+            }
 		}
 
 	}
@@ -454,7 +468,7 @@
 		x = 13
 		y = 1
 		completion_reward = {
-			unlock_decision_category_tooltip = VSD_stalkerstvo_category #категория решений, с помощью которых будет проводится разведка территории, защита от мутантов
+			unlock_decision_category_tooltip = VSD_stalkerstvop #категория решений, с помощью которых будет проводится разведка территории, защита от мутантов
 		}
 
 	}
@@ -532,7 +546,7 @@
 				}
 			}
 		}
-		}
+	}
 	focus = {
 		id = VSD_beat_cordon_bandits
 		icon = GFX_focus_generic_total_war

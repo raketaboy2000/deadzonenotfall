@@ -1,0 +1,26 @@
+VSD_stalkerstvop = {
+    hunt_for_artefacts = {
+        icon = decision_SWE_paid_holidays_policy
+
+        available = {
+            has_completed_focus = VSD_art_hunters
+        }
+
+        cost = 50
+        days_remove = 15
+
+        complete_effect = {
+            random_list = {
+                50 = {
+                    country_event = vsd.2
+                }
+                30 = {
+                    country_event = vsd.3
+                }
+                20 = {
+                    country_event = vsd.4
+                }
+            }
+        }
+    }
+}

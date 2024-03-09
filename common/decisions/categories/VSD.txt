@@ -1,0 +1,15 @@
+VSD_stalkerstvop = {
+    icon = decision_category_infiltration
+
+    #picture = GFX_decision_cat_vsd_stalkerstvo
+
+    allowed = {
+        original_tag = VSD
+    }
+
+    priority = 100
+
+    #visible = {
+    #    has_completed_focus = VSD_stalkerstvo
+    #}
+}
