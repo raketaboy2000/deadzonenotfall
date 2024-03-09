@@ -1,0 +1,67 @@
+﻿division_template = {
+	name = "Orest Group Squad"
+	division_names_group = OGP_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 2089
+		division_template = "Orest Group Squad"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.00
+
+	}
+}	
+
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 526
+		division_template = "Orest Group Squad"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.00
+
+	}
+}
+
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 2129
+		division_template = "Orest Group Squad"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.00
+
+	}
+}
+
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 1669
+		division_template = "Orest Group Squad"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.00
+
+	}
+}
