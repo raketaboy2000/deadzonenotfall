@@ -10,8 +10,7 @@ PSY_led_outside = {
 			picture = FRA_matignon_agreements
 
 			modifier = {
-				custom_modifier_tooltip = SPR_military_disloyalty_tt
-				recruitable_population_factor = -0.99
+				recruitable_population_factor = -0.90
 			}
 			}
 			
@@ -24,10 +23,10 @@ PSY_led_outside = {
 			picture = chi_incompetent_officers
 			
 			modifier = {
-			offence = -0.75
-			defence = -0.75
-			army_org_factor = -0.5
-			army_morale_factor = -0.5
+			offence = -0.4
+			defence = -0.3
+			army_org_factor = -0.3
+			army_morale_factor = -0.3
 			}
 			}
 			}
