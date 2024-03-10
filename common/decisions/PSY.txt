@@ -1,0 +1,27 @@
+PSY_reinforcements_category = {
+
+	PSY_monthly_reinforcement = {
+		priority = 100
+
+		days_mission_timeout = 90
+
+		activation = {
+        	has_war = yes
+   		}
+
+		available = {
+			has_war = no
+		}
+
+		is_good = yes
+
+		complete_effect = { 
+			add_manpower = 100
+		}
+
+		timeout_effect = {
+			add_manpower = 100
+		}
+
+	}
+}
