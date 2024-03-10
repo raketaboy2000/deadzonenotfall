@@ -5,8 +5,17 @@ state={
 		318 1989 2825 
 	}
 	manpower = 20
-	state_category = transshipment
+	state_category = main_base
+	resources={
+		steel = 1
+	}
+	
 	history={
 		owner = SKG
 		add_core_of = SKG
+		victory_points = { 318 20 }
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 1
 }

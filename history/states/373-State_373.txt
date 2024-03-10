@@ -6,8 +6,17 @@ state={
 	}
 	manpower = 18
 	state_category = transshipment
+	state_category = main_base
+	resources={
+		steel = 1
+	}
+	
 	history={
 		owner = SSD
 		add_core_of = SSD
+		victory_points = { 2757 20 }
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 1
 }
-
