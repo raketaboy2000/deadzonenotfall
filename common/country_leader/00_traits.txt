@@ -14,7 +14,7 @@
 
 leader_traits = {
 
-	skillful_leader
+	skillful_leader = {
 		random = no
 		experience_gain_army_factor = 0.1
 		political_power_factor = 0.05
@@ -23,16 +23,16 @@ leader_traits = {
 			factor = 1
 		}
 	}
-	respects_sidorovich
+	respects_sidorovich = {
 		random = no
-		individualism_acceptance = 50 #Здесь должно быть согласие с индивидуалистами
-		science_acceptance = 25#Здесь должно быть согласие с наукой
+		individualism_acceptance = 50
+		science_acceptance = 25
 		custom_modifier_tooltip = respects_sidorovich_tt
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	scout_and_hunter
+	scout_and_hunter = {
 		random = no
 		local_resources_factor = 0.15
 		subversive_activites_upkeep = -0.1
@@ -41,10 +41,111 @@ leader_traits = {
 			factor = 1
 		}
 	}
-	last_stand_of_loners
+	last_stand_of_loners = {
 		random = no
 		stability_factor = 0.1
 		army_defence_factor = 0.1
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	silent_workhorse = {
+		random = yes
+		political_power_factor = 0.15
+
+	}
+	popular_figurehead = {
+		random = yes
+		stability_factor = 0.15
+
+	}
+	
+	quartermaster_general = {
+		random = yes
+		production_speed_air_base_factor = 0.15
+		production_speed_naval_base_factor = 0.15
+		production_speed_rocket_site_factor = 0.15
+		production_speed_radar_station_factor = 0.15
+		production_speed_nuclear_reactor_factor = 0.15
+
+	}
+	
+	armaments_organizer = {
+		random = yes
+		conversion_cost_civ_to_mil_factor = -0.2
+		production_speed_supply_node_factor = 0.1
+		# civ_to_mil_industry_conversion_rate = -1
+
+	}
+	
+	economist = {
+		random = yes
+		production_factory_max_efficiency_factor = 0.05
+
+	}
+	
+	captain_of_industry = {
+		random = yes
+		production_speed_industrial_complex_factor = 0.1
+		production_speed_infrastructure_factor = 0.1
+		production_speed_rail_way_factor = 0.1
+		production_speed_synthetic_refinery_factor = 0.1
+
+	}
+	
+	war_industrialist = {
+		random = yes
+		production_speed_arms_factory_factor = 0.1
+		production_speed_dockyard_factor = 0.1
+		production_speed_fuel_silo_factor = 0.1
+
+	}
+	
+	fortification_engineer = {
+		random = yes
+		production_speed_bunker_factor = 0.2
+		production_speed_coastal_bunker_factor = 0.2
+		production_speed_anti_air_building_factor = 0.2
+
+	}
+	
+	ideological_crusader = {
+		random = yes
+		opinion_gain_monthly_same_ideology_factor = 1.0
+		party_popularity_stability_factor = 0.1
+
+	}
+	
+	smooth_talking_charmer = {
+		random = yes
+		improve_relations_maintain_cost_factor = -0.5
+		trade_opinion_factor = 0.10
+
+	}
+	
+	backroom_backstabber = {
+		sprite = 13
+		subversive_activites_upkeep = -0.25
+		drift_defence_factor = 0.25
+
+	}
+	
+	compassionate_gentleman = {
+		random = yes
+		opinion_gain_monthly_factor = 0.15
+		resistance_damage_to_garrison = -0.15
+	}
+	
+	prince_of_terror = {
+		resistance_damage_to_garrison = -0.25
+		foreign_subversive_activites = -0.3
+		non_core_manpower = 0.02
+
+	}
+	
+	propaganda_expert = {
+		war_support_factor = 0.10
+
 		ai_will_do = {
 			factor = 1
 		}
