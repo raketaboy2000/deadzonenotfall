@@ -6,16 +6,16 @@ state={
 	}
 	manpower = 24
 	state_category = main_base
+	resources={
+		steel = 1
+	}
+	
 	history={
 		owner = OGP
-		victory_points = { 2089 20 }
 		add_core_of = OGP
-}
-	resources={
-		steel = 3
-	}
-	buildings = {
-		infrastructure = 5
-		arms_factory = 2
-		industrial_complex = 1
+		victory_points = { 2089 20 }
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 1
 }

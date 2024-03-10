@@ -1,4 +1,4 @@
-capital = 3
+capital = 79
 
 oob = "HTS_2005"
 

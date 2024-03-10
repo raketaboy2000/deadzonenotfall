@@ -6,16 +6,16 @@ state={
 	}
 	manpower = 26
 	state_category = main_base
+	resources={
+		steel = 1
+	}
+	
 	history={
 		owner = DED
-		victory_points = { 725 20 }
 		add_core_of = DED
-}
-	resources={
-		steel = 3
-	}
-	buildings = {
-		infrastructure = 5
-		arms_factory = 1
-		industrial_complex = 2
+		victory_points = { 725 20 }
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 1
 }

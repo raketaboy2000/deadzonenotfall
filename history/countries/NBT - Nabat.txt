@@ -1,4 +1,4 @@
-capital = 3
+capital = 6
 
 oob = "NBT_2005"
 
