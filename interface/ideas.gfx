@@ -7186,5 +7186,16 @@ spriteTypes = {
 		name = "GFX_idea_generic_democracy_banned"
 		texturefile = "gfx/interface/ideas/idea_generic_democracy_banned.dds"
 	}
-			
+	spriteType = {
+		name = "GFX_idea_FIN_lone_wolf" spr_anarchist_society
+		texturefile = "gfx/interface/ideas/idea_FIN_lone_wolf.dds"
+	}
+	spriteType = {
+		name = "GFX_spr_anarchist_society"
+		texturefile = "gfx/interface/ideas/spr_anarchist_society.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_usa_magic"
+		texturefile = "gfx/interface/ideas/idea_usa_magic.dds"
+	}		
 }

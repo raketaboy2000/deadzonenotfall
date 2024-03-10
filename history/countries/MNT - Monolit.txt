@@ -25,6 +25,10 @@ set_politics = {
 	elections_allowed = no
 }
 
+add_ideas = {
+	generic_za_monolith
+}
+
 set_popularities = {
 	fanaticism = 100
 }
