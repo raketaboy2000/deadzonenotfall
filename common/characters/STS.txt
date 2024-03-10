@@ -1,0 +1,16 @@
+characters = {
+	STS_Barmen = { #MER
+		name = STS_Barmen
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_STS_Barmen"
+			}
+		}
+		country_leader = {
+			ideology = neutrals
+			traits={  }
+			expire = "2014.1.1.1"
+			id = -1
+		}
+	}
+}
