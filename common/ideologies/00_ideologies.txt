@@ -100,7 +100,7 @@ ideologies = {
 			mercenaries  = {
 			}
 
-			stalkers  = {
+			stalkers = {
 			}
 			
 			neutrals = {
