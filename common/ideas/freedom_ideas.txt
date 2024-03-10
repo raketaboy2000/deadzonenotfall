@@ -1,0 +1,27 @@
+ideas = {
+	
+	country = {
+	
+		FRE_mother_anarchy = {
+		
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			picture = spr_anarchist_society
+			
+			modifier = {
+				resistance_growth_on_our_occupied_states = 0.9
+				political_advisor_cost_factor = -0.35
+				trade_laws_cost_factor = -0.35
+				mobilization_laws_cost_factor = -0.35
+				economy_cost_factor = -0.35
+				political_power_factor = -0.1
+				stability_factor = -0.15
+				planning_speed = -0.5
+			}
+		}
+	}
+}
