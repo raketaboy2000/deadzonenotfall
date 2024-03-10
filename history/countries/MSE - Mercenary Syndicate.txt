@@ -26,6 +26,8 @@ set_politics = {
 	elections_allowed = no
 }
 
+add_idea = mercenary_spirit
+
 create_faction = merc_alliance
 add_to_faction = MSE
 add_to_faction = ADS

@@ -26,6 +26,10 @@ set_politics = {
 	elections_allowed = no
 }
 
+add_ideas = 
+{ mercenary_spirit
+}
+
 set_popularities = {
 	individualism = 100
 }

@@ -19,6 +19,10 @@ set_technology = {
 	gw_artillery = 1
 }
 
+add_ideas = 
+{ mercenary_spirit
+}
+
 set_politics = {
 	ruling_party = individualism
 	last_election = "2005.1.1"

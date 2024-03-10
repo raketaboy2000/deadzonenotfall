@@ -1,0 +1,25 @@
+ideas = {
+country = {
+mercenary_spirit = {
+
+allowed = {
+original_tag = MER
+original_tag = LSD
+original_tag = MSE
+original_tag = ADS
+original_tag = VUS
+original_tag = BSD
+original_tag = HSD
+original_tag = HCS
+}
+
+modifier = {
+recruitable_population_factor = -0.75
+offence = 0.25
+defence = 0.35
+army_org_factor = 0.25
+army_morale_factor = 0.5
+}
+}
+}
+}
