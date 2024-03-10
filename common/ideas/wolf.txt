@@ -139,5 +139,32 @@ ideas = {
 				send_volunteers_tension = -0.7
 			}
 		}
+		VSD_prepare_to_military = {
+		
+			allowed = {
+				always = no
+			}
+
+			available = {
+				NOT = {
+					has_offensive_war_with = PSY
+				}
+				country_exists = PSY
+			}
+			
+			removal_cost = -1
+			
+			picture = idea_generic_infantry_equipment_manufacturer_2
+			
+			modifier = {
+				stability_factor = -0.05
+				war_support_factor = 0.05
+				targeted_modifier = {
+					tag = PSY
+					attack_bonus_against = -0.1
+					defense_bonus_against = 0.20
+				}
+			}
+		}
 	}
 }
