@@ -1,5 +1,5 @@
 characters = {
-	YAG_Yoga = { #YAG
+	YAG_Yoga = {
 		name = YAG_Yoga
 		portraits = {
 			civilian = {
