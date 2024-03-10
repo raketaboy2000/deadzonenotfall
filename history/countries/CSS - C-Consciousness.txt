@@ -30,6 +30,13 @@ add_ideas = {
 	generic_za_monolith
 }
 
+create_faction = noosphere_alliance
+add_to_faction = CSS
+add_to_faction = MNT
+add_to_faction = PTM
+add_to_faction = ILN
+add_to_faction = TVS
+
 set_popularities = {
 	fanaticism = 100
 }

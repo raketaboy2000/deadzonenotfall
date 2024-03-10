@@ -16,11 +16,16 @@ PSY_reinforcements_category = {
 		is_good = yes
 
 		complete_effect = { 
-			add_manpower = 100
+			add_manpower = -1
 		}
 
 		timeout_effect = {
 			add_manpower = 100
+			add_equipment_to_stockpile = 
+			{ type = infantry_equipment
+			amount = 100
+			producer = MIL
+			}
 		}
 
 	}

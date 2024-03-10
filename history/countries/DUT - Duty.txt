@@ -26,6 +26,11 @@ set_politics = {
 	elections_allowed = no
 }
 
+create_faction = duty_alliance
+add_to_faction = DUT
+add_to_faction = DSD
+add_to_faction = DYD
+
 set_popularities = {
 	order = 100
 }

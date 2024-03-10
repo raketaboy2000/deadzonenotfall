@@ -26,6 +26,9 @@ set_politics = {
 	elections_allowed = no
 }
 
+sign_non_aggression_pact = MDS
+give_military_access = MDS
+
 set_popularities = {
 	individualism = 100
 }

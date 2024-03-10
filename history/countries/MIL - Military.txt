@@ -19,6 +19,15 @@ set_technology = {
 	gw_artillery = 1
 }
 
+create_faction = state_alliance
+add_to_faction = MIL
+add_to_faction = PSY
+add_to_faction = PRH
+add_to_faction = MYS
+
+give_guarantee = ECO
+give_guarantee = SCS
+
 set_politics = {
 	ruling_party = order
 	last_election = "2005.1.1"

@@ -26,6 +26,16 @@ set_politics = {
 	elections_allowed = no
 }
 
+create_faction = merc_alliance
+add_to_faction = MSE
+add_to_faction = ADS
+add_to_faction = LSD
+add_to_faction = VUS
+add_to_faction = BSD
+add_to_faction = MER
+add_to_faction = HSD
+add_to_faction = TCS
+
 set_popularities = {
 	individualism = 100
 }

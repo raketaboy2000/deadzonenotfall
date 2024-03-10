@@ -26,6 +26,11 @@ set_politics = {
 	elections_allowed = no
 }
 
+create_faction = stalker_alliance
+add_to_faction = STS
+add_to_faction = OGP
+add_to_faction = EDS
+
 set_popularities = {
 	individualism = 100
 }

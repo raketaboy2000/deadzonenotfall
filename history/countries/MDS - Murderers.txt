@@ -26,6 +26,8 @@ set_politics = {
 	elections_allowed = no
 }
 
+give_military_access = NBT
+
 set_popularities = {
 	anarchism = 100
 }

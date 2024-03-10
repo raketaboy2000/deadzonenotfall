@@ -26,6 +26,10 @@ set_politics = {
 	elections_allowed = no
 }
 
+create_faction = freedom_alliance
+add_to_faction = FRE
+add_to_faction = FSD
+
 add_ideas = {
 	FRE_mother_anarchy
 }

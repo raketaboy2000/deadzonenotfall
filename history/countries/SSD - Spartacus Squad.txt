@@ -26,6 +26,10 @@ set_politics = {
 	elections_allowed = no
 }
 
+create_faction = skadovsk_alliance
+add_to_faction = SSD
+add_to_faction = LON
+
 set_popularities = {
 	individualism = 100
 }

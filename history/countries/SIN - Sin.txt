@@ -26,6 +26,16 @@ set_politics = {
 	elections_allowed = no
 }
 
+declare_war_on = {
+target = NBT
+type = annex_everything 
+}
+
+declare_war_on = {
+target = MDS
+type = annex_everything 
+}
+
 set_popularities = {
 	fanaticism = 100
 }
