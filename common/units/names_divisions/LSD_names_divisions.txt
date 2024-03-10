@@ -1,7 +1,7 @@
-﻿CSD_INF_01 = {
+﻿LSD_INF_01 = {
 	name = "Mercenaries Squad"
 
-	for_countries = { CSD }
+	for_countries = { LSD }
 
 	can_use = { always = yes }
 

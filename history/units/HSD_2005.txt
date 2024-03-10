@@ -1,0 +1,53 @@
+﻿division_template = {
+	name = "Mercenaries Squad"
+	division_names_group = HSD_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1000
+		division_template = "Mercenaries Squad"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.00
+
+	}
+}	
+
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 956
+		division_template = "Mercenaries Squad"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.00
+
+	}
+}
+
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 2215
+		division_template = "Mercenaries Squad"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.00
+
+	}
+}
