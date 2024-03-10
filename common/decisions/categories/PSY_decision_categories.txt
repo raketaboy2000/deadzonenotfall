@@ -1,0 +1,7 @@
+PSY_reinforcements_category = {
+    icon = infiltration
+
+    visible = {
+		has_war = no
+	}
+}
