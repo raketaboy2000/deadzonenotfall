@@ -10,7 +10,7 @@ ideas = {
 			
 			removal_cost = -1
 			
-			picture = idea_FIN_lone_wolf
+			picture = FIN_lone_wolf
 			
 			modifier = {
 				drift_defence_factor = 0.25
@@ -98,7 +98,7 @@ ideas = {
 			
 			removal_cost = -1
 			
-			picture = idea_ger_bulwark_against_bolshevism
+			picture = ger_bulwark_against_bolshevism
 			
 			modifier = {
 				out_of_supply_factor = -0.1
@@ -132,7 +132,7 @@ ideas = {
 			
 			removal_cost = -1
 			
-			picture = idea_generic_infantry_equipment_manufacturer_2
+			picture = generic_infantry_equipment_manufacturer_2
 			
 			modifier = {
 				send_volunteer_divisions_required = -0.70
@@ -154,7 +154,7 @@ ideas = {
 			
 			removal_cost = -1
 			
-			picture = idea_generic_infantry_equipment_manufacturer_2
+			picture = _yug_federal_defense_council
 			
 			modifier = {
 				stability_factor = -0.05

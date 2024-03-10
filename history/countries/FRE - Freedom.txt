@@ -26,6 +26,10 @@ set_politics = {
 	elections_allowed = no
 }
 
+add_ideas = {
+	FRE_mother_anarchy
+}
+
 set_popularities = {
 	anarchism = 100
 }
