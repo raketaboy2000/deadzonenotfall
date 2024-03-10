@@ -725,11 +725,18 @@
 		id = VSD_contact_with_duty
 		icon = GFX_focus_prc_agrarian_socialism
 		cost = 1
+		available = {
+			country_exists = DUT
+			is_subject = no
+		}
 		prerequisite = {
 			focus = VSD_unite_research_programm
 		}
 		x = 13
 		y = 11
+		completion_reward = {
+			load_focus_tree = generic
+        }
 
 	}
 	focus = {
@@ -741,6 +748,9 @@
 		}
 		x = 14
 		y = 2
+		completion_reward = {
+			add_idea = VSD_prepare_to_military
+		}
 
 	}
 	focus = {
@@ -786,6 +796,10 @@
 		id = VSD_ally_with_army
 		icon = GFX_goal_generic_forceful_treaty
 		cost = 10
+		available = {
+			country_exists = PSY
+			is_subject = no
+		}
 		prerequisite = {
 			focus = VSD_dangerous_deal
 		}
@@ -793,6 +807,7 @@
 		y = 6
 		completion_reward = {
             custom_effect_tooltip = VSD_ally_with_army_tt
+			load_focus_tree = generic
         }
 
 	}
@@ -814,7 +829,11 @@
 	focus = {
 		id = VSD_contact_with_dreedom
 		icon = GFX_focus_BUL_support_macedonian_organizations
-		cost = 1
+		cost = 5
+		available = {
+			country_exists = FRE
+			is_subject = no
+		}
 		prerequisite = {
 			focus = VSD_global_stalker_camp
 		}
@@ -823,12 +842,19 @@
 		}
 		x = 9
 		y = 11
+		completion_reward = {
+			load_focus_tree = generic
+        }
 
 	}
 	focus = {
 		id = VSD_contact_with_merc
 		icon = GFX_focus_SWI_embrace_rote_drei
-		cost = 10
+		cost = 5
+		available = {
+			country_exists = MER
+			is_subject = no
+		}
 		prerequisite = {
 			focus = VSD_global_stalker_camp
 		}
@@ -837,6 +863,9 @@
 		}
 		x = 11
 		y = 11
+		completion_reward = {
+			load_focus_tree = generic
+        }
 
 	}
 	focus = {
@@ -928,7 +957,15 @@
 		}
 		x = 3
 		y = 12
-
+		completion_reward = { #как и в случае петрухи, этот фокус должен будет давать советника и генерала
+			random_owned_controlled_state = {
+                limit = { PREV = { has_full_control_of_state = PREV } }
+                create_unit = {
+                    division = "name = \"Lis_squad\" division_template = \"skilled\" start_experience_factor = 1" 
+                    owner = PREV
+                }
+			}
+		}
 	}
 	focus = {
 		id = VSD_support_seryi_group
@@ -995,6 +1032,9 @@
 		}
 		x = 4
 		y = 15
+		completion_reward = {
+			load_focus_tree = generic
+        }
 
 	}
 	focus = {
