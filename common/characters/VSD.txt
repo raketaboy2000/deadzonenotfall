@@ -22,7 +22,7 @@ characters = {
 		portraits = {
 			civilian = {
 				large = "GFX_portrait_VSD_fanat"
-				small="idea_VSD_fanat_sovetnik"
+				small="GFX_idea_VSD_fanat_sovetnik"
 			}
 			army={
 				large="GFX_portrait_VSD_fanat"
@@ -111,4 +111,35 @@ characters = {
 			id = -1
 		}
 	}
+	#VSD_lis = {
+		#name = VSD_lis
+		#advisor={
+			#slot = political_advisor
+			#idea_token = petruha
+			#ledger = civilian
+			#available = {
+			#	has_completed_focus = VSD_petruha
+			#}
+			#traits = {
+			#	scout_and_hunter
+			#}
+			#cost = 150
+			#ai_will_do = {
+			#	factor = 1.000
+			#}
+		#}
+		
+		#corps_commander={
+		#	visible = {
+		#		has_completed_focus = VSD_petruha
+		#	}
+		#	traits={ inflexible_strategist trait_cautious }
+		#	skill=3
+		#	attack_skill=1
+		#	defense_skill=1
+		#	planning_skill=3
+		#	logistics_skill=3
+		#	id = -1
+		#}
+	#}
 }

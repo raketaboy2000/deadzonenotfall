@@ -5,9 +5,17 @@ state={
 		510 881 1801 2961 
 	}
 	manpower = 12
-	state_category = transshipment
+	state_category = main_base
+	resources={
+		steel = 5
+	}
+	
 	history={
 		owner = ZMB
 		add_core_of = ZMB
+		victory_points = { 2100 20 }
+		buildings = {
+			infrastructure = 5
+			arms_factory = 3
 }
 

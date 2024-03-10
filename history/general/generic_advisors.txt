@@ -11,7 +11,7 @@ every_possible_country = {
 			}
 		}
 		portraits = { 
-			army = { small = GFX_idea_generic_head_of_intelligence }
+			army = { small = "GFX_idea_generic_head_of_intelligence" }
 		}
 	}
 

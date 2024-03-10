@@ -4,9 +4,18 @@ state={
 	provinces={
 		804 1104 2231 2924 
 	}
-	manpower = 9
-	state_category = transshipment
+	manpower = 14
+	state_category = main_base
+	resources={
+		steel = 2
+	}
+	
 	history={
 		owner = TVS
 		add_core_of = TVS
+		victory_points = { 1104 20 }
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 2
 }
