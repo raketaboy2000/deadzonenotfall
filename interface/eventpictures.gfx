@@ -3571,7 +3571,17 @@ spriteTypes = {
 		name = "GFX_report_event_BOL_bolivian_socialist_revolution"
 		texturefile = "gfx/event_pictures/report_event_BOL_bolivian_socialist_revolution.dds"
 	}
-
+	#################################
+	##### STALKER MOD DEAD ZONE ##### 
+	#################################
+	spriteType = {
+		name = "GFX_report_event_vsd_artefacts"
+		texturefile = "gfx/event_pictures/report_event_vsd_artefacts.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_vsd_dead_in_anomaly"
+		texturefile = "gfx/event_pictures/report_event_vsd_dead_in_anomaly.dds"
+	}
 
 }
 

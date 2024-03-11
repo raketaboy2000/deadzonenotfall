@@ -146,10 +146,12 @@ ideas = {
 			}
 
 			available = {
-				NOT = {
-					has_offensive_war_with = PSY
+				AND = {
+					NOT = {
+						has_offensive_war_with = PSY
+					}
+					country_exists = PSY
 				}
-				country_exists = PSY
 			}
 			
 			removal_cost = -1
@@ -217,5 +219,73 @@ ideas = {
 				order_drift = 0.05
 			}
 		}
+		VSD_military_docs = {
+		
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			picture = SOV_scientist_defect
+			
+			modifier = {
+				research_speed_factor = 0.1
+			}
+		}
+		PSY_ally_with_village = { #Я ЕБАЛ, ЕСЛИ ЧЕСТНО, ПЫТАТСЯ ПРОПИСАТЬ ИДЕЮ В ДОКУМЕНТЕ ОХРАНЫ ПЕРИМЕТРА. Какой-то умник записал там всё одним столбом так, что не понятно как правильно вставлять новые идеи, относящиеся к этой стране. Поэтому я пропишу одну из её идей здесь
+		
+			allowed = {
+				always = no
+			}
+			
+			available = {
+				OR = {
+					NOT = {
+						has_war_with = VSD
+					}
+					country_exists = VSD
+				}
+			}
+			
+			removal_cost = -1
+			
+			picture = idea_generic_deal_with_the_devil2
+			
+			targeted_modifier = {
+				tag = VSD
+				generate_wargoal_tension_against = 1
+			}
+		}
+		VSD_ally_with_village = {
+		
+			allowed = {
+				always = no
+			}
+			
+			available = {
+				OR = {
+					NOT = {
+						has_war_with = PSY
+					}
+					country_exists = PSY
+				}
+			}
+			
+			removal_cost = -1
+			
+			picture = idea_generic_deal_with_the_devil
+			
+			targeted_modifier = {
+				tag = PSY
+				generate_wargoal_tension_against = 1
+			}
+			modifier = {
+				stability_factor = -0.05
+			}
+		}
 	}
 }
+
+
+

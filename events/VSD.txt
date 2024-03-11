@@ -52,7 +52,7 @@ country_event = {
     id = vsd.3
     title = vsd.3.t
     desc = vsd.3.d
-    picture = GFX_report_event_VSD_wolf_future
+    picture = GFX_report_event_vsd_artefacts
     
     fire_only_once = yes
 	
@@ -75,7 +75,7 @@ country_event = {
     id = vsd.4
     title = vsd.4.t
     desc = vsd.4.d
-    picture = GFX_report_event_VSD_wolf_future
+    picture = GFX_report_event_vsd_dead_in_anomaly
     
     fire_only_once = yes
 	
@@ -462,5 +462,164 @@ country_event = {
 	option = {
         name = vsd.20.a
 		add_offsite_building = { type = arms_factory level = 1 }
+    }
+}
+
+country_event = {
+    id = vsd.21
+    title = vsd.21.t
+    desc = vsd.21.d
+    picture = GFX_report_event_VSD_wolf_future #нужна картинка
+    
+    fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+        name = vsd.21.a
+		load_focus_tree = generic
+		retire_ideology_leader = individualism
+		set_country_leader_name = {
+			ideology = individualism
+			name = VSD_fanat
+		}
+		add_stability = -0.05
+		add_popularity = {
+			ideology = anarchism
+			popularity = 0.05
+		}
+        hidden_effect = { set_cosmetic_tag = VSD_fanat_group }
+    }
+}
+
+country_event = {
+    id = vsd.22
+    title = vsd.22.t
+    desc = vsd.22.d
+    picture = GFX_report_event_VSD_wolf_future #нужна картинка
+    
+    fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+        name = vsd.22.a
+		VSD = {
+			country_event = vsd.11
+		}
+    }
+	option = {
+        name = vsd.22.b
+		VSD = {
+			country_event = vsd.12
+		}	
+    }
+}
+
+country_event = {
+    id = vsd.23
+    title = vsd.23.t
+    desc = vsd.23.d
+    picture = GFX_report_event_VSD_wolf_future #нужна картинка
+    
+    fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+        name = vsd.23.a
+		VSD = {
+			load_focus_tree = generic
+			add_ideas = { VSD_ally_with_village }
+			country_event = vsd.25
+		}
+		set_country_flag = VSD_ally_flag
+		add_ideas = { PSY_ally_with_village }
+    }
+	option = {
+        name = vsd.23.b
+		VSD = {
+			country_event = vsd.24
+		}	
+    }
+}
+
+country_event = {
+    id = vsd.24
+    title = vsd.24.t
+    desc = vsd.24.d
+    picture = GFX_report_event_VSD_wolf_future #нужна картинка
+    
+    fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = vsd.24.a
+		load_focus_tree = generic
+		add_stability = -0.20
+		add_political_power = -40
+		add_manpower = -1
+    }
+}
+
+country_event = {
+    id = vsd.25
+    title = vsd.25.t
+    desc = vsd.25.d
+    picture = GFX_report_event_VSD_wolf_future #нужна картинка
+    
+    fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = vsd.25.a
+    }
+}
+
+country_event = {
+    id = vsd.26
+    title = vsd.26.t
+    desc = vsd.26.d
+    picture = GFX_report_event_VSD_wolf_future #нужна картинка
+    
+    fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = vsd.26.a
+    }
+}
+
+country_event = {
+    id = vsd.27
+    title = vsd.27.t
+    desc = vsd.27.d
+    picture = GFX_report_event_VSD_wolf_future #нужна картинка
+	
+	trigger = {
+		AND = {
+			PSY = {
+				has_war_with = VSD
+			}
+			VSD = {
+				has_idea = VSD_ally_with_village
+			}
+		}
+		
+	}
+	
+	mean_time_to_happen = { days = 5 } 
+	
+	option = {
+		name = vsd.27.a
+		PSY = {
+			clr_country_flag = VSD_ally_flag
+			remove_ideas = PSY_ally_with_village
+		}
+		remove_ideas = VSD_ally_with_village
+		add_stability = -0.05
     }
 }
