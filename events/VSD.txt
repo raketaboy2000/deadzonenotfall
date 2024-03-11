@@ -355,3 +355,112 @@ country_event = {
 		add_manpower = 55
     }
 }
+
+country_event = {
+    id = vsd.16
+    title = vsd.16.t
+    desc = vsd.16.d
+    picture = GFX_report_event_VSD_wolf_future #нужна картинка
+    
+    fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+        name = vsd.16.a
+		add_command_power = 20
+		army_experience = 5
+		add_political_power = 100
+		add_war_support = 0.01
+		VSD = {
+			country_event = vsd.19
+		}
+    }
+	option = {
+        name = vsd.16.b
+		VSD = {
+			country_event = vsd.18
+		}
+    }
+}
+
+country_event = {
+    id = vsd.17
+    title = vsd.17.t
+    desc = vsd.17.d
+    picture = GFX_report_event_VSD_wolf_future #нужна картинка
+    
+    fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+        name = vsd.17.a
+		VSD = {
+			country_event = vsd.18
+		}
+    }
+	option = {
+        name = vsd.17.b
+		VSD = {
+			country_event = vsd.20
+		}
+		add_command_power = 20
+		army_experience = 5
+		add_political_power = 100
+		add_war_support = 0.01
+		VSD = {
+			country_event = vsd.20
+		}
+    }
+}
+
+country_event = {
+    id = vsd.18
+    title = vsd.18.t
+    desc = vsd.18.d
+    picture = GFX_report_event_VSD_wolf_future #нужна картинка
+    
+    fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+        name = vsd.18.a
+		add_political_power = -35
+		add_war_support = -0.05
+		add_stability = -0.01
+    }
+}
+
+country_event = {
+    id = vsd.19
+    title = vsd.19.t
+    desc = vsd.19.d
+    picture = GFX_report_event_VSD_wolf_future #нужна картинка
+    
+    fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+        name = vsd.19.a
+		add_offsite_building = { type = arms_factory level = 3 }
+    }
+}
+
+country_event = {
+    id = vsd.20
+    title = vsd.20.t
+    desc = vsd.20.d
+    picture = GFX_report_event_VSD_wolf_future #нужна картинка
+    
+    fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+        name = vsd.20.a
+		add_offsite_building = { type = arms_factory level = 1 }
+    }
+}

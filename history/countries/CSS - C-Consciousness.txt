@@ -26,10 +26,6 @@ set_politics = {
 	elections_allowed = no
 }
 
-add_ideas = {
-	generic_za_monolith
-}
-
 create_faction = noosphere_alliance
 add_to_faction = CSS
 add_to_faction = MNT

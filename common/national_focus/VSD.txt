@@ -38,7 +38,7 @@
 			add_stability = 0.1
 			add_political_power = 25
 			army_experience = 5
-			add_ideas = VSD_idea_noobs_safety
+			add_ideas = { VSD_idea_noobs_safety }
 		}
 
 	}
@@ -128,7 +128,7 @@
 				}
 			}
 		}
-		custom_effect_tooltip = VSD_art_hunters_tt
+		#custom_effect_tooltip = VSD_art_hunters_tt
 		
 	}
 	focus = {
@@ -187,7 +187,13 @@
 		y = 3
 		completion_reward = {
 			unlock_decision_category_tooltip = VSD_prepare_village_defence_category #Фокус делает доступным категорию с решениями на манер финских схронов с оружием. В регионе с деревней новичков и соседних с ней появятися возможность за определённое количество ПВ сделать схрон с припасами, который даст снаряжение в случае вторжения в регион  врага
-			#Как переводить тултип? хз вроде он должен сам переводиться, отсылаясь к названию категории
+			316 = {
+				add_dynamic_modifier = {
+					modifier = POL_plan_modifier
+					days = 345
+					scope = VSD
+				}
+			}
 		}
 
 	}
@@ -206,9 +212,9 @@
 				add_idea = VSD_sidorovich2
 			}
 			add_political_power = 100
-			add_popularity = { ideology =  science popularity = 0.20 } #Здесь должна прибавляться идеология науки
-			add_popularity = { ideology = anarchism popularity = 0.10 } #Здесь должна прибавляться идеология анархии
-			add_popularity = { ideology = order popularity = 0.05 } #Здесь должна прибавляться идеология порядка
+			add_popularity = { ideology =  science popularity = 0.20 }
+			add_popularity = { ideology = anarchism popularity = 0.10 }
+			add_popularity = { ideology = order popularity = 0.20 }
 			random_owned_controlled_state = { 
 				limit = {
 					ROOT = { has_full_control_of_state = PREV } 
@@ -256,10 +262,12 @@
 		x = 11
 		y = 1
 		completion_reward = {
-			remove_idea = VSD_sidorovich
+			remove_ideas = { VSD_sidorovich }
 			add_war_support = 0.05
 			army_experience = 10
-			country_event = vsd.1 #нужно создать событие, по итогам которого  к группе волка присодеинится случайный чужой приграничный регион, не принадлежащий одиночкам и не являющийся важной сюжетной точкой/столицей
+			336 = {
+				transfer_state
+			}
 		}
 	}
 	focus = {
@@ -282,7 +290,7 @@
 			diplomatic_relation = {
 				target = NTS
 				relation = military_access
-				active = yes
+				active = no
 			}
 			NTS = {
 				add_offsite_building = { type = industrial_complex level = 1 }
@@ -290,7 +298,7 @@
 				diplomatic_relation = {
 					target = VSD
 					relation = military_access
-					active = yes
+					active = no
 				}
 			}
 		}
@@ -305,8 +313,8 @@
 		x = 8
 		y = 3
 		completion_reward = {
-			228 = {
-				transfer_state = VSD
+			VSD = { 
+				transfer_state = 228 
 			}
 			custom_effect_tooltip = VSD_take_road_tt
 			if = {
@@ -352,30 +360,8 @@
 			add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 100 producer = PSY }
 			add_equipment_to_stockpile = { type = support_equipment amount = 35 producer = PSY }
 			PSY = {
-				add_offsite_building = { type = industrial_complex level = 1 }
-				add_stability = 0.05
-				add_political_power = 25
-			}
-			random_owned_controlled_state = { 
-				limit = {
-					AND = {
-						any_neighbor_state = {
-							owner = { 
-								OR = {
-									tag = PSY 
-									original_tag = PSY
-								}
-							}
-						}
-						NOT = {
-							state = 316
-						}
-						NOT = {
-							state = 228
-						}
-					}	
-				}
-				transfer_state = PSY
+				transfer_state = 282
+				transfer_state = 299
 			}
 		}
 
@@ -428,14 +414,12 @@
 			NOT = { country_exists = PSY } #нужно заменить условие скипа на "220 и 225 владеет группа волка"
 		}
 		completion_reward = {
-			add_stability = - 0.10
-			220 = {
-				transfer_state = VSD
-				add_core_of = VSD
-			}
-			225 = {
-				transfer_state = VSD
-				add_core_of = VSD
+			add_stability = -0.1
+			VSD = {
+				add_core = 225
+				add_core 220
+				transfer_state = 225
+				transfer_state = 220
 			}
 			PSY = {
 				country_event = vsd.15
@@ -460,8 +444,8 @@
 		x = 8
 		y = 6
 		completion_reward = {
-			add_command_power 15
-			army_experience = 5
+			add_command_power = 10
+			army_experience = 10
 			NTS = {
 				country_event = vsd.9
 			}
@@ -514,12 +498,27 @@
 			focus = VSD_priority_of_scouting
 		}
 		bypass = {
-			NOT = { country_exists = PSY } #тег вояк тут заглушка. Нужно создать условие скипа при отсутствии ВСЕХ стран наёмников
+			NOT = { country_exists = ADS }
 		}
 		x = 12
 		y = 3
 		completion_reward = { #фокус должен вызывать ивент у группы наёмников (ещё не решил какой) с просьбой поддержать сталкеров снаряжением и 
             custom_effect_tooltip = VSD_deal_with_merc_tt
+			if = {
+				limit = {
+					VSD = {
+						has_country_leader = { character = VSD_Volk }
+					}
+				}
+				ADS = {
+					country_event = vsd.16
+				}
+			}
+			else = {
+				ADS = {
+					country_event = vsd.17
+				}
+			}
         }
 	}
 	focus = {
@@ -638,7 +637,7 @@
 		y = 8
 		completion_reward = {
             custom_effect_tooltip = VSD_free_territory_tt
-			add_idea = { VSD_free_territory_of_stalkers }
+			add_ideas = { VSD_free_territory_of_stalkers }
 			hidden_effect = {
 				set_country_flag = VSD_free_territory_flag
 			}
@@ -719,6 +718,12 @@
 		}
 		x = 13
 		y = 10
+		completion_reward = {
+			add_to_tech_sharing_group = YUG_SOV_research_group
+			CLS = {
+				add_to_tech_sharing_group = YUG_SOV_research_group
+			}
+		}
 
 	}
 	focus = {
@@ -735,7 +740,17 @@
 		x = 13
 		y = 11
 		completion_reward = {
-			load_focus_tree = generic
+			if = {
+				limit = {
+					VSD = {
+						has_country_flag = VSD_free_territory_flag
+					}
+				}
+				add_political_power = 1
+			}
+			else = {
+				load_focus_tree = generic
+			}
         }
 
 	}
@@ -749,9 +764,8 @@
 		x = 14
 		y = 2
 		completion_reward = {
-			add_idea = VSD_prepare_to_military
+			add_ideas = { VSD_prepare_to_military }
 		}
-
 	}
 	focus = {
 		id = VSD_buy_guns
@@ -771,11 +785,32 @@
 		id = VSD_battle_in_the_forest
 		icon = GFX_focus_SWE_beneath_sticks_and_stone
 		cost = 10
+		available = {
+			is_subject = no
+			any_core_state = {
+				OR = {
+					is_core_of = SIN
+					is_core_of = MDS
+					is_core_of = NBT
+				}
+			}
+			OR = {
+				any_neighbor_country = { original_tag = NBT }
+				any_neighbor_country = { original_tag = SIN }
+				any_neighbor_country = { original_tag = MDS }
+			}
+		}
 		prerequisite = {
 			focus = VSD_take_east_road
 		}
 		x = 10
 		y = 9
+		completion_reward = {
+            add_timed_idea = {
+				idea = VSD_forest_wars
+				days = 140
+			}
+        }
 
 	}
 	focus = {

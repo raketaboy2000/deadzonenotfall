@@ -10,7 +10,7 @@ ideas = {
 			
 			removal_cost = -1
 			
-			picture = idea_FIN_lone_wolf
+			picture = FRA_army_of_aggression_focus
 			
 			modifier = {
 				drift_defence_factor = 0.25
@@ -45,7 +45,7 @@ ideas = {
 			
 			removal_cost = -1
 			
-			picture = generic_goods_red_bonus
+			picture = fra_market_dynamism
 			
 			modifier = {
 				stability_factor = 0.1
@@ -154,15 +154,55 @@ ideas = {
 			
 			removal_cost = -1
 			
-			picture = _yug_federal_defense_council
+			picture = yug_federal_defense_council
 			
 			modifier = {
 				stability_factor = -0.05
 				war_support_factor = 0.05
 				targeted_modifier = {
 					tag = PSY
-					attack_bonus_against = -0.1
-					defense_bonus_against = 0.20
+						attack_bonus_against = -0.1
+						defense_bonus_against = 0.20
+					}
+				}
+				custom_modifier_tooltip = VSD_prepare_to_military_tt
+			}
+		}
+	}
+	
+	VSD_forest_wars = {
+		
+		allowed = {
+			always = no
+		}
+		
+		available = {
+			OR = {
+				country_exists = SIN
+				country_exists = MDS
+				country_exists = NBT
+			}
+		}
+
+		removal_cost = -1
+			
+		picture = idea_mex_politicised_army
+			
+		modifier = {
+			compliance_gain = 0.01
+			targeted_modifier = {
+				tag = NBT
+					attack_bonus_against = 0.25
+				}
+			}
+			targeted_modifier = {
+				tag = MDS
+					attack_bonus_against = 0.25
+				}
+			}
+			targeted_modifier = {
+				tag = SIN
+					attack_bonus_against = 0.25
 				}
 			}
 		}
