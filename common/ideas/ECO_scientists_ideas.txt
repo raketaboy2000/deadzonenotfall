@@ -1,0 +1,22 @@
+ideas = {
+	
+	country = {
+	
+		ECO_need_for_science = {
+		
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			picture = idea_jap_supremacy_of_will
+			
+			modifier = {
+			}
+			rule = {
+				can_create_factions = yes
+			}
+		}
+	}
+}

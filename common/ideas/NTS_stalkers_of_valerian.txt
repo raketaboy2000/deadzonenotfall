@@ -1,0 +1,22 @@
+ideas = {
+	
+	country = {
+	
+		NTS_stalker_spirit = {
+		
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			picture = idea_mex_revolutionary_army
+			
+			modifier = {
+			}
+			rule = {
+				can_create_factions = yes
+			}
+		}
+	}
+}

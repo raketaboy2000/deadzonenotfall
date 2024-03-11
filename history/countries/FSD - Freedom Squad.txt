@@ -19,6 +19,10 @@ set_technology = {
 	gw_artillery = 1
 }
 
+add_ideas = {
+	FRE_mother_anarchy
+}
+
 set_politics = {
 	ruling_party = anarchism
 	last_election = "2005.1.1"

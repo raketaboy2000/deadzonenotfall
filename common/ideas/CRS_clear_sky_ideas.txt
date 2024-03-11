@@ -1,0 +1,22 @@
+ideas = {
+	
+	country = {
+	
+		CRS_peaseful_sky_to_world = {
+		
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			picture = air_support_focus
+			
+			modifier = {
+			}
+			rule = {
+				can_create_factions = yes
+			}
+		}
+	}
+}

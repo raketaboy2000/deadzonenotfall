@@ -1,4 +1,4 @@
-add_namespace = vsd
+﻿add_namespace = vsd
 
 country_event = {
     id = vsd.1

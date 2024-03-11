@@ -1,0 +1,22 @@
+ideas = {
+	
+	country = {
+	
+		YAG_pahan = {
+		
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			picture = generic_intel_bonus
+			
+			modifier = {
+			}
+			rule = {
+				can_create_factions = yes
+			}
+		}
+	}
+}

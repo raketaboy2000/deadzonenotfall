@@ -26,6 +26,10 @@ set_politics = {
 	elections_allowed = no
 }
 
+add_ideas = {
+	YAG_pahan
+}
+
 set_popularities = {
 	anarchism = 100
 }
