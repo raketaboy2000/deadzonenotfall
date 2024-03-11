@@ -155,53 +155,50 @@ ideas = {
 			removal_cost = -1
 			
 			picture = yug_federal_defense_council
-			
+
+			targeted_modifier = {
+				tag = PSY
+				attack_bonus_against = -0.1
+				defense_bonus_against = 0.20
+				custom_modifier_tooltip = VSD_prepare_to_military_tt
+			}
+
 			modifier = {
 				stability_factor = -0.05
 				war_support_factor = 0.05
-				targeted_modifier = {
-					tag = PSY
-						attack_bonus_against = -0.1
-						defense_bonus_against = 0.20
-					}
-				}
-				custom_modifier_tooltip = VSD_prepare_to_military_tt
 			}
 		}
-	}
 	
-	VSD_forest_wars = {
+		VSD_forest_wars = {
 		
-		allowed = {
-			always = no
-		}
-		
-		available = {
-			OR = {
-				country_exists = SIN
-				country_exists = MDS
-				country_exists = NBT
+			allowed = {
+				always = no
 			}
-		}
+		
+			available = {
+				OR = {
+					country_exists = SIN
+					country_exists = MDS
+					country_exists = NBT
+				}
+			}
 
-		removal_cost = -1
+			removal_cost = -1
 			
-		picture = idea_mex_politicised_army
+			picture = idea_mex_politicised_army
 			
-		modifier = {
-			compliance_gain = 0.01
-			targeted_modifier = {
-				tag = NBT
+			modifier = {
+				compliance_gain = 0.01
+				targeted_modifier = {
+					tag = NBT
 					attack_bonus_against = 0.25
 				}
-			}
-			targeted_modifier = {
-				tag = MDS
+				targeted_modifier = {
+					tag = MDS
 					attack_bonus_against = 0.25
 				}
-			}
-			targeted_modifier = {
-				tag = SIN
+				targeted_modifier = {
+					tag = SIN
 					attack_bonus_against = 0.25
 				}
 			}

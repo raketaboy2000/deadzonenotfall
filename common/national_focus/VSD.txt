@@ -266,7 +266,8 @@
 			add_war_support = 0.05
 			army_experience = 10
 			336 = {
-				transfer_state
+				transfer_state_to = VSD
+				add_core_of = VSD
 			}
 		}
 	}
@@ -550,7 +551,7 @@
 						}
 					}
 					add_dynamic_modifier = {
-						modifier = VSD_send_partisans #этот модификатор ещё предстоит создать
+						modifier = VSD_partisans #этот модификатор ещё предстоит создать
 						days = 150
 						scope = BDC
 					}
@@ -569,7 +570,7 @@
 						}
 					}
 					add_dynamic_modifier = {
-						modifier = VSD_send_partisans #этот модификатор ещё предстоит создать
+						modifier = VSD_partisans #этот модификатор ещё предстоит создать
 						days = 150
 						scope = PSY
 					}

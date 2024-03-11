@@ -1,0 +1,8 @@
+VSD_partisans = {
+	icon = GFX_modifiers_SOV_invaders_must_die
+	
+	state_resources_factor = -1
+	local_factories = -0.5
+	recruitable_population_factor = -0.55
+	disable_strategic_redeployment = yes
+}

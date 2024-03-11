@@ -1895,3 +1895,4 @@
  special_forces_mountaineers_organization_tt: " $modifier_army_sub_unit_mountaineers_max_org_factor$: $RIGHT|+=0%$"
  special_forces_marines_organization_tt: " $modifier_army_sub_unit_marines_max_org_factor$: $RIGHT|+=0%$"
  SWE_royal_visit_modifier: "$POL_growing_monarchist_sentiment$"
+ VSD_partisans: "Партизаны"
