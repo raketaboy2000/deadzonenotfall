@@ -949,19 +949,17 @@
 		y = 7
 		completion_reward = {
 			any_country = {
-				if = {
-					limit = {
-						AND = {
-							has_war_with = NTS
-							NOT = {
-								original_tag = VSD
-								tag = VSD
-							}
+				limit = {
+					AND = {
+						has_war_with = NTS
+						NOT = {
+							original_tag = VSD
+							tag = VSD
 						}
 					}
-					political_power = -25
-					war_support = -0.1
 				}
+				political_power = -25
+				war_support = -0.1
 			}
 			NTS = {
 				add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 100 producer = VSD }

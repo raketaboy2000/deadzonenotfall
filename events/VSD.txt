@@ -623,3 +623,46 @@ country_event = {
 		add_stability = -0.05
     }
 }
+
+country_event = {
+    id = vsd.28
+    title = vsd.28.t
+    desc = vsd.28.d
+    picture = GFX_report_event_VSD_wolf_future #нужна картинка
+	
+	trigger = {
+		AND = {
+			any_country = {
+				has_war_with = PSY
+			}
+			VSD = {
+				NOT = { has_war_with = PSY }
+			}
+			PSY = {
+				has_country_flag = VSD_ally_flag
+			}
+			PSY = {
+				has_idea = PSY_ally_with_village
+			}
+		}
+		
+	}
+	
+	mean_time_to_happen = { days = 5 } 
+	
+	option = {
+		name = vsd.28.a
+		add_stability = -0.05
+		any_country = {
+			limit = {
+				has_war_with = PSY
+			}
+			VSD = {
+				declare_war_on = {
+					target = ROOT
+					type = annex_everything
+				}
+			}
+		}
+    }
+}
