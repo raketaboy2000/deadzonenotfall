@@ -203,5 +203,19 @@ ideas = {
 				}
 			}
 		}
+		VSD_danger_deal_with_military = {
+		
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			picture = idea_tfv_can_conscription_crisis
+			
+			modifier = {
+				order_drift = 0.05
+			}
+		}
 	}
 }

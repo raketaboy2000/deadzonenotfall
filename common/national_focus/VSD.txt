@@ -818,6 +818,13 @@
 		id = VSD_dangerous_deal
 		icon = GFX_goal_generic_dangerous_deal
 		cost = 10
+		available = {
+			country_exists = PSY
+			is_subject = no
+			NOT = {
+				has_war_with = { original_tag = PSY }
+			}
+		}
 		prerequisite = {
 			focus = VSD_compensation
 		}
@@ -825,6 +832,7 @@
 		y = 5
 		completion_reward = {
             custom_effect_tooltip = VSD_dangerous_deal_tt
+			add_ideas = { VSD_danger_deal_with_military }
         }
 
 	}
@@ -835,6 +843,9 @@
 		available = {
 			country_exists = PSY
 			is_subject = no
+			NOT = {
+				has_war_with = { original_tag = PSY }
+			}
 		}
 		prerequisite = {
 			focus = VSD_dangerous_deal
