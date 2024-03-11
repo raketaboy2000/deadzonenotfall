@@ -8,33 +8,46 @@ bookmarks = {
 		default = yes
 		
 		"DUT" ={
-		history = "DUT_CLEAR_SKY_DESC"
-		ideology = order
+			history = "DUT_CLEAR_SKY_DESC"
+			ideology = order
 		}
 		
 	    "FRE" ={
-		history = "FRE_CLEAR_SKY_DESC"
-		ideology = anarchism
+			history = "FRE_CLEAR_SKY_DESC"
+			ideology = anarchism
+			ideas = {
+				FRE_mother_anarchy
+			}
 		}
 		
 		"MNT" ={
-		history = "MNT_CLEAR_SKY_DESC"
-		ideology = fanaticism
+			history = "MNT_CLEAR_SKY_DESC"
+			ideology = fanaticism
+			ideas = {
+				generic_za_monolith
+			}
 		}
 		
 		"PSY" ={
-		history = "PSY_CLEAR_SKY_DESC"
-		ideology = order
+			history = "PSY_CLEAR_SKY_DESC"
+			ideology = order
+			ideas = {
+				PSY_led_outside
+				PSY_useless_fodder
+			}
 		}
 		
 		"CRS" = {
-		history = "CRS_CLEAR_SKY_DESC"
-		ideology = science
+			history = "CRS_CLEAR_SKY_DESC"
+			ideology = science
 		}
 		
 		"MSE" = {
-		history = "MSE_CLEAR_SKY_DESC"
-		ideology = individualism
+			history = "MSE_CLEAR_SKY_DESC"
+			ideology = individualism
+			ideas = {
+				mercenary_spirit
+			}
 		}
 		
 		"NTS" = {
