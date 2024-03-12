@@ -29,6 +29,8 @@ news_event = {
 		days = 2
 	}
 
+    fire_only_once = yes
+
 	option = {
 		name = news.1.a
 		trigger = { 
@@ -42,12 +44,14 @@ news_event = {
 	option = {
 		name = news.1.b
 		trigger = {
+			OR = {
 				original_tag = YAG
 				original_tag = SNG
 				original_tag = SKG
 				original_tag = OCS
 				original_tag = BDS
 				original_tag = REN
+			}
 		}
 	}
 	option = {
