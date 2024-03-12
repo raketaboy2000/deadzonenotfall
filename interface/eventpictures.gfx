@@ -75,6 +75,10 @@ spriteTypes = {
 		name = "GFX_report_event_VSD_wolf_future"
 		texturefile = "gfx/event_pictures/report_event_VSD_wolf_future.dds"
 	}
+	spriteType = {
+		name = "GFX_report_event_crs_stalkers_want_territories"
+		texturefile = "gfx/event_pictures/report_event_crs_stalkers_want_territories.dds"
+	}
 
 	#############
 	###НОВОСТИ###

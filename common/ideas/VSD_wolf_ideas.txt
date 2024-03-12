@@ -191,18 +191,18 @@ ideas = {
 			
 			modifier = {
 				compliance_gain = 0.01
-				targeted_modifier = {
-					tag = NBT
-					attack_bonus_against = 0.25
-				}
-				targeted_modifier = {
-					tag = MDS
-					attack_bonus_against = 0.25
-				}
-				targeted_modifier = {
-					tag = SIN
-					attack_bonus_against = 0.25
-				}
+			}
+			targeted_modifier = {
+				tag = NBT
+				attack_bonus_against = 0.25
+			}
+			targeted_modifier = {
+				tag = MDS
+				attack_bonus_against = 0.25
+			}
+			targeted_modifier = {
+				tag = SIN
+				attack_bonus_against = 0.25
 			}
 		}
 		VSD_danger_deal_with_military = {
@@ -282,6 +282,27 @@ ideas = {
 			}
 			modifier = {
 				stability_factor = -0.05
+			}
+		}
+		VSD_help_for_clear_sky = {
+		
+			allowed = {
+				always = no
+			}
+			
+			available = {
+				NOT = {
+					has_war_with = CRS
+				}
+			}
+			
+			removal_cost = -1
+			
+			picture = great_depression
+			
+			targeted_modifier = { 
+				tag = CRS
+				cic_to_target_factor = 0.65
 			}
 		}
 	}

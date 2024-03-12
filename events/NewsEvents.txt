@@ -17,8 +17,6 @@ news_event = {
 	}
 	picture = GFX_news_event_001
 	
-	major = yes
-	
 	trigger = {
 		131 = {
 			controller = { NOT = { has_government = fanaticism } }
@@ -26,7 +24,7 @@ news_event = {
 	}
 
 	mean_time_to_happen = {
-		days = 2
+		days = 5
 	}
 
     fire_only_once = yes

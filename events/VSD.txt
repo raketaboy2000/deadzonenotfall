@@ -666,3 +666,77 @@ country_event = {
 		}
     }
 }
+
+country_event = {
+    id = vsd.29
+    title = vsd.29.t
+    desc = vsd.29.d
+    picture = GFX_report_event_crs_stalkers_want_territories
+	
+	is_triggered_only = yes
+	
+    fire_only_once = yes
+	
+	option = {
+		name = vsd.29.a
+		VSD = {
+			add_ideas = VSD_help_for_clear_sky
+			diplomatic_relation = {
+				country = CRS
+				relation = guarantee 
+				active = yes
+			}
+		}
+		every_owned_state = {
+			limit = {
+				OR = {
+					state = 367
+					state = 376
+					state = 372
+					state = 380
+					state = 409
+					state = 413
+					state = 402
+					state = 395
+					state = 436
+					state = 447
+					state = 464
+					state = 470
+					state = 539
+					state = 484
+				}
+			}
+			transfer_state_to = VSD
+			add_core_of = VSD
+			}
+		}
+		diplomatic_relation = {
+			country = CRS
+			relation = military_access
+			active = yes
+		}
+    }
+	option = {
+		name = vsd.29.a
+		VSD = {
+			country_event = vsd.30
+		}
+    }
+}
+
+country_event = {
+    id = vsd.30
+    title = vsd.30.t
+    desc = vsd.30.d
+    picture = GFX_report_event_vsd_contact_with_clear_sky
+    
+    fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = vsd.30.a
+		add_political_power = -75
+		add_stability = -0.01
+    }
+}
