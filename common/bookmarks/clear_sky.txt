@@ -10,6 +10,9 @@ bookmarks = {
 		"DUT" ={
 			history = "DUT_CLEAR_SKY_DESC"
 			ideology = order
+			ideas = {
+				DUT_duty_forever
+			}
 		}
 		
 	    "FRE" ={
@@ -40,6 +43,9 @@ bookmarks = {
 		"CRS" = {
 			history = "CRS_CLEAR_SKY_DESC"
 			ideology = science
+			ideas = {
+				CRS_peaseful_sky_to_world
+			}
 		}
 		
 		"MSE" = {
@@ -51,8 +57,11 @@ bookmarks = {
 		}
 		
 		"NTS" = {
-		history = "NTS_CLEAR_SKY_DESC"
-		ideology = individualism
+			history = "NTS_CLEAR_SKY_DESC"
+			ideology = individualism
+			ideas = {
+				NTS_stalker_spirit
+			}
 		}
 		
 		"---"={

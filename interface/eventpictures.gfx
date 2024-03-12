@@ -49,7 +49,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_report_event_ads_fanat_talk"
-		texturefile = "gfx/event_pictures/report_event_ads_fanat_talk.dds"report_event_ads_volk_talk
+		texturefile = "gfx/event_pictures/report_event_ads_fanat_talk.dds"
 	}
 	spriteType = {
 		name = "GFX_report_event_ads_volk_talk"

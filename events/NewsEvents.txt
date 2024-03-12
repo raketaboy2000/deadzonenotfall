@@ -3,7 +3,6 @@
 ####################
 
 add_namespace = news
-#Захват установки Х-18
 news_event = {
 	id = news.1
 	title = news.1.t
@@ -15,7 +14,7 @@ news_event = {
 		text = news.1.d_2
 		trigger = { has_government = fanaticism }
 	}
-	picture = GFX_news_event_001
+	picture = GFX_news_event_111
 	
 	trigger = {
 		131 = {
@@ -24,7 +23,7 @@ news_event = {
 	}
 
 	mean_time_to_happen = {
-		days = 5
+		#days = 5
 	}
 
     fire_only_once = yes

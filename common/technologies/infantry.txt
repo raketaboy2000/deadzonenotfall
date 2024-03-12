@@ -62,7 +62,7 @@ technologies = {
 		}		
 
 		research_cost = 1.5
-		start_year = 1936
+		start_year = 2005
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1936 }
@@ -124,7 +124,7 @@ technologies = {
 		}		
 
 		research_cost = 1.5
-		start_year = 1938
+		start_year = 2007
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1938 }
@@ -154,12 +154,12 @@ technologies = {
 			modifier = {
 				factor = 5
 				is_major = yes
-				date > "1938.1.1"
+				date > "2007.1.1"
 			}
 
 			modifier = {
 				factor = 5
-				date > "1939.1.1"
+				date > "2008.1.1"
 			}
 		}
 	}
@@ -180,7 +180,7 @@ technologies = {
 		}		
 
 		research_cost = 2
-		start_year = 1939
+		start_year = 2008
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1939 }
@@ -1280,7 +1280,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2000
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1918 }
@@ -1307,17 +1307,17 @@ technologies = {
 			}
 			modifier = {
 				factor = 2
-				date > "1937.1.1"
+				date > "2006.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1938.1.1"
+				date > "2007.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1939.1.1"
+				date > "2008.1.1"
 			}
 			modifier = {
 				has_war = yes

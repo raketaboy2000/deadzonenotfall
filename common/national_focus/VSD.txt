@@ -855,7 +855,7 @@
 			country_exists = PSY
 			is_subject = no
 			NOT = {
-				has_war_with = { original_tag = PSY }
+				has_war_with = PSY 
 			}
 		}
 		prerequisite = {
@@ -890,7 +890,7 @@
 			country_exists = PSY
 			is_subject = no
 			NOT = {
-				has_war_with = { original_tag = PSY }
+				has_war_with = PSY 
 			}
 		}
 		prerequisite = {
@@ -1220,7 +1220,10 @@
 			if = {
 				limit = {
 					VSD = {
-						has_country_leader = { VSD_Volk }
+						has_country_leader = {
+							character =	VSD_Volk
+							ruling_only = yes
+						}
 					}
 				}
 				country_event = vsd.21

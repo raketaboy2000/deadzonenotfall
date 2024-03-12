@@ -30,6 +30,9 @@ create_faction = cordon_alliance
 add_to_faction = NTS
 add_to_faction = VSD
 
+add_ideas = {
+	NTS_stalker_spirit
+}
 
 set_popularities = {
 	individualism = 100
