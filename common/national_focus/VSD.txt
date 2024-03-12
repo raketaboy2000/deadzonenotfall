@@ -551,7 +551,7 @@
 						}
 					}
 					add_dynamic_modifier = {
-						modifier = VSD_partisans #этот модификатор ещё предстоит создать
+						modifier = VSD_partisans
 						days = 150
 						scope = BDC
 					}
@@ -570,7 +570,7 @@
 						}
 					}
 					add_dynamic_modifier = {
-						modifier = VSD_partisans #этот модификатор ещё предстоит создать
+						modifier = VSD_partisans
 						days = 150
 						scope = PSY
 					}
@@ -664,7 +664,7 @@
 		}
 		completion_reward = {
 			159 = {
-				transfer_state = VSD
+				transfer_state_to = VSD
 				add_core_of = VSD
 			}
 			PSY = {
@@ -833,6 +833,19 @@
 		completion_reward = {
             custom_effect_tooltip = VSD_dangerous_deal_tt
 			add_ideas = { VSD_danger_deal_with_military }
+			NTS = {
+				remove_from_faction = ROOT
+				diplomatic_relation = {
+					target = VSD
+					relation = military_access
+					active = no
+				}
+			}
+			diplomatic_relation = {
+				target = NTS
+				relation = military_access
+				active = no
+			}
         }
 
 	}
@@ -854,9 +867,10 @@
 		y = 6
 		completion_reward = {
             custom_effect_tooltip = VSD_ally_with_army_tt
-			load_focus_tree = generic
-        }
-
+			PSY = {
+				country_event = vsd.23
+			}
+		}
 	}
 	focus = {
 		id = VSD_global_stalker_camp
@@ -919,11 +933,40 @@
 		id = VSD_war_of_valerian
 		icon = GFX_focus_ITA_banda_carita
 		cost = 5
+		available = {
+			AND = {
+				country_exists = NTS
+				is_subject = no
+				NTS = {
+					has_war = yes
+				}
+			}
+		}
 		prerequisite = {
 			focus = VSD_help_pressure_on_haletski
 		}
 		x = 6
 		y = 7
+		completion_reward = {
+			any_country = {
+				limit = {
+					AND = {
+						has_war_with = NTS
+						NOT = {
+							original_tag = VSD
+							tag = VSD
+						}
+					}
+				}
+				political_power = -25
+				war_support = -0.1
+			}
+			NTS = {
+				add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 100 producer = VSD }
+				add_equipment_to_stockpile = { type = support_equipment amount = 35 producer = VSD }
+				country_event = vsd.9
+			}
+        }
 
 	}
 	focus = {
@@ -953,7 +996,7 @@
 		x = 4
 		y = 9
 		completion_reward = {
-			add_idea = { VSD_volonters }
+			add_ideas = { VSD_volonters }
 			set_rule = { can_send_volunteers = yes }
         }
 
@@ -963,14 +1006,29 @@
 		icon = GFX_goal_generic_demand_territory
 		cost = 5
 		available = {
-			is_subject = no
-			has_war = no
+			AND = {
+				is_subject = no
+				has_war = no
+				NOT = {
+					302 = {
+						is_fully_controlled_by = YAG
+					}
+				}
+			}
 		}
 		prerequisite = {
 			focus = VSD_send_volonters
 		}
 		x = 4
 		y = 10
+		completion_reward = {
+			NTS = {
+				country_event = vsd.26
+			}
+			country_event = vsd.26
+			add_popularity = { ideology =  individualism popularity = 0.25 }
+			add_stability = 0.05
+        }
 
 	}
 	focus = {
@@ -991,7 +1049,9 @@
 		x = 4
 		y = 11
 		completion_reward = {
-			country_event = 
+			NTS = {
+				country_event = vsd.22
+			}
         }
 
 	}
@@ -1046,6 +1106,10 @@
 		id = VSD_mecheni_helping
 		icon = GFX_focus_SOV_ally_zinovyevists
 		cost = 5
+		available = {
+			has_war = no
+			is_subject = no
+		}
 		prerequisite = {
 			focus = VSD_new_work_for_shustri
 		}
@@ -1054,12 +1118,32 @@
 		}
 		x = 4
 		y = 13
+		completion_reward = {
+			add_war_support = 0.01
+			create_wargoal = {
+				type = annex_everything
+				target = BDC
+				expire = 0
+			}
+			add_political_power = -150
+			random_owned_controlled_state = {
+                limit = { PREV = { has_full_control_of_state = PREV } }
+                create_unit = {
+                    division = "name = \"Mechenyi_squad\" division_template = \"skilled\" start_experience_factor = 1" 
+                    owner = PREV
+                }
+			}
+        }
 
 	}
 	focus = {
 		id = VSD_mecheni_not_helping
 		icon = GFX_focus_SOV_purge_zinovyevists
 		cost = 5
+		available = {
+			has_war = no
+			is_subject = no
+		}
 		prerequisite = {
 			focus = VSD_new_work_for_shustri
 		}
@@ -1068,6 +1152,14 @@
 		}
 		x = 6
 		y = 13
+		completion_reward = {
+			add_stability = 0.01
+			create_wargoal = {
+				type = annex_everything
+				target = BDC
+				expire = 0
+			}
+        }
 
 	}
 	focus = {
@@ -1080,7 +1172,17 @@
 		x = 4
 		y = 15
 		completion_reward = {
-			load_focus_tree = generic
+			if = {
+				limit = {
+					VSD = {
+						has_country_leader = { VSD_Volk }
+					}
+				}
+				country_event = vsd.21
+			}
+			else = {
+				load_focus_tree = generic
+			}
         }
 
 	}
@@ -1088,18 +1190,29 @@
 		id = VSD_support_of_krot_group
 		icon = GFX_focus_SWI_guisans_coup
 		cost = 5
+		available = {
+			has_war = no
+			is_subject = no
+		}
 		prerequisite = {
 			focus = VSD_mecheni_helping
 			focus = VSD_mecheni_not_helping
 		}
 		x = 4
 		y = 14
+		completion_reward = {
+			add_political_power = 1
+        }
 
 	}
 	focus = {
 		id = VSD_focus_on_revenge
 		icon = GFX_goal_generic_occypy_states_ongoing_war
 		cost = 10
+		available = {
+			has_war = no
+			is_subject = no
+		}
 		prerequisite = {
 			focus = VSD_mecheni_not_helping
 		}
@@ -1108,17 +1221,58 @@
 		}
 		x = 8
 		y = 14
+		completion_reward = {
+			add_political_power = 1
+        }
 
 	}
 	focus = {
 		id = VSD_still_military_doc
 		icon = GFX_focus_DEN_heavy_regulations
 		cost = 10
+		available = {
+			has_war = no
+			is_subject = no
+		}
 		prerequisite = {
 			focus = VSD_mecheni_helping
 		}
 		x = 2
 		y = 14
+		completion_reward = {
+			if = {
+				limit = {
+					293 = {
+						is_fully_controlled_by = VSD
+					}
+				}
+				add_tech_bonus = {
+				name = HUN_danuvia_submachine_guns
+				bonus = 1.0
+				uses = 1
+				category = infantry_weapons
+				}
+			}
+			else = {
+				add_ideas = { VSD_military_docs }
+				add_political_power = 100
+				add_tech_bonus = {
+					name = HUN_danuvia_submachine_guns
+					bonus = 1.0
+					uses = 1
+					category = infantry_weapons
+				}
+				PSY = {
+					293 = {
+						add_dynamic_modifier = {
+							modifier = VSD_partisans
+							days = 150
+							scope = PSY
+						}
+					}
+				}
+			}
+        }
 
 	}
 	focus = {
@@ -1134,6 +1288,8 @@
 		}
 		x = 6
 		y = 14
-
+		completion_reward = {
+			add_political_power = 1
+        }
 	}
 }

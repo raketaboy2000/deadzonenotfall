@@ -19,6 +19,10 @@ set_technology = {
 	gw_artillery = 1
 }
 
+add_ideas = {
+	DUT_duty_forever
+}
+
 set_politics = {
 	ruling_party = order
 	last_election = "2005.1.1"

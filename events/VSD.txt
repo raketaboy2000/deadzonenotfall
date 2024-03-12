@@ -1,10 +1,10 @@
-add_namespace = vsd
+﻿add_namespace = vsd
 
 country_event = {
     id = vsd.1
     title = vsd.1.t
     desc = vsd.1.d
-    picture = GFX_report_event_VSD_wolf_future
+    picture = GFX_report_event_ads_volk_talk
     
     fire_only_once = yes
 	
@@ -52,7 +52,7 @@ country_event = {
     id = vsd.3
     title = vsd.3.t
     desc = vsd.3.d
-    picture = GFX_report_event_VSD_wolf_future
+    picture = GFX_report_event_vsd_artefacts
     
     fire_only_once = yes
 	
@@ -75,7 +75,7 @@ country_event = {
     id = vsd.4
     title = vsd.4.t
     desc = vsd.4.d
-    picture = GFX_report_event_VSD_wolf_future
+    picture = GFX_report_event_vsd_dead_in_anomaly
     
     fire_only_once = yes
 	
@@ -102,7 +102,7 @@ country_event = {
     id = vsd.5
     title = vsd.5.t
     desc = vsd.5.d
-    picture = GFX_report_event_VSD_wolf_future #нужна картинка
+    picture = GFX_report_event_generic_information_support
     
     fire_only_once = yes
 	
@@ -119,7 +119,7 @@ country_event = {
     id = vsd.6
     title = vsd.6.t
     desc = vsd.6.d
-    picture = GFX_report_event_VSD_wolf_future
+    picture = GFX_report_event_psy_stalker_attack_road_to_dark_sk
     
     fire_only_once = yes
 	
@@ -155,7 +155,7 @@ country_event = {
     id = vsd.7
     title = vsd.7.t
     desc = vsd.7.d
-    picture = GFX_report_event_VSD_wolf_future #нужна картинка
+    picture = GFX_report_event_vsd_contact_with_clear_sky
     
     fire_only_once = yes
 	
@@ -193,7 +193,7 @@ country_event = {
 						}
 					}
 				}
-				transfer_state = VSD
+				transfer_state_to = VSD
 			}
 		}
     }
@@ -218,7 +218,7 @@ country_event = {
     id = vsd.9
     title = vsd.9.t
     desc = vsd.9.d
-    picture = GFX_report_event_VSD_wolf_future #нужна картинка
+    picture = GFX_report_event_generic_weapon
     
     fire_only_once = yes
 	
@@ -236,7 +236,7 @@ country_event = {
     id = vsd.10
     title = vsd.10.t
     desc = vsd.10.d
-    picture = GFX_report_event_VSD_wolf_future #нужна картинка
+    picture = GFX_report_event_VSD_wolf_future
     
     fire_only_once = yes
 	
@@ -260,7 +260,7 @@ country_event = {
     id = vsd.11
     title = vsd.11.t
     desc = vsd.11.d
-    picture = GFX_report_event_VSD_wolf_future #нужна картинка
+    picture = GFX_report_event_vsd_valerian
     
     fire_only_once = yes
 	
@@ -279,7 +279,7 @@ country_event = {
     id = vsd.12
     title = vsd.12.t
     desc = vsd.12.d
-    picture = GFX_report_event_VSD_wolf_future #нужна картинка
+    picture = GFX_report_event_vsd_valerian
     
     fire_only_once = yes
 	
@@ -296,7 +296,7 @@ country_event = {
     id = vsd.13
     title = vsd.13.t
     desc = vsd.13.d
-    picture = GFX_report_event_VSD_wolf_future #нужна картинка
+    picture = GFX_report_event_psy_stalkers_attack_railway_point
     
     fire_only_once = yes
 	
@@ -322,7 +322,7 @@ country_event = {
     id = vsd.14
     title = vsd.14.t
     desc = vsd.14.d
-    picture = GFX_report_event_VSD_wolf_future #нужна картинка
+    picture = GFX_report_event_psy_stalkers_attack_railway_point
     
     fire_only_once = yes
 	
@@ -342,7 +342,7 @@ country_event = {
     id = vsd.15
     title = vsd.15.t
     desc = vsd.15.d
-    picture = GFX_report_event_VSD_wolf_future #нужна картинка
+    picture = GFX_report_event_psy_stalkers_attack_north_post
     
     fire_only_once = yes
 	
@@ -360,7 +360,7 @@ country_event = {
     id = vsd.16
     title = vsd.16.t
     desc = vsd.16.d
-    picture = GFX_report_event_VSD_wolf_future #нужна картинка
+    picture = GFX_report_event_ads_volk_talk
     
     fire_only_once = yes
 	
@@ -388,7 +388,7 @@ country_event = {
     id = vsd.17
     title = vsd.17.t
     desc = vsd.17.d
-    picture = GFX_report_event_VSD_wolf_future #нужна картинка
+    picture = GFX_report_event_ads_fanat_talk
     
     fire_only_once = yes
 	
@@ -419,7 +419,7 @@ country_event = {
     id = vsd.18
     title = vsd.18.t
     desc = vsd.18.d
-    picture = GFX_report_event_VSD_wolf_future #нужна картинка
+    picture = GFX_report_event_vsd_volkodav_talk
     
     fire_only_once = yes
 	
@@ -437,7 +437,7 @@ country_event = {
     id = vsd.19
     title = vsd.19.t
     desc = vsd.19.d
-    picture = GFX_report_event_VSD_wolf_future #нужна картинка
+    picture = GFX_report_event_generic_huge_military_support
     
     fire_only_once = yes
 	
@@ -453,7 +453,7 @@ country_event = {
     id = vsd.20
     title = vsd.20.t
     desc = vsd.20.d
-    picture = GFX_report_event_VSD_wolf_future #нужна картинка
+    picture = GFX_report_event_generic_weapon
     
     fire_only_once = yes
 	
@@ -462,5 +462,207 @@ country_event = {
 	option = {
         name = vsd.20.a
 		add_offsite_building = { type = arms_factory level = 1 }
+    }
+}
+
+country_event = {
+    id = vsd.21
+    title = vsd.21.t
+    desc = vsd.21.d
+    picture = GFX_report_event_ads_volk_talk
+    
+    fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+        name = vsd.21.a
+		load_focus_tree = generic
+		retire_ideology_leader = individualism
+		set_country_leader_name = {
+			ideology = individualism
+			name = VSD_fanat
+		}
+		add_stability = -0.05
+		add_popularity = {
+			ideology = anarchism
+			popularity = 0.05
+		}
+        hidden_effect = { set_cosmetic_tag = VSD_fanat_group }
+    }
+}
+
+country_event = {
+    id = vsd.22
+    title = vsd.22.t
+    desc = vsd.22.d
+    picture = GFX_report_event_VSD_wolf_future #нужна картинка
+    
+    fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+        name = vsd.22.a
+		VSD = {
+			country_event = vsd.11
+		}
+    }
+	option = {
+        name = vsd.22.b
+		VSD = {
+			country_event = vsd.12
+		}	
+    }
+}
+
+country_event = {
+    id = vsd.23
+    title = vsd.23.t
+    desc = vsd.23.d
+    picture = GFX_report_event_VSD_wolf_future #нужна картинка
+    
+    fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+        name = vsd.23.a
+		VSD = {
+			load_focus_tree = generic
+			add_ideas = { VSD_ally_with_village }
+			country_event = vsd.25
+		}
+		set_country_flag = VSD_ally_flag
+		add_ideas = { PSY_ally_with_village }
+    }
+	option = {
+        name = vsd.23.b
+		VSD = {
+			country_event = vsd.24
+		}	
+    }
+}
+
+country_event = {
+    id = vsd.24
+    title = vsd.24.t
+    desc = vsd.24.d
+    picture = GFX_report_event_vsd_army_say_no
+    
+    fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = vsd.24.a
+		load_focus_tree = generic
+		add_stability = -0.20
+		add_political_power = -40
+		add_manpower = -1
+    }
+}
+
+country_event = {
+    id = vsd.25
+    title = vsd.25.t
+    desc = vsd.25.d
+    picture = GFX_report_event_vsd_army_say_yes
+    
+    fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = vsd.25.a
+    }
+}
+
+country_event = {
+    id = vsd.26
+    title = vsd.26.t
+    desc = vsd.26.d
+    picture = GFX_report_event_generic_loners_in_depo
+    
+    fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = vsd.26.a
+    }
+}
+
+country_event = {
+    id = vsd.27
+    title = vsd.27.t
+    desc = vsd.27.d
+    picture = GFX_report_event_vsd_army_say_no
+	
+	trigger = {
+		AND = {
+			PSY = {
+				has_war_with = VSD
+			}
+			VSD = {
+				has_idea = VSD_ally_with_village
+			}
+		}
+		
+	}
+	
+	mean_time_to_happen = { days = 5 } 
+	
+	option = {
+		name = vsd.27.a
+		PSY = {
+			clr_country_flag = VSD_ally_flag
+			remove_ideas = PSY_ally_with_village
+		}
+		remove_ideas = VSD_ally_with_village
+		add_stability = -0.05
+    }
+}
+
+country_event = {
+    id = vsd.28
+    title = vsd.28.t
+    desc = vsd.28.d
+    picture = GFX_report_event_vsd_army_say_yes
+	
+	trigger = {
+		AND = {
+			any_country = {
+				has_war_with = PSY
+			}
+			VSD = {
+				NOT = { has_war_with = PSY }
+			}
+			PSY = {
+				has_country_flag = VSD_ally_flag
+			}
+			PSY = {
+				has_idea = PSY_ally_with_village
+			}
+		}
+		
+	}
+	
+	mean_time_to_happen = { days = 5 } 
+	
+	option = {
+		name = vsd.28.a
+		add_stability = -0.05
+		any_country = {
+			limit = {
+				has_war_with = PSY
+			}
+			VSD = {
+				declare_war_on = {
+					target = ROOT
+					type = annex_everything
+				}
+			}
+		}
     }
 }

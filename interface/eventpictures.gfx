@@ -3571,8 +3571,77 @@ spriteTypes = {
 		name = "GFX_report_event_BOL_bolivian_socialist_revolution"
 		texturefile = "gfx/event_pictures/report_event_BOL_bolivian_socialist_revolution.dds"
 	}
-
-
+	#################################
+	##### STALKER MOD DEAD ZONE ##### 
+	#################################
+	spriteType = {
+		name = "GFX_report_event_vsd_artefacts"
+		texturefile = "gfx/event_pictures/report_event_vsd_artefacts.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_vsd_dead_in_anomaly"
+		texturefile = "gfx/event_pictures/report_event_vsd_dead_in_anomaly.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_generic_weapon"
+		texturefile = "gfx/event_pictures/report_event_generic_weapon.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_generic_information_support"
+		texturefile = "gfx/event_pictures/report_event_generic_information_support.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_psy_stalkers_attack_railway_point"
+		texturefile = "gfx/event_pictures/report_event_psy_stalkers_attack_railway_point.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_psy_stalker_attack_road_to_dark_sk"
+		texturefile = "gfx/event_pictures/report_event_psy_stalker_attack_road_to_dark_sk.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_vsd_contact_with_clear_sky"
+		texturefile = "gfx/event_pictures/report_event_vsd_contact_with_clear_sky.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_crs_dead_soldier_of_clear_sky"
+		texturefile = "gfx/event_pictures/report_event_crs_dead_soldier_of_clear_sky.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_vsd_valerian"
+		texturefile = "gfx/event_pictures/report_event_vsd_valerian.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_psy_stalkers_attack_north_post"
+		texturefile = "gfx/event_pictures/report_event_psy_stalkers_attack_north_post.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_generic_huge_military_support"
+		texturefile = "gfx/event_pictures/report_event_generic_huge_military_support.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_ads_fanat_talk"
+		texturefile = "gfx/event_pictures/report_event_ads_fanat_talk.dds"report_event_ads_volk_talk
+	}
+	spriteType = {
+		name = "GFX_report_event_ads_volk_talk"
+		texturefile = "gfx/event_pictures/report_event_ads_volk_talk.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_vsd_volkodav_talk"
+		texturefile = "gfx/event_pictures/report_event_vsd_volkodav_talk.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_vsd_army_say_no"
+		texturefile = "gfx/event_pictures/report_event_vsd_army_say_no.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_vsd_army_say_yes"
+		texturefile = "gfx/event_pictures/report_event_vsd_army_say_yes.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_generic_loners_in_depo"
+		texturefile = "gfx/event_pictures/report_event_generic_loners_in_depo.dds"
+	}
 }
 
 

@@ -26,6 +26,10 @@ set_politics = {
 	elections_allowed = no
 }
 
+add_ideas = {
+	CRS_peaseful_sky_to_world
+}
+
 set_popularities = {
 	science = 100
 }

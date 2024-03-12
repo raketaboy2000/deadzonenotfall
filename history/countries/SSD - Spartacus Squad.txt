@@ -26,6 +26,10 @@ set_politics = {
 	elections_allowed = no
 }
 
+add_ideas = {
+	NTS_stalker_spirit
+}
+
 create_faction = skadovsk_alliance
 add_to_faction = SSD
 add_to_faction = LON

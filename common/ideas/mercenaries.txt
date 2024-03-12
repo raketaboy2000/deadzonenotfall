@@ -19,6 +19,9 @@ offence = 0.25
 defence = 0.35
 army_org_factor = 0.25
 army_morale_factor = 0.5
+}			
+rule = {
+can_create_factions = yes
 }
 }
 }

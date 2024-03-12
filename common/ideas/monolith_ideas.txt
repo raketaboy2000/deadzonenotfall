@@ -25,6 +25,9 @@ ideas = {
 				improve_relations_maintain_cost_factor = 1
 				custom_modifier_tooltip = generic_za_monolith_tt
 			}
+			rule = {
+				can_create_factions = yes
+			}
 		}
 	}
 }

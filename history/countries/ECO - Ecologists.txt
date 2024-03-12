@@ -19,6 +19,10 @@ set_technology = {
 	gw_artillery = 1
 }
 
+add_ideas = {
+	ECO_need_for_science
+}
+
 set_politics = {
 	ruling_party = science
 	last_election = "2005.1.1"
