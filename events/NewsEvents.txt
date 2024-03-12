@@ -41,23 +41,19 @@ news_event = {
 	option = {
 		name = news.1.b
 		trigger = {
-			OR = {
 				original_tag = YAG
 				original_tag = SNG
 				original_tag = SKG
 				original_tag = OCS
 				original_tag = BDS
 				original_tag = REN
-			} 
 		}
 	}
 	option = {
 		name = news.1.c
 		trigger = { 
-			OR = {
 				has_government = individualism
 				has_government = science
-			} 
 		}
 	}
 	option = {
@@ -67,10 +63,8 @@ news_event = {
 	option = {
 		name = news.1.f
 		trigger = {
-			OR = {
 				original_tag = PSY
 				original_tag = MIL
-			} 
 		}
 	}
 	option = {
