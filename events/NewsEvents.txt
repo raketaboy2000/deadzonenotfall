@@ -38,6 +38,7 @@ news_event = {
 				NOT = { original_tag = PSY }
 			}
 		}
+	}
 	option = {
 		name = news.1.b
 		trigger = {
@@ -52,8 +53,10 @@ news_event = {
 	option = {
 		name = news.1.c
 		trigger = { 
+			OR = {
 				has_government = individualism
 				has_government = science
+			}
 		}
 	}
 	option = {
@@ -63,8 +66,10 @@ news_event = {
 	option = {
 		name = news.1.f
 		trigger = {
+			OR = {
 				original_tag = PSY
 				original_tag = MIL
+			}
 		}
 	}
 	option = {
@@ -72,8 +77,12 @@ news_event = {
 		trigger = { 
 			AND = {
 				has_government = anarchism
-				NOT = { original_tag = MIL }
-				NOT = { original_tag = PSY }
+				NOT = { original_tag = YAG }
+				NOT = { original_tag = SNG }
+				NOT = { original_tag = OCS }
+				NOT = { original_tag = BDS }
+				NOT = { original_tag = REN }
+				NOT = { original_tag = SKG }
 			}
 		}
 	}
