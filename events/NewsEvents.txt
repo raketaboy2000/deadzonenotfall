@@ -1,0 +1,86 @@
+####################
+###Мировые ивенты###
+####################
+
+add_namespace = news
+#Захват установки Х-18
+news_event = {
+	id = news.1
+	title = news.1.t
+	desc = {
+		text = news.1.d
+		trigger = { NOT = { has_government = fanaticism } }
+	}
+	desc = {
+		text = news.1.d_2
+		trigger = { has_government = fanaticism }
+	}
+	picture = GFX_news_event_001
+	
+	major = yes
+	
+	trigger = {
+		131 = {
+			controller = { NOT = { has_government = fanaticism } }
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 2
+	}
+
+	option = {
+		name = news.1.a
+		trigger = { 
+			AND = {
+				has_government = order
+				NOT = { original_tag = MIL }
+				NOT = { original_tag = PSY }
+			}
+		}
+	option = {
+		name = news.1.b
+		trigger = {
+			OR = {
+				original_tag = YAG
+				original_tag = SNG
+				original_tag = SKG
+				original_tag = OCS
+				original_tag = BDS
+				original_tag = REN
+			} 
+		}
+	}
+	option = {
+		name = news.1.c
+		trigger = { 
+			OR = {
+				has_government = individualism
+				has_government = science
+			} 
+		}
+	}
+	option = {
+		name = news.1.e
+		trigger = { has_government = fanaticism }
+	}
+	option = {
+		name = news.1.f
+		trigger = {
+			OR = {
+				original_tag = PSY
+				original_tag = MIL
+			} 
+		}
+	}
+	option = {
+		name = news.1.g
+		trigger = { 
+			AND = {
+				has_government = anarchism
+				NOT = { original_tag = MIL }
+				NOT = { original_tag = PSY }
+			}
+		}
+	}
+}
