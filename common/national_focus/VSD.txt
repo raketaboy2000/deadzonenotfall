@@ -664,7 +664,7 @@
 		}
 		completion_reward = {
 			159 = {
-				transfer_state = VSD
+				transfer_state_to = VSD
 				add_core_of = VSD
 			}
 			PSY = {

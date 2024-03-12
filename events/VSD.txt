@@ -4,7 +4,7 @@ country_event = {
     id = vsd.1
     title = vsd.1.t
     desc = vsd.1.d
-    picture = GFX_report_event_VSD_wolf_future
+    picture = GFX_report_event_ads_volk_talk
     
     fire_only_once = yes
 	
@@ -102,7 +102,7 @@ country_event = {
     id = vsd.5
     title = vsd.5.t
     desc = vsd.5.d
-    picture = GFX_report_event_VSD_wolf_future #нужна картинка
+    picture = GFX_report_event_generic_information_support
     
     fire_only_once = yes
 	
@@ -119,7 +119,7 @@ country_event = {
     id = vsd.6
     title = vsd.6.t
     desc = vsd.6.d
-    picture = GFX_report_event_VSD_wolf_future
+    picture = GFX_report_event_psy_stalker_attack_road_to_dark_sk
     
     fire_only_once = yes
 	
@@ -155,7 +155,7 @@ country_event = {
     id = vsd.7
     title = vsd.7.t
     desc = vsd.7.d
-    picture = GFX_report_event_VSD_wolf_future #нужна картинка
+    picture = GFX_report_event_vsd_contact_with_clear_sky
     
     fire_only_once = yes
 	
@@ -193,7 +193,7 @@ country_event = {
 						}
 					}
 				}
-				transfer_state = VSD
+				transfer_state_to = VSD
 			}
 		}
     }
@@ -218,7 +218,7 @@ country_event = {
     id = vsd.9
     title = vsd.9.t
     desc = vsd.9.d
-    picture = GFX_report_event_VSD_wolf_future #нужна картинка
+    picture = GFX_report_event_generic_weapon
     
     fire_only_once = yes
 	
@@ -236,7 +236,7 @@ country_event = {
     id = vsd.10
     title = vsd.10.t
     desc = vsd.10.d
-    picture = GFX_report_event_VSD_wolf_future #нужна картинка
+    picture = GFX_report_event_VSD_wolf_future
     
     fire_only_once = yes
 	
@@ -260,7 +260,7 @@ country_event = {
     id = vsd.11
     title = vsd.11.t
     desc = vsd.11.d
-    picture = GFX_report_event_VSD_wolf_future #нужна картинка
+    picture = GFX_report_event_vsd_valerian
     
     fire_only_once = yes
 	
@@ -279,7 +279,7 @@ country_event = {
     id = vsd.12
     title = vsd.12.t
     desc = vsd.12.d
-    picture = GFX_report_event_VSD_wolf_future #нужна картинка
+    picture = GFX_report_event_vsd_valerian
     
     fire_only_once = yes
 	
@@ -296,7 +296,7 @@ country_event = {
     id = vsd.13
     title = vsd.13.t
     desc = vsd.13.d
-    picture = GFX_report_event_VSD_wolf_future #нужна картинка
+    picture = GFX_report_event_psy_stalkers_attack_railway_point
     
     fire_only_once = yes
 	
@@ -322,7 +322,7 @@ country_event = {
     id = vsd.14
     title = vsd.14.t
     desc = vsd.14.d
-    picture = GFX_report_event_VSD_wolf_future #нужна картинка
+    picture = GFX_report_event_psy_stalkers_attack_railway_point
     
     fire_only_once = yes
 	
@@ -342,7 +342,7 @@ country_event = {
     id = vsd.15
     title = vsd.15.t
     desc = vsd.15.d
-    picture = GFX_report_event_VSD_wolf_future #нужна картинка
+    picture = GFX_report_event_psy_stalkers_attack_north_post
     
     fire_only_once = yes
 	
@@ -360,7 +360,7 @@ country_event = {
     id = vsd.16
     title = vsd.16.t
     desc = vsd.16.d
-    picture = GFX_report_event_VSD_wolf_future #нужна картинка
+    picture = GFX_report_event_ads_volk_talk
     
     fire_only_once = yes
 	
@@ -388,7 +388,7 @@ country_event = {
     id = vsd.17
     title = vsd.17.t
     desc = vsd.17.d
-    picture = GFX_report_event_VSD_wolf_future #нужна картинка
+    picture = GFX_report_event_ads_fanat_talk
     
     fire_only_once = yes
 	
@@ -419,7 +419,7 @@ country_event = {
     id = vsd.18
     title = vsd.18.t
     desc = vsd.18.d
-    picture = GFX_report_event_VSD_wolf_future #нужна картинка
+    picture = GFX_report_event_vsd_volkodav_talk
     
     fire_only_once = yes
 	
@@ -437,7 +437,7 @@ country_event = {
     id = vsd.19
     title = vsd.19.t
     desc = vsd.19.d
-    picture = GFX_report_event_VSD_wolf_future #нужна картинка
+    picture = GFX_report_event_generic_huge_military_support
     
     fire_only_once = yes
 	
@@ -453,7 +453,7 @@ country_event = {
     id = vsd.20
     title = vsd.20.t
     desc = vsd.20.d
-    picture = GFX_report_event_VSD_wolf_future #нужна картинка
+    picture = GFX_report_event_generic_weapon
     
     fire_only_once = yes
 	
@@ -469,7 +469,7 @@ country_event = {
     id = vsd.21
     title = vsd.21.t
     desc = vsd.21.d
-    picture = GFX_report_event_VSD_wolf_future #нужна картинка
+    picture = GFX_report_event_ads_volk_talk
     
     fire_only_once = yes
 	
@@ -548,7 +548,7 @@ country_event = {
     id = vsd.24
     title = vsd.24.t
     desc = vsd.24.d
-    picture = GFX_report_event_VSD_wolf_future #нужна картинка
+    picture = GFX_report_event_vsd_army_say_no
     
     fire_only_once = yes
 	
@@ -567,7 +567,7 @@ country_event = {
     id = vsd.25
     title = vsd.25.t
     desc = vsd.25.d
-    picture = GFX_report_event_VSD_wolf_future #нужна картинка
+    picture = GFX_report_event_vsd_army_say_yes
     
     fire_only_once = yes
 	
@@ -582,7 +582,7 @@ country_event = {
     id = vsd.26
     title = vsd.26.t
     desc = vsd.26.d
-    picture = GFX_report_event_VSD_wolf_future #нужна картинка
+    picture = GFX_report_event_generic_loners_in_depo
     
     fire_only_once = yes
 	
@@ -597,7 +597,7 @@ country_event = {
     id = vsd.27
     title = vsd.27.t
     desc = vsd.27.d
-    picture = GFX_report_event_VSD_wolf_future #нужна картинка
+    picture = GFX_report_event_vsd_army_say_no
 	
 	trigger = {
 		AND = {
@@ -628,7 +628,7 @@ country_event = {
     id = vsd.28
     title = vsd.28.t
     desc = vsd.28.d
-    picture = GFX_report_event_VSD_wolf_future #нужна картинка
+    picture = GFX_report_event_vsd_army_say_yes
 	
 	trigger = {
 		AND = {
