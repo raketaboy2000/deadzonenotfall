@@ -81,8 +81,6 @@ technology_categories = {
 	concentrated_industry_category
 	dispersed_industry_category
 	asw_tech
-	naval_minesweeping
-	naval_minelaying
 	cat_scout_plane
 	train_tech
 	cat_production
@@ -90,10 +88,6 @@ technology_categories = {
 	cat_synth_oil
 	cat_armored_cars
 	cat_special_forces_generic
-	cat_torpedoes
-	cat_ship_light_battery
-	cat_ship_medium_battery
-	cat_ship_heavy_battery
 	plane_modules_tech
 	special_forces_doctrine
 	cat_maritime_patrol
@@ -102,8 +96,6 @@ technology_categories = {
 	cat_paratroopers_doctrine
 
 	mio_cat_tech_all_armor_and_modules #Includes modules and chassis (DOES NOT INCLUDE ARMORED CARS)
-	mio_cat_tech_light_armor_and_modules #Includes modules and stand-alone Amphibious Chassis
-	mio_cat_tech_medium_armor_and_modules #Includes modules and Modern Tank
 	mio_cat_tech_heavy_armor_and_modules #Includes modules and Super-Heavy Tank
 	mio_cat_all_artillery_equipment #Includes Artillery, AT, AA and Rocket Artillery
 	mio_cat_all_light_fighter_and_modules #Includes fighter-related modules and CV Fighter
@@ -125,40 +117,8 @@ technology_folders = {
 	support_folder = {
 		ledger = army
 	}
-	armour_folder = {
-		ledger = army
-		available = {
-			NOT = {
-				has_dlc = "No Step Back"
-			}
-		}
-	}
-	nsb_armour_folder = {
-		ledger = army
-		available = {
-			has_dlc = "No Step Back"
-		}
-	}
 	artillery_folder = {
 		ledger = army
-	}
-	naval_folder = {
-		available = {
-			not = { has_dlc = "Man the Guns" }
-		}
-		ledger = navy
-	}
-	mtgnavalfolder = {
-		available = {
-			has_dlc = "Man the Guns"
-		}
-		ledger = navy
-	}
-	mtgnavalsupportfolder = {
-		available = {
-			has_dlc = "Man the Guns"
-		}
-		ledger = navy
 	}
 	industry_folder = {
 		ledger = civilian
