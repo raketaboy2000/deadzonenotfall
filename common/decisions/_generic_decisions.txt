@@ -157,7 +157,7 @@ economy_decisions = {
 		}
 		complete_effect = {
 			any_country = {
-				if
+				if = {
 					limit = {
 						has_idea = generic_za_monolith_2
 					}
