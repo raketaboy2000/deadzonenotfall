@@ -740,3 +740,44 @@ country_event = {
 		add_stability = -0.01
     }
 }
+
+country_event = {
+    id = vsd.31
+    title = vsd.31.t
+    desc = vsd.31.d
+    picture = GFX_report_event_generic_secret
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = vsd.31.a
+		add_equipment_to_stockpile = {
+			type = infantry_equipment_1
+			amount = 50
+		}
+		add_equipment_to_stockpile = {
+			type = support_equipment
+			amount = 25
+		}
+		random_owned_controlled_state = {
+			add_resource = {
+				type = steel
+				amount = 1
+			}
+		}
+    }
+}
+
+country_event = {
+    id = vsd.32
+    title = vsd.32.t
+    desc = vsd.32.d
+    picture = GFX_report_event_generic_cordon
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = vsd.32.a
+		add_political_power = -50
+    }
+}

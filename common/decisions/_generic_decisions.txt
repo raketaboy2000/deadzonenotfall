@@ -144,4 +144,24 @@ economy_decisions = {
 			}
 		}
 	}
+	x_10_off = {
+		icon = decision_generic_construction
+		cost = 500
+		fire_only_once = yes
+		days_remove = 1
+		visible = {
+			any_owner_state = {
+				state = 131
+			}
+			NOT = { has_government = fanaticism }
+		}
+		complete_effect = {
+			any_country = {
+				limit = {
+					has_idea = generic_za_monolith_2
+				}
+				country_event = mon.1
+			}
+		}
+	}
 }

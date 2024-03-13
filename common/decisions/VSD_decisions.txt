@@ -1,6 +1,6 @@
 VSD_artefacrs = {
     
-    VSD_hunt_for_artefacts = {
+    VSD_hunt_for_artefacts = { VSD_scouting
 		priority = 50
 		icon = GFX_decision_SWE_paid_holidays_policy
 		cost = 50
@@ -22,6 +22,27 @@ VSD_artefacrs = {
                 }
                 20 = {
                     country_event = vsd.4
+                }
+            }
+        }
+    }
+	
+    VSD_scouting = {
+		priority = 45
+		icon = GFX_decision_SWE_paid_holidays_policy
+		cost = 25
+		days_re_enable = 35
+		days_remove = 25
+		available = {
+			original_tag = VSD
+		}
+        complete_effect = {
+            random_list = {
+                35 = {
+                    country_event = vsd.31
+                }
+                65 = {
+                    country_event = vsd.32
                 }
             }
         }

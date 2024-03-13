@@ -10,8 +10,9 @@ country_event = {
 	
 	trigger = {
 		AND = {
+			NOT = { has_government = order }
 			NOT = { has_government = fanaticism }
-			order > 0.89
+			ideology = { order > 0.89 ]
 		}
 	}
     
@@ -43,8 +44,9 @@ country_event = {
 	
 	trigger = {
 		AND = {
+			NOT = { has_government = anarchism }
 			NOT = { has_government = fanaticism }
-			anarchism > 0.89
+			ideology = { anarchism > 0.89 }
 		}
 	}
     
@@ -76,8 +78,9 @@ country_event = {
 	
 	trigger = {
 		AND = {
+			NOT = { has_government = individualism }
 			NOT = { has_government = fanaticism }
-			individualism > 0.89
+			ideology = { individualism > 0.89 }
 		}
 	}
     
@@ -109,8 +112,9 @@ country_event = {
 	
 	trigger = {
 		AND = {
+			NOT = { has_government = science }
 			NOT = { has_government = fanaticism }
-			science > 0.89
+			ideology = { science > 0.89 }
 		}
 	}
     

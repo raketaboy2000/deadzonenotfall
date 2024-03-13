@@ -1,0 +1,68 @@
+add_namespace = mon
+
+#Тут общий ивент на случай падения Х-10
+country_event = {
+    id = mon.1
+    title = mon.1.t
+    desc = mon.1.d
+    picture = GFX_report_event_generic_x_10
+	
+	is_triggered_only = yes
+
+    option = {
+        name = mon.1.a
+		swap_ideas = {
+			remove_idea = generic_za_monolith_2
+			add_idea = generic_za_monolith_3
+		}
+    }
+}
+
+country_event = {
+    id = mon.2
+    title = mon.2.t
+    desc = mon.2.d
+    picture = GFX_report_event_generic_death_monolith_soldier
+	
+	trigger = {
+		AND = {
+			131 = {
+				controller = { NOT = { has_government = fanaticism } }
+			}
+			has_idea = generic_za_monolith
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+    option = {
+        name = mon.1.a
+		swap_ideas = {
+			remove_idea = generic_za_monolith
+			add_idea = generic_za_monolith_2
+		}
+    }
+}
+
+###############Далее с поясняющими комментариями, пожалуйста, записывайте в этом документе все ивенты, связанные с конкретной страной фанатиков################
+
+
+#################
+####ФАНТОМЫ######
+#################
+
+
+
+
+
+#################
+####О-СОЗНАНИЕ###
+#################
+
+
+
+#################
+####Монолит###### И так далее. Каждой стране свой раздел под комметарием. Давайте не будем превращать код в спагетти. Пусть всё монолитовское лежит здесь
+#################
