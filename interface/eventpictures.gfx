@@ -79,6 +79,22 @@ spriteTypes = {
 		name = "GFX_report_event_crs_stalkers_want_territories"
 		texturefile = "gfx/event_pictures/report_event_crs_stalkers_want_territories.dds"
 	}
+	spriteType = {
+		name = "GFX_report_event_generic_order"
+		texturefile = "gfx/event_pictures/report_event_generic_order.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_generic_anarchism"
+		texturefile = "gfx/event_pictures/report_event_generic_anarchism.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_generic_individualism"
+		texturefile = "gfx/event_pictures/report_event_generic_individualism.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_generic_science"
+		texturefile = "gfx/event_pictures/report_event_generic_science.dds"
+	}
 
 	#############
 	###НОВОСТИ###

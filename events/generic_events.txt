@@ -1,0 +1,133 @@
+add_namespace = ideology
+
+country_event = {
+    id = ideology.1
+    title = ideology.1.t
+    desc = ideology.1.d
+    picture = GFX_report_event_generic_order
+    
+    fire_only_once = yes
+	
+	trigger = {
+		AND = {
+			NOT = { has_government = fanaticism }
+			order > 0.89
+		}
+	}
+    
+    option = {
+        name = ideology.1.a
+		set_politics = { ruling_party = order elections_allowed = no }
+    }
+	
+	option = {
+        name = ideology.1.b
+		add_popularity = {
+			ideology = order
+			popularity = -0.5
+		}
+		start_civil_war = {
+			ideology = order
+			size = 0.8
+		}
+    }
+}
+
+country_event = {
+    id = ideology.2
+    title = ideology.2.t
+    desc = ideology.2.d
+    picture = GFX_report_event_generic_anarchism
+    
+    fire_only_once = yes
+	
+	trigger = {
+		AND = {
+			NOT = { has_government = fanaticism }
+			anarchism > 0.89
+		}
+	}
+    
+    option = {
+        name = ideology.2.a
+		set_politics = { ruling_party = anarchism elections_allowed = no }
+    }
+	
+	option = {
+        name = ideology.2.b
+		add_popularity = {
+			ideology = anarchism
+			popularity = -0.5
+		}
+		start_civil_war = {
+			ideology = anarchism
+			size = 0.8
+		}
+    }
+}
+
+country_event = {
+    id = ideology.3
+    title = ideology.3.t
+    desc = ideology.3.d
+    picture = GFX_report_event_generic_individualism
+    
+    fire_only_once = yes
+	
+	trigger = {
+		AND = {
+			NOT = { has_government = fanaticism }
+			individualism > 0.89
+		}
+	}
+    
+    option = {
+        name = ideology.3.a
+		set_politics = { ruling_party = individualism elections_allowed = no }
+    }
+	
+	option = {
+        name = ideology.3.b
+		add_popularity = {
+			ideology = individualism
+			popularity = -0.5
+		}
+		start_civil_war = {
+			ideology = individualism
+			size = 0.8
+		}
+    }
+}
+
+country_event = {
+    id = ideology.4
+    title = ideology.4.t
+    desc = ideology.4.d
+    picture = GFX_report_event_generic_science
+    
+    fire_only_once = yes
+	
+	trigger = {
+		AND = {
+			NOT = { has_government = fanaticism }
+			science > 0.89
+		}
+	}
+    
+    option = {
+        name = ideology.4.a
+		set_politics = { ruling_party = science elections_allowed = no }
+    }
+	
+	option = {
+        name = ideology.4.b
+		add_popularity = {
+			ideology = science
+			popularity = -0.5
+		}
+		start_civil_war = {
+			ideology = science
+			size = 0.8
+		}
+    }
+}

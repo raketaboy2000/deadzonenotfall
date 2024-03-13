@@ -23,9 +23,10 @@ ideas = {
 			}
 			rule = {
 				can_create_factions = yes
+				can_only_justify_war_on_threat_country = yes
 			}
 		}
-		ECO_need_for_science = {
+		ECO_need_for_science_2 = {
 		
 			allowed = {
 				always = no
@@ -40,6 +41,7 @@ ideas = {
 			}
 			rule = {
 				can_create_factions = yes
+				can_only_justify_war_on_threat_country = yes
 			}
 		}
 	}

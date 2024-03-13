@@ -58,7 +58,16 @@ economy_decisions = {
 		days_remove = 35
 		days_re_enable = 35
 		available = {
-			NOT = { has_government = fanaticism }
+			AND = {
+				NOT = { has_government = fanaticism }
+				NOT = { original_tag = YAG }
+				NOT = { original_tag = SNG }
+				NOT = { original_tag = REN }
+				NOT = { original_tag = MDS }
+				NOT = { original_tag = SKG }
+				NOT = { original_tag = OCS }
+				NOT = { original_tag = DED }
+			}
 		}
 		complete_effect = {
 			add_stability = -0.01
@@ -74,7 +83,14 @@ economy_decisions = {
 		days_remove = 35
 		days_re_enable = 35
 		available = {
-			NOT = { has_government = fanaticism }
+			AND = {
+				NOT = { has_government = fanaticism }
+				NOT = { original_tag = FRE }
+				NOT = { original_tag = YAG }
+				NOT = { original_tag = SNG }
+				NOT = { original_tag = REN }
+				NOT = { original_tag = MSE }
+			}
 		}
 		complete_effect = {
 			add_stability = -0.01
@@ -90,7 +106,15 @@ economy_decisions = {
 		days_remove = 35
 		days_re_enable = 35
 		available = {
-			NOT = { has_government = fanaticism }
+			AND = {
+				NOT = { has_government = fanaticism }
+				NOT = { original_tag = DUT }
+				NOT = { original_tag = PSY }
+				NOT = { original_tag = ECO }
+				NOT = { original_tag = SCS }
+				NOT = { original_tag = CRS }
+				NOT = { original_tag = MSE }
+			}
 		}
 		complete_effect = {
 			add_stability = -0.01
@@ -106,7 +130,11 @@ economy_decisions = {
 		days_remove = 35
 		days_re_enable = 35
 		available = {
-			NOT = { has_government = fanaticism }
+			AND = {
+				NOT = { has_government = fanaticism }
+				NOT = { original_tag = PSY }
+				NOT = { original_tag = MIL }
+			}
 		}
 		complete_effect = {
 			add_stability = -0.01

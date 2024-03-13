@@ -711,7 +711,7 @@ country_event = {
 			}
 		}
 		diplomatic_relation = {
-			country = CRS
+			country = VSD
 			relation = military_access
 			active = yes
 		}
