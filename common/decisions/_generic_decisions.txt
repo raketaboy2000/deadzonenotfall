@@ -157,10 +157,12 @@ economy_decisions = {
 		}
 		complete_effect = {
 			any_country = {
-				limit = {
-					has_idea = generic_za_monolith_2
+				if
+					limit = {
+						has_idea = generic_za_monolith_2
+					}
+					country_event = mon.1
 				}
-				country_event = mon.1
 			}
 		}
 	}
