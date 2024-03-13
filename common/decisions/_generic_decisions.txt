@@ -57,7 +57,7 @@ economy_decisions = {
 		cost = 50
 		days_remove = 35
 		days_re_enable = 35
-		available = {
+		visible = {
 			AND = {
 				NOT = { has_government = fanaticism }
 				NOT = { original_tag = YAG }
@@ -82,7 +82,7 @@ economy_decisions = {
 		cost = 50
 		days_remove = 35
 		days_re_enable = 35
-		available = {
+		visible = {
 			AND = {
 				NOT = { has_government = fanaticism }
 				NOT = { original_tag = FRE }
@@ -105,7 +105,7 @@ economy_decisions = {
 		cost = 50
 		days_remove = 35
 		days_re_enable = 35
-		available = {
+		visible = {
 			AND = {
 				NOT = { has_government = fanaticism }
 				NOT = { original_tag = DUT }
@@ -129,7 +129,7 @@ economy_decisions = {
 		cost = 50
 		days_remove = 35
 		days_re_enable = 35
-		available = {
+		visible = {
 			AND = {
 				NOT = { has_government = fanaticism }
 				NOT = { original_tag = PSY }
