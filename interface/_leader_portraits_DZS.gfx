@@ -26,8 +26,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_portrait_CSD_Cleaver"
-		texturefile = "gfx/leaders/CSD/CSD_Cleaver.dds"
+		name = "GFX_portrait_TCS_Cleaver"
+		texturefile = "gfx/leaders/TCS/TCS_Cleaver.dds"
 	}
 	
 	spriteType = {
@@ -111,8 +111,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_portrait_MER_Leshii"
-		texturefile = "gfx/leaders/MER/MER_Leshii.dds"
+		name = "GFX_portrait_LSD_Leshii"
+		texturefile = "gfx/leaders/LSD/LSD_Leshii.dds"
 	}
 
 	spriteType = {
@@ -267,5 +267,21 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_EDS_levsha"
 		texturefile = "gfx/leaders/EDS/EDS_levsha.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_TVS_Vagabond"
+		texturefile = "gfx/leaders/TVS/TVS_Vagabond.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_IRG_Major_Hernandez"
+		texturefile = "gfx/leaders/IRG/IRG_Major_Hernandez.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_DED_Dead_Man"
+		texturefile = "gfx/leaders/DED/DED_Dead_Man.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_MER_Leader"
+		texturefile = "gfx/leaders/MER/MER_Leader.dds"
 	}
 }

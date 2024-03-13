@@ -3,7 +3,7 @@ characters = {
 		name = HMT_Hermit
 		portraits = {
 			civilian = {
-				large = "GFX_portrait_HMT_hermit"
+				large = "GFX_portrait_HMT_Hermit"
 			}
 		}
 		country_leader = {
