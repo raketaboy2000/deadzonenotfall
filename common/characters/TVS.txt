@@ -1,13 +1,13 @@
 characters = {
-	VUS_Hoag = { #VUS
-		name = VUS_Hoag
+	TVS_Vagabond = { #TVS
+		name = TVS_Vagabond
 		portraits = {
 			civilian = {
-				large = "GFX_portrait_VUS_Hoag"
+				large = "GFX_portrait_TVS_Vagabond"
 			}
 		}
 		country_leader = {
-			ideology = mercenaries
+			ideology = monolit
 			traits={  }
 			expire = "2014.1.1.1"
 			id = -1

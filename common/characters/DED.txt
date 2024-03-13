@@ -1,16 +1,14 @@
 characters = {
-	YAG_Yoga = {
-		name = YAG_Yoga
+	DED_Dead_Man = {
+		name = DED_Dead_Man
 		portraits = {
 			civilian = {
-				large = "GFX_portrait_YAG_Yoga"
+				large = "GFX_portrait_DED_Dead_Man"
 			}
 		}
 		country_leader = {
 			ideology = banditry
 			traits={  }
-			expire = "2014.1.1.1"
-			id = -1
 		}
 	}
 }
