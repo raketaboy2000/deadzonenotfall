@@ -1,6 +1,6 @@
 VSD_artefacrs = {
     
-    VSD_hunt_for_artefacts = { VSD_scouting
+    VSD_hunt_for_artefacts = {
 		priority = 50
 		icon = GFX_decision_SWE_paid_holidays_policy
 		cost = 50
