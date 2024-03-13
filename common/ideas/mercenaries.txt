@@ -22,6 +22,7 @@ army_morale_factor = 0.5
 }			
 rule = {
 can_create_factions = yes
+can_send_volunteers = no
 }
 }
 }

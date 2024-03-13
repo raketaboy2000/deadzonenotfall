@@ -52,4 +52,68 @@ economy_decisions = {
 			}
 		}
 	}
+	science_bust = {
+		icon = decision_generic_research
+		cost = 50
+		days_remove = 35
+		days_re_enable = 35
+		available = {
+			NOT = { has_government = fanaticism }
+		}
+		complete_effect = {
+			add_stability = -0.01
+			add_popularity = {
+				ideology = science
+				popularity = 0.05
+			}
+		}
+	}
+	order_bust = {
+		icon = decision_generic_police_action
+		cost = 50
+		days_remove = 35
+		days_re_enable = 35
+		available = {
+			NOT = { has_government = fanaticism }
+		}
+		complete_effect = {
+			add_stability = -0.01
+			add_popularity = {
+				ideology = order
+				popularity = 0.05
+			}
+		}
+	}
+	anarchism_bust = {
+		icon = decision_SWI_consolidate_council_power
+		cost = 50
+		days_remove = 35
+		days_re_enable = 35
+		available = {
+			NOT = { has_government = fanaticism }
+		}
+		complete_effect = {
+			add_stability = -0.01
+			add_popularity = {
+				ideology = anarchism
+				popularity = 0.05
+			}
+		}
+	}
+	individualism_bust = {
+		icon = decision_generic_civil_support
+		cost = 50
+		days_remove = 35
+		days_re_enable = 35
+		available = {
+			NOT = { has_government = fanaticism }
+		}
+		complete_effect = {
+			add_stability = -0.01
+			add_popularity = {
+				ideology = individualism
+				popularity = 0.05
+			}
+		}
+	}
 }

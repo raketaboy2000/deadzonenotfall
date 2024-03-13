@@ -16,6 +16,8 @@ ideas = {
 			}
 			rule = {
 				can_create_factions = yes
+				can_puppet = yes
+				can_create_collaboration_government = yes
 			}
 		}
 	}
