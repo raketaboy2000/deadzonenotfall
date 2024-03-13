@@ -786,7 +786,7 @@ country_event = {
     id = vsd.33
     title = vsd.33.t
     desc = vsd.33.d
-    picture = GFX_report_event_generic_cordon
+    picture = GFX_report_event_vsd_dog_dead
 	
 	is_triggered_only = yes
 	
@@ -804,12 +804,24 @@ country_event = {
     id = vsd.34
     title = vsd.34.t
     desc = vsd.34.d
-    picture = GFX_report_event_generic_cordon
+    picture = GFX_report_event_vsd_dog_live
 	
 	is_triggered_only = yes
 	
 	option = {
 		name = vsd.34.a
-		add_political_power = -50
+		add_manpower = -4
+		add_stability = -0.05
+		add_war_support = -0.05
+		army_experience = -15
+		add_political_power = -25
+		add_equipment_to_stockpile = {
+			type = infantry_equipment_1
+			amount = -4
+		}
+		add_equipment_to_stockpile = {
+			type = support_equipment
+			amount = -4
+		}
     }
 }

@@ -115,6 +115,15 @@ spriteTypes = {
 		name = "GFX_report_event_generic_monolith_army"
 		texturefile = "gfx/event_pictures/report_event_generic_monolith_army.dds"
 	}
+	spriteType = {
+		name = "GFX_report_event_vsd_dog_dead"
+		texturefile = "gfx/event_pictures/report_event_vsd_dog_dead.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_vsd_dog_live"
+		texturefile = "gfx/event_pictures/report_event_vsd_dog_live.dds"
+	}
+	
 
 	#############
 	###НОВОСТИ###
