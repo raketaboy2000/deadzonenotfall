@@ -147,8 +147,8 @@ economy_decisions = {
 	x_10_off = {
 		icon = decision_generic_construction
 		cost = 500
-		fire_only_once = yes
-		days_remove = 1
+		days_remove = 5
+		days_re_enable = 355
 		visible = {
 			any_owner_state = {
 				state = 131
@@ -162,6 +162,29 @@ economy_decisions = {
 						has_idea = generic_za_monolith_2
 					}
 					country_event = mon.1
+				}
+			}
+		}
+	}
+	x_10_on = {
+		icon = decision_generic_construction
+		cost = 15
+		days_remove = 5
+		days_re_enable = 355
+		visible = {
+			any_owner_state = {
+				state = 131
+			}
+			has_government = fanaticism
+			has_idea = generic_za_monolith_3
+		}
+		complete_effect = {
+			any_country = {
+				if = {
+					limit = {
+						has_idea = generic_za_monolith_3
+					}
+					country_event = mon.3
 				}
 			}
 		}

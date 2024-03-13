@@ -46,6 +46,23 @@ country_event = {
     }
 }
 
+country_event = {
+    id = mon.3
+    title = mon.3.t
+    desc = mon.3.d
+    picture = GFX_report_event_generic_monolith_army
+	
+	is_triggered_only = yes
+
+    option = {
+        name = mon.3.a
+		swap_ideas = {
+			remove_idea = generic_za_monolith_3
+			add_idea = generic_za_monolith
+		}
+    }
+}
+
 ###############Далее с поясняющими комментариями, пожалуйста, записывайте в этом документе все ивенты, связанные с конкретной страной фанатиков################
 
 

@@ -781,3 +781,35 @@ country_event = {
 		add_political_power = -50
     }
 }
+
+country_event = {
+    id = vsd.33
+    title = vsd.33.t
+    desc = vsd.33.d
+    picture = GFX_report_event_generic_cordon
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = vsd.33.a
+		army_experience = 25
+		political_power = 20
+		add_stability = 0.10
+		add_war_support = 0.01
+		
+    }
+}
+
+country_event = {
+    id = vsd.34
+    title = vsd.34.t
+    desc = vsd.34.d
+    picture = GFX_report_event_generic_cordon
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = vsd.34.a
+		add_political_power = -50
+    }
+}

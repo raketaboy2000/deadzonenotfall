@@ -47,4 +47,25 @@ VSD_artefacrs = {
             }
         }
     }
+
+    VSD_mutants = {
+		priority = 45
+		icon = GFX_decision_SWE_paid_holidays_policy
+		cost = 70
+		days_re_enable = 50
+		days_remove = 35
+		available = {
+			original_tag = VSD
+		}
+        complete_effect = {
+            random_list = {
+                70 = {
+                    country_event = vsd.33
+                }
+                30 = {
+                    country_event = vsd.34
+                }
+            }
+        }
+    }
 }
