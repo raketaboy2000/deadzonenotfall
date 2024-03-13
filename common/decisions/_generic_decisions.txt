@@ -1,7 +1,7 @@
 economy_decisions = {
 
 	dismantle_maginot = {
-		icon = generic_construction
+		icon = decision_SWE_set_army_budget
 		cost = 50
 		days_re_enable = 50
 		available = {
@@ -12,7 +12,7 @@ economy_decisions = {
 		}
 	}
 	dismantle_maginot_2 = {
-		icon = generic_construction
+		icon = decision_generic_industry
 		cost = 100
 		days_re_enable = 50
 		available = {
@@ -29,7 +29,7 @@ economy_decisions = {
 		}
 	}
 	dismantle_maginot_3 = {
-		icon = generic_construction
+		icon = decision_generic_nationalism
 		cost = 150
 		days_remove = 50
 		days_re_enable = 50
@@ -41,7 +41,7 @@ economy_decisions = {
 		}
 	}
 	dismantle_maginot_4 = {
-		icon = generic_construction
+		icon = decision_generic_fortification
 		cost = 150
 		days_remove = 50
 		days_re_enable = 50

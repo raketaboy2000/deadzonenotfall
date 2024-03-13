@@ -1,0 +1,29 @@
+VSD_artefacrs = {
+    
+    VSD_hunt_for_artefacts = {
+		priority = 50
+		icon = GFX_decision_SWE_paid_holidays_policy
+		cost = 50
+		days_re_enable = 10
+		days_remove = 25
+		available = {
+			AND = {
+				has_completed_focus = VSD_art_hunters
+				original_tag = VSD
+			}
+		}
+        complete_effect = {
+            random_list = {
+                50 = {
+                    country_event = vsd.2
+                }
+                30 = {
+                    country_event = vsd.3
+                }
+                20 = {
+                    country_event = vsd.4
+                }
+            }
+        }
+    }
+}
