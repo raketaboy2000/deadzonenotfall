@@ -6,11 +6,35 @@ ideas = {
 		
 			allowed = {
 				always = no
+				has_dlc = "Arms Against Tyranny"
 			}
 			
 			removal_cost = -1
 			
-			picture = idea_jap_supremacy_of_will
+			picture = generic_democratic_drift_bonus
+			
+			on_remove = {
+				remove_relation_rule_override = {
+					can_access_market = no
+					trigger = trade_partner_not_at_war
+				}
+			}
+			modifier = {
+			}
+			rule = {
+				can_create_factions = yes
+			}
+		}
+		ECO_need_for_science = {
+		
+			allowed = {
+				always = no
+				NOT = { has_dlc = "Arms Against Tyranny" }
+			}
+			
+			removal_cost = -1
+			
+			picture = generic_democratic_drift_bonus
 			
 			modifier = {
 			}
