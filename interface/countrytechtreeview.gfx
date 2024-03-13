@@ -143,18 +143,6 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_naval_folder_tab"
-		textureFile = "gfx//interface//techtree//techtree_naval_tab.dds"
-		noOfFrames = 2		
-	}
-
-	spriteType = {
-		name = "GFX_naval_support_tab"
-		textureFile = "gfx/interface/techtree/techtree_naval_support_tab.dds"
-		noOfFrames = 2		
-	}
-
-	spriteType = {
 		name = "GFX_naval_doctrine_folder_tab"
 		textureFile = "gfx//interface//techtree//techtree_navaldoctrine_tab.dds"
 		noOfFrames = 2		
@@ -684,153 +672,6 @@ spriteTypes = {
 
 #GFX_technology_currently_researching_item_bg
 
-	#### naval tech ######
-
-	spriteType = {
-		name = "GFX_technology_naval_folder_small_unavailable_item_bg"
-		textureFile = "gfx//interface//techtree//tech_doctrine_unavailable_item_bg.dds"
-	}	
-	
-	spriteType = {
-		name = "GFX_technology_naval_folder_small_available_item_bg"
-		textureFile = "gfx//interface//techtree//tech_doctrine_available_item_bg.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_technology_naval_folder_small_researched_item_bg"
-		textureFile = "gfx//interface//techtree//tech_landdoctrine_researched_item_bg.dds"
-	}
-
-	frameAnimatedSpriteType = {
-		name = "GFX_technology_naval_folder_small_currently_researching_item_bg"
-		texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
-		noOfFrames = 9
-		loadType = "INGAME"
-		transparencecheck = yes
-		animation_rate_fps = 15
-		looping = yes
-		play_on_show = yes
-		pause_on_loop = 0.0
-	}	
-	
-	spriteType = { 
-		name = "GFX_technology_naval_folder_currently_researching_item_bg"
-		textureFile = "gfx//interface//techtree//tech_naval_currently_researching_item.dds"
-	}	
-	
-	spriteType = {
-		name = "GFX_technology_naval_folder_available_item_bg"
-		textureFile = "gfx//interface//techtree//tech_naval_available_item_bg.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_technology_naval_folder_unavailable_item_bg"
-		textureFile = "gfx//interface//techtree//tech_naval_unavailable_item_bg.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_technology_naval_folder_researched_item_bg"
-		textureFile = "gfx//interface//techtree//tech_naval_researched_item_bg.dds"
-	}
-
-	
-	spriteType = {
-		name = "GFX_technology_mtgnavalfolder_small_unavailable_item_bg"
-		textureFile = "gfx//interface//techtree//tech_doctrine_unavailable_item_bg.dds"
-	}	
-	
-	spriteType = {
-		name = "GFX_technology_mtgnavalfolder_small_available_item_bg"
-		textureFile = "gfx//interface//techtree//tech_doctrine_available_item_bg.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_technology_mtgnavalfolder_small_researched_item_bg"
-		textureFile = "gfx//interface//techtree//tech_landdoctrine_researched_item_bg.dds"
-	}
-
-	frameAnimatedSpriteType = {
-		name = "GFX_technology_mtgnavalfolder_small_currently_researching_item_bg"
-		texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
-		noOfFrames = 9
-		loadType = "INGAME"
-		transparencecheck = yes
-		animation_rate_fps = 15
-		looping = yes
-		play_on_show = yes
-		pause_on_loop = 0.0
-	}
-	
-	spriteType = { 
-		name = "GFX_technology_mtgnavalfolder_currently_researching_item_bg"
-		textureFile = "gfx//interface//techtree//tech_naval_currently_researching_item.dds"
-	}	
-	
-	spriteType = {
-		name = "GFX_technology_mtgnavalfolder_available_item_bg"
-		textureFile = "gfx//interface//techtree//tech_naval_available_item_bg.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_technology_mtgnavalfolder_unavailable_item_bg"
-		textureFile = "gfx//interface//techtree//tech_naval_unavailable_item_bg.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_technology_mtgnavalfolder_researched_item_bg"
-		textureFile = "gfx//interface//techtree//tech_naval_researched_item_bg.dds"
-	}
-
-	############################### mtg naval support
-
-	spriteType = {
-		name = "GFX_technology_mtgnavalsupportfolder_small_unavailable_item_bg"
-		textureFile = "gfx//interface//techtree//tech_doctrine_unavailable_item_bg.dds"
-	}	
-	
-	spriteType = {
-		name = "GFX_technology_mtgnavalsupportfolder_small_available_item_bg"
-		textureFile = "gfx//interface//techtree//tech_doctrine_available_item_bg.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_technology_mtgnavalsupportfolder_small_researched_item_bg"
-		textureFile = "gfx//interface//techtree//tech_landdoctrine_researched_item_bg.dds"
-	}
-
-	frameAnimatedSpriteType = {
-		name = "GFX_technology_mtgnavalsupportfolder_small_currently_researching_item_bg"
-		texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
-		noOfFrames = 9
-		loadType = "INGAME"
-		transparencecheck = yes
-		animation_rate_fps = 15
-		looping = yes
-		play_on_show = yes
-		pause_on_loop = 0.0
-	}
-	
-	spriteType = { 
-		name = "GFX_technology_mtgnavalsupportfolder_currently_researching_item_bg"
-		textureFile = "gfx//interface//techtree//tech_naval_currently_researching_item.dds"
-	}	
-	
-	spriteType = {
-		name = "GFX_technology_mtgnavalsupportfolder_available_item_bg"
-		textureFile = "gfx//interface//techtree//tech_naval_available_item_bg.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_technology_mtgnavalsupportfolder_unavailable_item_bg"
-		textureFile = "gfx//interface//techtree//tech_naval_unavailable_item_bg.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_technology_mtgnavalsupportfolder_researched_item_bg"
-		textureFile = "gfx//interface//techtree//tech_naval_researched_item_bg.dds"
-	}
-	
-	
 	##### infantry tech ######	# infantry has a special small override	
 	
 	spriteType = {
@@ -967,36 +808,6 @@ spriteTypes = {
 		pause_on_loop = 0.0
 	}	
     ##############
-
-###nsb armor tree
-
-spriteType = {
-		name = "GFX_technology_nsb_armour_folder_small_unavailable_item_bg"
-		textureFile = "gfx//interface//techtree//tech_doctrine_unavailable_item_bg.dds"
-	}	
-	
-	spriteType = {
-		name = "GFX_technology_nsb_armour_folder_small_available_item_bg"
-		textureFile = "gfx//interface//techtree//tech_doctrine_available_item_bg.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_technology_nsb_armour_folder_small_researched_item_bg"
-		textureFile = "gfx//interface//techtree//tech_landdoctrine_researched_item_bg.dds"
-	}
-
-	frameAnimatedSpriteType = {
-		name = "GFX_technology_nsb_armour_folder_small_currently_researching_item_bg"
-		texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
-		noOfFrames = 9
-		loadType = "INGAME"
-		transparencecheck = yes
-		animation_rate_fps = 15
-		looping = yes
-		play_on_show = yes
-		pause_on_loop = 0.0
-	}	
-    
 	frameAnimatedSpriteType = {
 		name = "GFX_techtree_line_down_currently_researching"
 		texturefile = "gfx//interface//techtree//techtree_line_down_strip.dds"
@@ -1138,7 +949,6 @@ spriteType = {
 		name = "GFX_technology_small"
 		textureFile = "gfx//interface//technologies//tank_small_icon.dds"
 	}
-
 		#### Techtree line centerpieces, do not touch!! ####
 
 	spriteType = {
@@ -1424,16 +1234,11 @@ spriteType = {
 	}
 	
 	spriteType = {
-		name = "GFX_armour_folder_tab"
-		textureFile = "gfx//interface//techtree/techtree_tank_tab.dds"
-		noOfFrames = 2
-	}
-	
-	spriteType = {
 		name = "GFX_tech_bonus"
 		textureFile = "gfx/interface/tech_bonus.dds"
 		noOfFrames = 6
 	}
+	
 	spriteType = {
 		name = "GFX_bg_tech"
 		textureFile = "gfx/interface/divisiondesigner/bg_tech_wide.dds"
@@ -1445,14 +1250,7 @@ spriteType = {
 		name = "GFX_air_doctrine_folder_icon"
 		textureFile = "gfx/interface/techtree/icons/air_doctrine_folder_icon.dds"
 	}
-	spriteType = {
-		name = "GFX_armour_folder_icon"
-		textureFile = "gfx/interface/techtree/icons/armour_folder_icon.dds"
-	}
-	spriteType = {
-		name = "GFX_nsb_armour_folder_icon"
-		textureFile = "gfx/interface/techtree/icons/armour_folder_icon.dds"
-	}
+	
 	spriteType = {
 		name = "GFX_artillery_folder_icon"
 		textureFile = "gfx/interface/techtree/icons/artillery_folder_icon.dds"
@@ -1476,18 +1274,6 @@ spriteType = {
 	spriteType = {
 		name = "GFX_naval_doctrine_folder_icon"
 		textureFile = "gfx/interface/techtree/icons/naval_doctrine_folder_icon.dds"
-	}
-	spriteType = {
-		name = "GFX_naval_folder_icon"
-		textureFile = "gfx/interface/techtree/icons/naval_folder_icon.dds"
-	}
-	spriteType = {
-		name = "GFX_mtgnavalfolder_icon"
-		textureFile = "gfx/interface/techtree/icons/naval_folder_icon.dds"
-	}
-	spriteType = {
-		name = "GFX_mtgnavalsupportfolder_icon"
-		textureFile = "gfx/interface/techtree/icons/naval_support_folder_icon.dds"
 	}
 	spriteType = {
 		name = "GFX_support_folder_icon"
