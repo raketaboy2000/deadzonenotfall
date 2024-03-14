@@ -91,6 +91,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_portrait_HGP_Hoag"
+		texturefile = "gfx/leaders/HGP/HGP_Hoag.dds"
+	}
+
+	spriteType = {
 		name = "GFX_portrait_HSD_Hook"
 		texturefile = "gfx/leaders/HSD/HSD_Hook.dds"
 	}

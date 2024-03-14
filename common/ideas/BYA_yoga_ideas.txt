@@ -2,7 +2,7 @@ ideas = {
 	
 	country = {
 	
-		YAG_pahan = {
+		BYA_pahan = {
 		
 			allowed = {
 				always = no

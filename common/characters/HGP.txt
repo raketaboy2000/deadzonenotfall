@@ -1,0 +1,16 @@
+characters = {
+	HGP_Hoag = { #HGP
+		name = HGP_Hoag
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_HGP_Hoag"
+			}
+		}
+		country_leader = {
+			ideology = mercenaries
+			traits={  }
+			expire = "2014.1.1.1"
+			id = -1
+		}
+	}
+}
