@@ -43,5 +43,29 @@ ideas = {
 				airforce_intel_to_others = 100
 			}
 		}
+		PSY_ally_with_village = {
+		
+			allowed = {
+				always = no
+			}
+			
+			available = {
+				OR = {
+					NOT = {
+						has_war_with = VSD
+					}
+					country_exists = VSD
+				}
+			}
+			
+			removal_cost = -1
+			
+			picture = idea_generic_deal_with_the_devil2
+			
+			targeted_modifier = {
+				tag = VSD
+				generate_wargoal_tension_against = 1
+			}
+		}
 	}
 }

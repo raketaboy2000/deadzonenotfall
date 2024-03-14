@@ -315,13 +315,14 @@
 		completion_reward = {
 			VSD = { 
 				transfer_state = 228 
+				add_core = 228
 			}
 			custom_effect_tooltip = VSD_take_road_tt
 			if = {
 				limit = {
 					NOT = {
-						NTS = {
-							has_country_flag = haletski_poiman_flag
+						PSY = {
+							has_country_leader_with_trait = haletski_poiman
 						}
 					}
 				}
@@ -411,7 +412,10 @@
 		x = 10
 		y = 4
 		bypass = {
-			NOT = { country_exists = PSY } #нужно заменить условие скипа на "220 и 225 владеет группа волка"
+			AND = {
+				225 = { is_fully_controlled_by = VSD }
+				220 = { is_fully_controlled_by = VSD }
+			}
 		}
 		completion_reward = {
 			add_stability = -0.1
@@ -428,7 +432,7 @@
 
 	}
 	focus = {
-		id = VSD_help_pressure_on_haletski #Фокусу нужно добавить условие прожатия "халецкий был пойман"
+		id = VSD_help_pressure_on_haletski
 		icon = GFX_focus_cze_german_puppet
 		cost = 5
 		prerequisite = {
@@ -439,7 +443,7 @@
 			focus = VSD_stiling_haletski
 		}
 		bypass = {
-			NOT = { country_exists = NTS }
+			NOT = { PSY = { has_country_leader_with_trait = haletski_poiman } }
 		}
 		x = 8
 		y = 6
@@ -453,7 +457,7 @@
 
 	}
 	focus = {
-		id = VSD_stiling_haletski         #фокусу нужно поставить условие "халецкий был пойман"
+		id = VSD_stiling_haletski
 		icon = GFX_focus_generic_annex_country
 		cost = 5
 		prerequisite = {
@@ -464,13 +468,13 @@
 			focus = VSD_help_pressure_on_haletski
 		}
 		bypass = {
-			NOT = { country_exists = NTS }
+			NOT = { PSY = { has_country_leader_with_trait = haletski_poiman } }
 		}
 		x = 10
 		y = 6
 		completion_reward = {
 			custom_effect_tooltip = VSD_stiling_haletski_tt
-			unlock_decision_category_tooltip = VSD_stiling_haletski_category #категория решений, с помощью которых предстоит выкрать халецкого и спровоцировать военных кордона на необдуманную атаку
+			unlock_decision_category_tooltip = VSD_haletski 
 		}
 	}
 	focus = {
@@ -762,7 +766,7 @@
 	focus = {
 		id = VSD_contact_with_duty
 		icon = GFX_focus_prc_agrarian_socialism
-		cost = 1
+		cost = 5
 		available = {
 			country_exists = DUT
 			is_subject = no

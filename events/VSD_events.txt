@@ -830,17 +830,16 @@ country_event = {
     id = vsd.35
     title = vsd.35.t
     desc = vsd.35.d
-    picture = GFX_report_event_vsd_dog_dead
+    picture = GFX_report_event_generic_huge_military_support
 	
 	is_triggered_only = yes
 	
 	option = {
 		name = vsd.35.a
-		army_experience = 25
-		political_power = 20
-		add_stability = 0.10
-		add_war_support = 0.01
-		
+		add_timed_idea = {
+			idea = VSD_guns
+			days = 176
+		}
     }
 }
 
@@ -848,13 +847,18 @@ country_event = {
     id = vsd.36
     title = vsd.36.t
     desc = vsd.36.d
-    picture = GFX_report_event_vsd_dog_dead
+    picture = GFX_report_event_vsd_gop_stop
 	
 	is_triggered_only = yes
 	
 	option = {
 		name = vsd.36.a
-		
+		add_popularity = {
+			ideology = individualism
+			popularity = -0.05
+		}
+		add_political_power = -25
+		add_stability = -0.01
     }
 }
 
@@ -862,16 +866,51 @@ country_event = {
     id = vsd.37
     title = vsd.37.t
     desc = vsd.37.d
-    picture = GFX_report_event_vsd_dog_dead
+    picture = GFX_report_event_vsd_gop_stop
 	
 	is_triggered_only = yes
 	
 	option = {
 		name = vsd.37.a
-		army_experience = 25
-		political_power = 20
-		add_stability = 0.10
-		add_war_support = 0.01
-		
+		add_timed_idea = {
+			idea = VSD_guns
+			days = 176
+		}
+		add_political_power = 25
+    }
+}
+
+country_event = {
+    id = vsd.38
+    title = vsd.38.t
+    desc = vsd.38.d
+    picture = GFX_report_event_generic_huge_military_support
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = vsd.35.a
+		add_timed_idea = {
+			idea = VSD_guns_2
+			days = 176
+		}
+    }
+}
+
+country_event = {
+    id = vsd.39
+    title = vsd.39.t
+    desc = vsd.39.d
+    picture = GFX_report_event_vsd_gop_stop
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = vsd.39.a
+		add_timed_idea = {
+			idea = VSD_guns_2
+			days = 176
+		}
+		add_political_power = 25
     }
 }

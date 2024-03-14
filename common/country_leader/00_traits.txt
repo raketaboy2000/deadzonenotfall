@@ -166,4 +166,11 @@ leader_traits = {
             }
         }
     }
+	
+	haletski_poiman = {
+		random = no
+		war_support_factor = -0.05
+		surrender_limit = -0.5
+		custom_modifier_tooltip = haletski_poiman_tt
+	}
 }

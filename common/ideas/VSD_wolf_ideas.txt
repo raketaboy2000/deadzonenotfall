@@ -233,30 +233,6 @@ ideas = {
 				research_speed_factor = 0.1
 			}
 		}
-		PSY_ally_with_village = { #Я ЕБАЛ, ЕСЛИ ЧЕСТНО, ПЫТАТСЯ ПРОПИСАТЬ ИДЕЮ В ДОКУМЕНТЕ ОХРАНЫ ПЕРИМЕТРА. Какой-то умник записал там всё одним столбом так, что не понятно как правильно вставлять новые идеи, относящиеся к этой стране. Поэтому я пропишу одну из её идей здесь
-		
-			allowed = {
-				always = no
-			}
-			
-			available = {
-				OR = {
-					NOT = {
-						has_war_with = VSD
-					}
-					country_exists = VSD
-				}
-			}
-			
-			removal_cost = -1
-			
-			picture = idea_generic_deal_with_the_devil2
-			
-			targeted_modifier = {
-				tag = VSD
-				generate_wargoal_tension_against = 1
-			}
-		}
 		VSD_ally_with_village = {
 		
 			allowed = {
@@ -303,6 +279,34 @@ ideas = {
 			targeted_modifier = { 
 				tag = CRS
 				cic_to_target_factor = 0.65
+			}
+		}
+		VSD_guns = {
+		
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			picture = great_depression
+			
+			modifier = {
+				offence = 0.1
+			}
+		}
+		VSD_guns_2 = {
+		
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			picture = generic_infantry_bonus
+			
+			modifier = {
+				defence = 0.1
 			}
 		}
 	}

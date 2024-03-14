@@ -1,6 +1,6 @@
 VSD_artefacrs = {
 
-    icon = infiltration
+    icon = decision_generic_forestry
 
     picture = GFX_decision_cat_vsd_stalkerstvo
 
@@ -29,6 +29,24 @@ VSD_shuctri_pomogaet = {
     visible = {
        AND = {
 			has_completed_focus = VSD_shustri
+			original_tag = VSD
+	   }
+    }
+}
+
+VSD_haletski = {
+
+    icon = decision_category_generic_independence
+
+    picture = decision_cat_vsd_stiling_haletski
+
+    visible_when_empty = yes
+
+    priority = 85
+
+    visible = {
+       AND = {
+			has_completed_focus = VSD_stiling_haletski
 			original_tag = VSD
 	   }
     }
