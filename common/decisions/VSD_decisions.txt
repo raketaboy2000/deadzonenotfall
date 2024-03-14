@@ -103,7 +103,7 @@ VSD_shuctri_pomogaet = {
 			if = {
 				limit = {
 					OR = {
-						country_exists = BDS
+						country_exists = BDC
 						country_exists = YAG
 					}
 				}
@@ -116,7 +116,7 @@ VSD_shuctri_pomogaet = {
 						YAG = {
 							country_event = vsd.37
 						}
-						BDS = {
+						BDC = {
 							country_event = vsd.37
 						}
 					}
@@ -140,7 +140,7 @@ VSD_shuctri_pomogaet = {
 			if = {
 				limit = {
 					OR = {
-						country_exists = BDS
+						country_exists = BDC
 						country_exists = YAG
 					}
 				}
@@ -153,7 +153,7 @@ VSD_shuctri_pomogaet = {
 						YAG = {
 							country_event = vsd.39
 						}
-						BDS = {
+						BDC = {
 							country_event = vsd.39
 						}
 					}
