@@ -37,7 +37,7 @@ ideas = {
 			
 			picture = chi_incompetent_officers
 			
-			modifiers = {
+			modifier = {
 				army_intel_to_others = 100
 				civilian_intel_to_others = 100
 				airforce_intel_to_others = 100

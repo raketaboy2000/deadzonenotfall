@@ -1,7 +1,7 @@
 economy_decisions = {
 
 	dismantle_maginot = {
-		icon = decision_SWE_set_army_budget
+		icon = SWE_set_army_budget
 		cost = 50
 		days_re_enable = 50
 		available = {
@@ -12,7 +12,7 @@ economy_decisions = {
 		}
 	}
 	dismantle_maginot_2 = {
-		icon = decision_generic_industry
+		icon = generic_industry
 		cost = 100
 		days_re_enable = 50
 		available = {
@@ -29,7 +29,7 @@ economy_decisions = {
 		}
 	}
 	dismantle_maginot_3 = {
-		icon = decision_generic_nationalism
+		icon = generic_nationalism
 		cost = 150
 		days_remove = 50
 		days_re_enable = 50
@@ -41,7 +41,7 @@ economy_decisions = {
 		}
 	}
 	dismantle_maginot_4 = {
-		icon = decision_generic_fortification
+		icon = generic_fortification
 		cost = 150
 		days_remove = 50
 		days_re_enable = 50
@@ -53,7 +53,7 @@ economy_decisions = {
 		}
 	}
 	science_bust = {
-		icon = decision_generic_research
+		icon = generic_research
 		cost = 50
 		days_remove = 35
 		days_re_enable = 35
@@ -78,7 +78,7 @@ economy_decisions = {
 		}
 	}
 	order_bust = {
-		icon = decision_generic_police_action
+		icon = generic_police_action
 		cost = 50
 		days_remove = 35
 		days_re_enable = 35
@@ -101,7 +101,7 @@ economy_decisions = {
 		}
 	}
 	anarchism_bust = {
-		icon = decision_SWI_consolidate_council_power
+		icon = SWI_consolidate_council_power
 		cost = 50
 		days_remove = 35
 		days_re_enable = 35
@@ -125,7 +125,7 @@ economy_decisions = {
 		}
 	}
 	individualism_bust = {
-		icon = decision_generic_civil_support
+		icon = generic_civil_support
 		cost = 50
 		days_remove = 35
 		days_re_enable = 35
@@ -145,18 +145,20 @@ economy_decisions = {
 		}
 	}
 	x_10_off = {
-		icon = decision_generic_construction
+		icon = generic_construction
 		cost = 500
 		days_remove = 5
 		days_re_enable = 355
 		visible = {
-			any_owner_state = {
-				state = 131
+			AND = {
+				any_owned_state = {
+					state = 131
+				}
+				NOT = { has_government = fanaticism }
 			}
-			NOT = { has_government = fanaticism }
 		}
 		complete_effect = {
-			any_country = {
+			every_possible_country = {
 				if = {
 					limit = {
 						has_idea = generic_za_monolith_2
