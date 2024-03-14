@@ -467,9 +467,9 @@
 		mutually_exclusive = {
 			focus = VSD_help_pressure_on_haletski
 		}
-		bypass = {
-			NOT = { PSY = { has_country_leader_with_trait = haletski_poiman } }
-		}
+		#bypass = {
+			#NOT = { PSY = { has_country_leader_with_trait = haletski_poiman } }
+		#}
 		x = 10
 		y = 6
 		completion_reward = {
