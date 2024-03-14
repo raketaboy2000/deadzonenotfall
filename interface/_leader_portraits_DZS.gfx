@@ -21,6 +21,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_portrait_BRE_Zheka_Lord"
+		texturefile = "gfx/leaders/BRE/BRE_Zheka_Lord.dds"
+	}
+
+	spriteType = {
 		name = "GFX_portrait_BYA_Yoga"
 		texturefile = "gfx/leaders/BYA/BYA_Yoga.dds"
 	}
@@ -103,6 +108,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_HTS_Garmata"
 		texturefile = "gfx/leaders/HTS/HTS_Garmata.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_HMT_Hermit"
+		texturefile = "gfx/leaders/HMT/HMT_Hermit.dds"
 	}
 
 	spriteType = {

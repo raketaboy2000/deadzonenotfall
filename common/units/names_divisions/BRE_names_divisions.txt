@@ -1,0 +1,24 @@
+﻿BRE_INF_01 = {
+	name = "Wind Squad"
+
+	for_countries = { BRE }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d Wind Squad"
+
+	ordered = {
+		1 = { "Wind Squad" }
+		2 = { "Wind Squad" }
+		3 = { "Wind Squad" }
+		4 = { "Wind Squad" }
+		5 = { "Wind Squad" }
+		6 = { "Wind Squad" }
+		7 = { "Wind Squad" }
+		8 = { "Wind Squad" }
+		9 = { "Wind Squad" }
+		10 = { "Wind Squad" }
+	}
+}

@@ -1,13 +1,13 @@
 characters = {
-	HMT_Hermit = { #HMT
-		name = HMT_Hermit
+	BRE_Zheka_Lord = { #BRE
+		name = BRE_Zheka_Lord
 		portraits = {
 			civilian = {
-				large = "GFX_portrait_HMT_Hermit"
+				large = "GFX_portrait_BRE_Zheka_Lord"
 			}
 		}
 		country_leader = {
-			ideology = monolit
+			ideology = stalkers
 			traits={  }
 			expire = "2014.1.1.1"
 			id = -1
