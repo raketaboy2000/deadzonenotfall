@@ -68,4 +68,22 @@ VSD_artefacrs = {
             }
         }
     }
+    VSD_military = {
+		priority = 44
+		icon = GFX_decision_SWE_paid_holidays_policy
+		cost = 150
+		days_re_enable = 35
+		days_remove = 5
+		available = {
+			original_tag = VSD
+		}
+        complete_effect = {
+			PSY = {
+				add_timed_idea = {
+					idea = PSY_data_error
+					days = 7
+				}
+			}
+        }
+    }
 }

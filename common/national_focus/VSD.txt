@@ -244,9 +244,8 @@
 		x = 4
 		y = 6
 		completion_reward = {
+			unlock_decision_category_tooltip = VSD_shuctri_pomogaet
 			custom_effect_tooltip = VSD_shustri_tt
-			unlock_decision_category_tooltip = VSD_shustri_category #Фокус должен открывать в категории решений "сталкерство" решение на закупку снаряжения у шустрого
-			#Как переводить тултип? хз вроде он должен сам переводиться, отсылаясь к названию категории
 		}
 	}
 	focus = {

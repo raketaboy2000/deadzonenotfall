@@ -1,6 +1,19 @@
 spriteTypes = {	
 
 	### categories
+
+	#################################
+	##### STALKER MOD DEAD ZONE ##### 
+	#################################
+	
+	spriteType = {
+		name = "GFX_decision_cat_vsd_stalkerstvo"
+		texturefile = "gfx/interface/decisions/decision_cat_vsd_stalkerstvo.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_vsd_shustri_pomogaet"
+		texturefile = "gfx/interface/decisions/decision_cat_vsd_shustri_pomogaet.dds"
+	}
 	
 
 	spriteType = {
@@ -1876,7 +1889,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/decision_SOV_socialism_in_one_country.dds"
 	}
 	
-	spriteType = { #хых
+	spriteType = {
 		name = "GFX_decision_cat_vsd_stalkerstvo"
 		texturefile = "gfx/interface/decisions/decision_cat_vsd_stalkerstvo.dds"
 	}

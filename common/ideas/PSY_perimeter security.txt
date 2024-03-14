@@ -1,0 +1,47 @@
+ideas = {
+	country = {
+		PSY_led_outside = {
+
+
+			allowed = {
+				original_tag = PSY
+			}
+				
+			picture = FRA_matignon_agreements
+
+			modifier = {
+				recruitable_population_factor = -0.90
+			}
+		}
+			
+	    PSY_useless_fodder = {
+			
+			allowed = {
+				original_tag = PSY
+			}
+			
+			picture = chi_incompetent_officers
+			
+			modifier = {
+				offence = -0.4
+				defence = -0.3
+				army_org_factor = -0.3
+				army_morale_factor = -0.3
+			}
+		}
+	    PSY_data_error = {
+			
+			allowed = {
+				original_tag = PSY
+			}
+			
+			picture = chi_incompetent_officers
+			
+			modifiers = {
+				army_intel_to_others = 100
+				civilian_intel_to_others = 100
+				airforce_intel_to_others = 100
+			}
+		}
+	}
+}

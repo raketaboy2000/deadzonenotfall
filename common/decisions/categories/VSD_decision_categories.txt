@@ -10,8 +10,26 @@ VSD_artefacrs = {
 
     visible = {
        AND = {
-		has_completed_focus = VSD_stalkerstvo
-		original_tag = VSD
+			has_completed_focus = VSD_stalkerstvo
+			original_tag = VSD
+	   }
+    }
+}
+
+VSD_shuctri_pomogaet = {
+
+    icon = infiltration
+
+    picture = GFX_decision_cat_vsd_shustri_pomogaet
+
+    visible_when_empty = yes
+
+    priority = 80
+
+    visible = {
+       AND = {
+			has_completed_focus = VSD_shustri
+			original_tag = VSD
 	   }
     }
 }
