@@ -7,7 +7,7 @@ state={
 	manpower = 12
 	state_category = fortifying
 	history={
-		owner = YAG
+		owner = BYA
 		victory_points = { 720 10 }
-		add_core_of = YAG
+		add_core_of = BYA
 }
