@@ -127,7 +127,18 @@ spriteTypes = {
 		name = "GFX_report_event_vsd_gop_stop"
 		texturefile = "gfx/event_pictures/report_event_vsd_gop_stop.dds"
 	}
-	
+	spriteType = {
+		name = "GFX_report_event_vsd_haletski_escape"
+		texturefile = "gfx/event_pictures/report_event_vsd_haletski_escape.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_vsd_haletski_escape"
+		texturefile = "gfx/event_pictures/report_event_vsd_haletski_escape.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_generic_loner_fight"
+		texturefile = "gfx/event_pictures/report_event_generic_loner_fight.dds"
+	}
 
 	#############
 	###НОВОСТИ###

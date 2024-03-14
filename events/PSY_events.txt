@@ -1,0 +1,55 @@
+add_namespace = psy
+
+country_event = {
+    id = psy.1
+    title = psy.1.t
+    desc = psy.1.d
+    picture = GFX_report_event_generic_loner_fight
+    
+    fire_only_once = yes
+	
+	trigger = {
+		AND = {
+			has_war_with = VSD
+			surrender_progress > 0.5
+			VSD = {
+				has_completed_focus = VSD_stiling_haletski
+			}
+		}
+	}
+    
+    option = {
+        name = psy.1.a
+		VSD = {
+			country_event = vsd.47
+		}
+    }
+	
+	option = {
+        name = psy.1.b
+        add_war_support = 0.05
+    }
+}
+
+country_event = {
+    id = psy.2
+    title = psy.2.t
+    desc = psy.2.d
+    picture = GFX_report_event_generic_loner_fight
+    
+    fire_only_once = yes
+	
+	is_triggered_only = yes
+    
+    option = {
+        name = psy.2.a
+		VSD = {
+			country_event = vsd.47
+		}
+    }
+	
+	option = {
+        name = psy.1.b
+        add_war_support = 0.05
+    }
+}

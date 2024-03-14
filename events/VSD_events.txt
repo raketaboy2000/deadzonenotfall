@@ -914,3 +914,158 @@ country_event = {
 		add_political_power = 25
     }
 }
+
+country_event = {
+    id = vsd.40
+    title = vsd.40.t
+    desc = vsd.40.d
+    picture = GFX_report_event_generic_ryadovoi
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = vsd.40.a
+		add_equipment_to_stockpile = { type = infantry_equipment_0 amount = -1 producer = VSD }
+		add_equipment_to_stockpile = { type = support_equipment amount = -1 producer = VSD }
+		hidden_effect = set_global_flag = military_loner_flag
+		add_popularity = {
+			ideology = order
+			popularity = 0.5
+		}
+    }
+}
+
+country_event = {
+    id = vsd.41
+    title = vsd.41.t
+    desc = vsd.41.d
+    picture = GFX_report_event_generic_ryadovoi
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = vsd.41.a
+		add_equipment_to_stockpile = { type = infantry_equipment_0 amount = -2 producer = VSD }
+		add_equipment_to_stockpile = { type = support_equipment amount = -2 producer = VSD }
+		add_manpower = -1
+		add_stability = -0.1
+    }
+}
+
+country_event = {
+    id = vsd.42
+    title = vsd.42.t
+    desc = vsd.42.d
+    picture = GFX_report_event_vsd_haletski_escape
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = vsd.42.a
+		set_global_flag = haletski_complete
+		NTS = {
+			country_event = 46
+		}
+    }
+}
+
+country_event = {
+    id = vsd.43
+    title = vsd.43.t
+    desc = vsd.43.d
+    picture = GFX_report_event_vsd_haletski_escape
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = vsd.43.a
+		NTS = {
+			country_event = vsd.44
+			declare_war_on = {
+				target = VSD
+				type = annex_everything
+			}
+		}
+		PSY = {
+			country_event = vsd.45
+			declare_war_on = {
+				target = VSD
+				type = annex_everything
+			}
+		}
+    }
+}
+
+country_event = {
+    id = vsd.44
+    title = vsd.44.t
+    desc = vsd.44.d
+    picture = GFX_report_event_vsd_haletski_escape
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = vsd.44.a
+    }
+}
+
+country_event = {
+    id = vsd.45
+    title = vsd.45.t
+    desc = vsd.45.d
+    picture = GFX_report_event_vsd_haletski_escape
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = vsd.45.a
+    }
+}
+
+country_event = {
+    id = vsd.46
+    title = vsd.46.t
+    desc = vsd.46.d
+    picture = GFX_report_event_vsd_haletski_escape
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = vsd.46.a
+		add_stability = -0.1
+        add_war_support = -0.05
+		add_political_power = -65
+    }
+}
+
+country_event = {
+    id = vsd.47
+    title = vsd.47.t
+    desc = vsd.47.d
+    picture = GFX_report_event_vsd_army_say_yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = vsd.47.a
+		white_peace = PSY
+		PSY = {
+			every_owned_state = {
+				limit = {
+					OR = {
+						state = 238
+						state = 293
+					}
+				}
+				transfer_state_to = VSD
+			}
+		}
+    }
+	option = {
+		name = vsd.47.b
+		add_war_support = 0.05
+		PSY = {
+			country_event = psy.2
+		}
+    }
+}

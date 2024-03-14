@@ -2,7 +2,7 @@ VSD_artefacrs = {
     
     VSD_hunt_for_artefacts = {
 		priority = 50
-		icon = GFX_decision_SWE_paid_holidays_policy
+		icon = SWE_paid_holidays_policy
 		cost = 50
 		days_re_enable = 10
 		days_remove = 25
@@ -29,7 +29,7 @@ VSD_artefacrs = {
 	
     VSD_scouting = {
 		priority = 45
-		icon = GFX_decision_hol_draw_up_staff_plans
+		icon = hol_draw_up_staff_plans
 		cost = 25
 		days_re_enable = 35
 		days_remove = 25
@@ -50,7 +50,7 @@ VSD_artefacrs = {
 
     VSD_mutants = {
 		priority = 45
-		icon = GFX_decision_generic_prepare_civil_war
+		icon = generic_prepare_civil_war
 		cost = 70
 		days_re_enable = 50
 		days_remove = 35
@@ -70,7 +70,7 @@ VSD_artefacrs = {
     }
     VSD_military = {
 		priority = 44
-		icon = GFX_decision_SWI_isolate_switzerland
+		icon = SWI_isolate_switzerland
 		cost = 150
 		days_re_enable = 35
 		days_remove = 5
@@ -92,7 +92,7 @@ VSD_shuctri_pomogaet = {
 
 	VSD_buy = {
 		priority = 35
-		icon = GFX_decision_hol_attract_foreign_investors
+		icon = hol_attract_foreign_investors
 		cost = 150
 		days_re_enable = 265
 		days_remove = 35
@@ -129,7 +129,7 @@ VSD_shuctri_pomogaet = {
 	}
 	VSD_buy_2 = {
 		priority = 34
-		icon = GFX_decision_generic_fundraising
+		icon = generic_fundraising
 		cost = 150
 		days_re_enable = 265
 		days_remove = 35
@@ -170,7 +170,7 @@ VSD_haletski = {
 
 	VSD_contact_with_mil_loner = {
 		priority = 75
-		icon = GFX_decision_SWI_isolate_switzerland
+		icon = CHL_carabineros
 		cost = 25
 		fire_only_once = yes
 		days_remove = 5
@@ -188,5 +188,93 @@ VSD_haletski = {
             }
         }
     }
-	}
+
+	VSD_dis_nts_attension = {
+		priority = 74
+		icon = eng_blackshirt_march
+		cost = 300
+		fire_only_once = yes
+		days_remove = 5
+		available = {
+			original_tag = VSD
+		}
+        complete_effect = {
+			set_global_flag = nts_attension_flag
+        }
+    }
+
+	VSD_its_time = {
+		priority = 74
+		icon = eng_blackshirt_march
+		cost = 100
+		fire_only_once = yes
+		days_remove = 5
+		available = {
+			original_tag = VSD
+		}
+        complete_effect = {
+			if = {
+				limit = {
+					OR = {
+						has_global_flag = nts_attension_flag
+						has_global_flag = military_loner_flag
+					}
+				}
+				random_list = {
+					60 = {
+						country_event = vsd.42
+					}
+					40 = {
+						country_event = vsd.43
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						has_global_flag = nts_attension_flag
+						has_global_flag = military_loner_flag
+					}
+				}
+				random_list = {
+					88 = {
+						country_event = vsd.42
+					}
+					12 = {
+						country_event = vsd.43
+					}
+				}
+			}
+			else = {
+				random_list = {
+					25 = {
+						country_event = vsd.42
+					}
+					75 = {
+						country_event = vsd.43
+					}
+				}
+			}
+        }
+    }
+
+	VSD_lie = {
+		priority = 73
+		icon = generic_assassination
+		cost = 350
+		fire_only_once = yes
+		days_remove = 15
+		available = {
+			AND = {
+				original_tag = VSD
+				has_global_flag = haletski_complete
+			}		
+		}
+        complete_effect = {
+			declare_war_on = {
+				target = PSY
+				type = annex_everything
+			}
+        }
+    }
 }

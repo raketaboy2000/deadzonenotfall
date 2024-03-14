@@ -971,15 +971,19 @@
 	focus = {
 		id = VSD_war_of_valerian
 		icon = GFX_focus_ITA_banda_carita
-		cost = 5
+		cost = 10
 		available = {
 			AND = {
 				country_exists = NTS
 				is_subject = no
 				NTS = {
 					has_war = yes
+					NOT = { has_war_with = VSD }
 				}
 			}
+		}
+		bypass = {
+			NOT = { country_exists = NTS }
 		}
 		prerequisite = {
 			focus = VSD_help_pressure_on_haletski
