@@ -21,6 +21,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_portrait_BYA_Yoga"
+		texturefile = "gfx/leaders/BYA/BYA_Yoga.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_portrait_CRS_Lebedev"
 		texturefile = "gfx/leaders/CRS/CRS_Lebedev.dds"
 	}
@@ -249,21 +254,7 @@ spriteTypes = {
 		name = "GFX_portrait_VSD_lis"
 		texturefile = "gfx/leaders/VSD/VSD_lis.dds"
 	}
-	
-	spriteType = {
-		name = "GFX_portrait_VUS_Hoag"
-		texturefile = "gfx/leaders/VUS/VUS_Hoag.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_portrait_WIN_Zheka_Lord"
-		texturefile = "gfx/leaders/WIN/WIN_Zheka_Lord.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_portrait_YAG_Yoga"
-		texturefile = "gfx/leaders/YAG/YAG_Yoga.dds"
-	}
+
 	spriteType = {
 		name = "GFX_portrait_EDS_levsha"
 		texturefile = "gfx/leaders/EDS/EDS_levsha.dds"
